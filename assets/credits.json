@@ -1,0 +1,30 @@
+[
+  {
+    "file": "assets/earth.png",
+    "alt": "Earth photographed by the Apollo 17 crew",
+    "credit": "NASA / Apollo 17, via \u00c9cole Urbaine de Lyon",
+    "source": "https://medium.com/anthropocene2050/homeland-a-propos-de-la-photographie-de-la-terre-blue-marble-6313831dd303",
+    "url": "https://miro.medium.com/v2/resize%3Afit%3A1200/1%2AR01agLUj4OOoS4_fN4Ol9A.png"
+  },
+  {
+    "file": "assets/servers.jpg",
+    "alt": "Server cabinets in a data center",
+    "credit": "imgIX / Unsplash, via Andy McDonald",
+    "source": "https://medium.com/data-science/public-datasets-for-machine-learning-in-geoscience-cf880862300a",
+    "url": "https://miro.medium.com/v2/0%2AS1LtxPOlTKHXele5"
+  },
+  {
+    "file": "assets/lab.jpg",
+    "alt": "Scientist working at a laboratory bench",
+    "credit": "Nature; image credit on original article",
+    "source": "https://www.nature.com/articles/d41586-020-01704-y",
+    "url": "https://images.nature.com/lw1200/magazine-assets/d41586-020-01704-y/d41586-020-01704-y_18049084.jpg"
+  },
+  {
+    "file": "assets/factory.jpg",
+    "alt": "Industrial robots on an automotive assembly line",
+    "credit": "An Thai technical news; source image on article",
+    "source": "https://anthaicorp.com/tin-tuc/10-van-de-can-xem-xet-truoc-khi-quyet-dinh-mua-robot-cong-nghiep-abb-36.html",
+    "url": "https://anthaicorp.com/upload/images/nha-may-han-o-to-vinfast-1200-ro-bot-4.jpg"
+  }
+]
