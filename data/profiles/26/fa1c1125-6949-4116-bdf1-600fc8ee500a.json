@@ -1,0 +1,560 @@
+{
+  "id": 26,
+  "name": "AI-enabled drug discovery",
+  "category": "Bio & production",
+  "summary": "AI proposes targets, molecules and experiments that researchers test in laboratories and clinical trials.",
+  "useCase": "A discovery team prioritises compounds predicted to meet several constraints, then measures whether they actually work in biological experiments.",
+  "whyNow": "AI-designed programmes have reached clinical trials and one randomized phase 2a study has been published for an AI-discovered target and molecule. Pipeline activity is growing faster than the evidence for improved end-to-end drug success.",
+  "mainstream": {
+    "year": 2029,
+    "range": [
+      2027,
+      2032
+    ],
+    "confidence": "High",
+    "scope": "AI integrated into routine discovery and optimisation workflows at pharmaceutical companies; not a promise that AI-origin drugs all reach approval.",
+    "basis": "Analyst estimate",
+    "rationale": "Software and experimental integration already have commercial buyers. Routine workflow adoption should precede a definitive industry-wide improvement in clinical success, which takes years to measure. Clinical attrition remains the main economic uncertainty.",
+    "sourceIds": [
+      "b26s1",
+      "b26s2",
+      "b26s3",
+      "b26s4"
+    ]
+  },
+  "direction": "Accelerating",
+  "metric": {
+    "name": "Insilico cumulative nominated preclinical candidates",
+    "unit": "candidates",
+    "scope": "One AI-drug-discovery company, reported candidate nominations",
+    "comparable": false,
+    "limitations": "Company-reported preclinical nominations are an activity proxy, not approvals, successful medicines or an industry total. The 2026 value is a cumulative April observation. Candidate quality and trial outcomes matter more than counts.",
+    "points": [
+      {
+        "year": 2024,
+        "value": 20,
+        "status": "observed",
+        "sourceId": "b26s1"
+      },
+      {
+        "year": 2026,
+        "value": 30,
+        "status": "observed",
+        "sourceId": "b26s2"
+      }
+    ],
+    "future": [],
+    "futureNote": "No defensible like-for-like external forecast is available for this KPI. The forward maturity path is a separately labelled analyst scenario, not a numerical adoption forecast."
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ]
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "The company dates its series of preclinical candidate nominations from 2021.",
+      "sourceIds": [
+        "b26s1"
+      ]
+    },
+    {
+      "year": 2022,
+      "text": "Insilico announced a phase 1 programme for its AI-discovered fibrosis candidate.",
+      "sourceIds": [
+        "b26s3"
+      ]
+    },
+    {
+      "year": 2023,
+      "text": "No comparable annual candidate count is included for 2023.",
+      "sourceIds": []
+    },
+    {
+      "year": 2024,
+      "text": "Insilico reported 20 nominated preclinical candidates by November.",
+      "sourceIds": [
+        "b26s1"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "A randomized phase 2a report for rentosertib was published; Insilico later listed publicly in Hong Kong.",
+      "sourceIds": [
+        "b26s4",
+        "b26s5"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "An April company release described its thirtieth preclinical candidate. This is pipeline output, not an approved-drug count.",
+      "sourceIds": [
+        "b26s2"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Better biological data and experimentally grounded models",
+    "Pharma partnerships fund work before product approval",
+    "Robotics and assays can turn model suggestions into measured feedback"
+  ],
+  "bottlenecks": [
+    "Training data can be biased or poorly matched to patients",
+    "A molecule can be easy to design but hard to make, deliver or prove",
+    "Long trials delay proof that discovery efficiency improves final returns"
+  ],
+  "watchMetrics": [
+    "Prospective hit rates and time to validated candidate",
+    "Clinical progression and failures against comparable non-AI programmes",
+    "Cash revenue and research economics versus headline partnership milestones"
+  ],
+  "companies": [
+    {
+      "name": "Recursion",
+      "status": "Public",
+      "ticker": "NASDAQ:RXRX",
+      "role": "Automated biological datasets and AI-led drug programmes.",
+      "url": "https://www.recursion.com/",
+      "sourceIds": [
+        "b26c1"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Schrödinger",
+      "status": "Public",
+      "ticker": "NASDAQ:SDGR",
+      "role": "Computational chemistry software and drug discovery.",
+      "url": "https://www.schrodinger.com/",
+      "sourceIds": [
+        "b26c2"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Insilico Medicine",
+      "status": "Public",
+      "ticker": "HKEX:3696",
+      "role": "Generative chemistry and clinical drug pipeline.",
+      "url": "https://insilico.com/",
+      "sourceIds": [
+        "b26c3"
+      ],
+      "statusNote": "Public since December 2025; do not classify as private."
+    },
+    {
+      "name": "Generate Biomedicines",
+      "status": "Public",
+      "ticker": "NASDAQ:GENB",
+      "role": "AI protein design and therapeutic programmes.",
+      "url": "https://investors.generatebiomedicines.com/investor-faq/",
+      "sourceIds": [
+        "b26c4"
+      ],
+      "statusNote": "Trading began February 27, 2026; public listing verified."
+    },
+    {
+      "name": "NVIDIA",
+      "status": "Public",
+      "ticker": "NASDAQ:NVDA",
+      "role": "AI compute and biological model infrastructure; supplier exposure.",
+      "url": "https://www.nvidia.com/en-us/clara/bionemo/",
+      "sourceIds": [
+        "b26c5"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Eli Lilly",
+      "status": "Public",
+      "ticker": "NYSE:LLY",
+      "role": "Drug developer using AI partnerships and internal discovery capabilities.",
+      "url": "https://www.lilly.com/",
+      "sourceIds": [
+        "b26c6"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Roche",
+      "status": "Public",
+      "ticker": "SIX:ROG",
+      "role": "Pharmaceutical research and data/AI partnerships.",
+      "url": "https://www.roche.com/",
+      "sourceIds": [
+        "b26c7"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Isomorphic Labs",
+      "status": "Private",
+      "ticker": null,
+      "role": "AI-designed drug discovery and pharmaceutical partnerships.",
+      "url": "https://www.isomorphiclabs.com/",
+      "sourceIds": [
+        "b26c8"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "insitro",
+      "status": "Private",
+      "ticker": null,
+      "role": "Machine learning and experimental data for drug discovery.",
+      "url": "https://www.insitro.com/",
+      "sourceIds": [
+        "b26c9"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Xaira Therapeutics",
+      "status": "Private",
+      "ticker": null,
+      "role": "AI models, large biological datasets and therapeutic development.",
+      "url": "https://www.xaira.com/",
+      "sourceIds": [
+        "b26c10"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    }
+  ],
+  "trackers": [
+    {
+      "name": "Drug Discovery & Development",
+      "url": "https://www.drugdiscoverytrends.com/",
+      "kind": "Specialist news",
+      "coverage": "Drug discovery, AI tools, translational models and pharmaceutical R&D policy.",
+      "domain": "drugdiscoverytrends.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.drugdiscoverytrends.com/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn195view0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "Drug Target Review",
+      "url": "https://www.drugtargetreview.com/",
+      "kind": "Specialist news",
+      "coverage": "AI discovery, biological validation and laboratory workflows.",
+      "domain": "drugtargetreview.com",
+      "latestObserved": "2026-06-10",
+      "activityEvidenceUrl": "https://www.drugtargetreview.com/reports/ai-in-drug-discovery-progress-limits-and-what-comes-next/2135549.article",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn243search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/",
+      "kind": "Specialist news",
+      "coverage": "AI drug-discovery companies, partnerships and clinical programmes.",
+      "domain": "fiercebiotech.com",
+      "latestObserved": "2026-05-15",
+      "activityEvidenceUrl": "https://www.fiercebiotech.com/biotech/how-model-medicines-creates-creative-models-ai-drug-development",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn243search4",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/",
+      "kind": "Specialist news",
+      "coverage": "Clinical progress and failures of AI-origin drug programmes.",
+      "domain": "biopharmadive.com",
+      "latestObserved": "2026-05-27",
+      "activityEvidenceUrl": "https://www.biopharmadive.com/news/verge-genomics-labs-neuroscience-AI-drug-discovery/821229/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn243search25",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "Labiotech",
+      "url": "https://www.labiotech.eu/",
+      "kind": "Specialist news and podcast",
+      "coverage": "AI-native drug discovery, biological data and biotech company strategy.",
+      "domain": "labiotech.eu",
+      "latestObserved": "2026-10-02",
+      "activityEvidenceUrl": "https://podcast.labiotech.eu/1995493/episodes/19886114-how-flagship-s-valo-is-reshaping-ai-drug-discovery-with-human-data",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn243search38",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "GEN",
+      "url": "https://www.genengnews.com/subject/rna/",
+      "kind": "Research news and events",
+      "coverage": "RNA design, delivery, manufacturing and clinical research.",
+      "domain": "genengnews.com",
+      "latestObserved": "2026-06-24",
+      "activityEvidenceUrl": "https://www.genengnews.com/multimedia/summits/spotlight-on-rna-therapeutics/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn249search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "Axios",
+      "url": "https://www.axios.com/",
+      "kind": "Business news",
+      "coverage": "AI drug-discovery financing, company formation and public-market plans.",
+      "domain": "axios.com",
+      "latestObserved": "2026-10-13",
+      "activityEvidenceUrl": "https://www.axios.com/2026/10/13/iambic-isomorphic-ipo",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn40news26",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/",
+      "kind": "Business news",
+      "coverage": "AI-enabled drug-company funding, IPOs and major partnerships.",
+      "domain": "reuters.com",
+      "latestObserved": "2026-02-27",
+      "activityEvidenceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-generate-biomedicines-raises-400-million-us-ipo-2026-02-27/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn51news53",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "Nature",
+      "url": "https://www.nature.com/",
+      "kind": "Research news",
+      "coverage": "New gene-editing research and AI-designed editing proteins.",
+      "domain": "nature.com",
+      "latestObserved": "2026-07-16",
+      "activityEvidenceUrl": "https://www.nature.com/articles/d41586-026-02217-w",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn232search1",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    },
+    {
+      "name": "BioSpace",
+      "url": "https://www.biospace.com/",
+      "kind": "Specialist news and press releases",
+      "coverage": "AI biology platforms, datasets, therapeutic company developments and releases.",
+      "domain": "biospace.com",
+      "latestObserved": "2026-09-15",
+      "activityEvidenceUrl": "https://www.biospace.com/press-releases/therna-biosciences-releases-chronos-the-data-engine-behind-its-ai-rna-biologist",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn245search21",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI-enabled drug discovery"
+    }
+  ],
+  "sources": [
+    {
+      "id": "b26s1",
+      "title": "Rentosertib phase 2a announcement",
+      "url": "https://insilico.com/news/tnik-ipf-phase2a",
+      "publisher": "Insilico Medicine",
+      "date": "2024-11-12",
+      "claim": "20 preclinical candidates nominated since 2021.",
+      "type": "Company disclosure",
+      "ref": "turn15search11"
+    },
+    {
+      "id": "b26s2",
+      "title": "First UAE preclinical candidate and thirtieth programme",
+      "url": "https://www.prnewswire.com/news-releases/generative-ai-leap-insilico-medicine-nominates-first-preclinical-candidate-in-the-uae-302752898.html",
+      "publisher": "Insilico Medicine",
+      "date": "2026-04-23",
+      "claim": "Thirtieth nominated preclinical candidate.",
+      "type": "Company disclosure",
+      "ref": "turn15search32"
+    },
+    {
+      "id": "b26s3",
+      "title": "First human trial of AI-discovered medicine",
+      "url": "https://insilico.com/phase1",
+      "publisher": "Insilico Medicine",
+      "date": "2022-02-24",
+      "claim": "Phase 1 entry and development timeline.",
+      "type": "Company disclosure",
+      "ref": "turn15search10"
+    },
+    {
+      "id": "b26s4",
+      "title": "Randomized phase 2a trial of rentosertib in idiopathic pulmonary fibrosis",
+      "url": "https://www.nature.com/articles/s41591-025-03743-2",
+      "publisher": "Nature Medicine",
+      "date": "2025-06-03",
+      "claim": "Clinical trial evidence; early-stage efficacy and safety do not establish approval.",
+      "type": "Primary research",
+      "ref": "turn15search0"
+    },
+    {
+      "id": "b26s5",
+      "title": "2025 annual results",
+      "url": "https://insilico.com/news/ohz9ozx0t1-insilico-medicine-announces-2025-annual",
+      "publisher": "Insilico Medicine",
+      "date": "2026-03-29",
+      "claim": "Clinical pipeline and HKEX 3696 listing.",
+      "type": "Company disclosure",
+      "ref": "turn15search5"
+    },
+    {
+      "id": "b26c1",
+      "title": "Recursion — official company information",
+      "url": "https://www.recursion.com/",
+      "publisher": "Recursion",
+      "date": null,
+      "claim": "Automated biological datasets and AI-led drug programmes.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c2",
+      "title": "Schrödinger — official company information",
+      "url": "https://www.schrodinger.com/",
+      "publisher": "Schrödinger",
+      "date": null,
+      "claim": "Computational chemistry software and drug discovery.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c3",
+      "title": "Insilico Medicine — official company information",
+      "url": "https://insilico.com/",
+      "publisher": "Insilico Medicine",
+      "date": null,
+      "claim": "Generative chemistry and clinical drug pipeline.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c4",
+      "title": "Generate Biomedicines — official company information",
+      "url": "https://investors.generatebiomedicines.com/investor-faq/",
+      "publisher": "Generate Biomedicines",
+      "date": null,
+      "claim": "AI protein design and therapeutic programmes.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c5",
+      "title": "NVIDIA — official company information",
+      "url": "https://www.nvidia.com/en-us/clara/bionemo/",
+      "publisher": "NVIDIA",
+      "date": null,
+      "claim": "AI compute and biological model infrastructure; supplier exposure.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c6",
+      "title": "Eli Lilly — official company information",
+      "url": "https://www.lilly.com/",
+      "publisher": "Eli Lilly",
+      "date": null,
+      "claim": "Drug developer using AI partnerships and internal discovery capabilities.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c7",
+      "title": "Roche — official company information",
+      "url": "https://www.roche.com/",
+      "publisher": "Roche",
+      "date": null,
+      "claim": "Pharmaceutical research and data/AI partnerships.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c8",
+      "title": "Isomorphic Labs — official company information",
+      "url": "https://www.isomorphiclabs.com/",
+      "publisher": "Isomorphic Labs",
+      "date": null,
+      "claim": "AI-designed drug discovery and pharmaceutical partnerships.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c9",
+      "title": "insitro — official company information",
+      "url": "https://www.insitro.com/",
+      "publisher": "insitro",
+      "date": null,
+      "claim": "Machine learning and experimental data for drug discovery.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26c10",
+      "title": "Xaira Therapeutics — official company information",
+      "url": "https://www.xaira.com/",
+      "publisher": "Xaira Therapeutics",
+      "date": null,
+      "claim": "AI models, large biological datasets and therapeutic development.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b26r_ins_oct",
+      "title": "First-in-human ISM6331 data presented at ESMO 2026",
+      "url": "https://insilico.com/news/pr8951ba20602e4375b723-insilico-medicine-reports-40-orr-at-130-mg-for-pan-tead-inhibitor-ism6331-designed-using-generative",
+      "publisher": "Insilico Medicine",
+      "date": "2026-10-25",
+      "accessed": "2026-10-28",
+      "claim": "Reported40% response at 130 mg means2 of 5 evaluable participants; early uncontrolled evidence, not established efficacy.",
+      "type": "Company-reported Phase 1 results"
+    }
+  ],
+  "interpretation": "Company and technology proxies measure different things across trends. Compare direction within a row; do not add these measures together or rank sectors by their raw values.",
+  "researchStatus": "Monthly review checked 2026-10-28; source dates and limitations retained.",
+  "outlookMetrics": [],
+  "forwardInterpretation": "The maturity path is an analyst scenario for the stated market scope. A score of 4 means routine use in that scope, not a measured adoption percentage. The window can shift if the listed cost, performance, evidence or policy bottlenecks fail to clear.",
+  "companyMapNote": "Curated leading developers, operators, suppliers and commercial partners. Inclusion shows a plausible business connection, not a guarantee of profit or an exhaustive list. Parent and subsidiary exposure is stated in the company role.",
+  "coverage": {
+    "distinctTrackerDomains": 10,
+    "recentlyDatedTrackers": 10,
+    "numericHistoricalPoints": 2
+  },
+  "reviewNote": "October 25 exploratory oncology result added with numerator and denominator: two responses among five evaluable patients at 130 mg. It does not validate AI drug discovery across diseases or establish marketed efficacy."
+}

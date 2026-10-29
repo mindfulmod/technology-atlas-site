@@ -1,0 +1,680 @@
+{
+  "id": 21,
+  "name": "AI diagnostics and clinical copilots",
+  "category": "Healthcare",
+  "summary": "AI assists clinicians with medical images, documentation, chart review and selected decision-support tasks.",
+  "useCase": "A clinician reviews an automatically drafted visit note and an imaging alert, checks the underlying evidence, then signs the clinical record.",
+  "whyNow": "October 27 Abridge changes extend clinician-reviewed assistance into order capture and chart context. Earlier controlled studies show uneven time savings, making local outcome monitoring central as workflow scope grows.",
+  "mainstream": {
+    "year": 2028,
+    "range": [
+      2027,
+      2031
+    ],
+    "confidence": "High",
+    "scope": "Clinician-reviewed documentation and validated decision support in well-resourced health systems; specific approved diagnostic workflows.",
+    "basis": "Analyst estimate",
+    "rationale": "The labour-saving use case is immediate and survey adoption is already high. Moving from any experimentation to reliable integrated care requires local validation, outcome monitoring and workflow accountability. Autonomous clinical care is outside this forecast.",
+    "sourceIds": [
+      "b21s1",
+      "b21s2",
+      "b21s3"
+    ]
+  },
+  "direction": "Accelerating",
+  "metric": {
+    "name": "Physicians reporting professional AI use in AMA surveys",
+    "unit": "percent of respondents",
+    "scope": "US physician survey; any professional AI use, not autonomous diagnosis",
+    "comparable": false,
+    "limitations": "Different survey waves and respondent samples; the latest value is reported in a March 2026 release. Use includes research, notes and other assistance. Show percentage-point change, not CAGR or population-wide penetration.",
+    "points": [
+      {
+        "year": 2023,
+        "value": 38,
+        "status": "observed",
+        "sourceId": "b21s1"
+      },
+      {
+        "year": 2024,
+        "value": 66,
+        "status": "observed",
+        "sourceId": "b21s2"
+      },
+      {
+        "year": 2026,
+        "value": 81,
+        "status": "observed",
+        "sourceId": "b21s1"
+      }
+    ],
+    "future": [],
+    "futureNote": "No defensible like-for-like external forecast is available for this KPI. The forward maturity path is a separately labelled analyst scenario, not a numerical adoption forecast.",
+    "growthLabel": "+43 percentage points from 2023 to the 2026 survey release; respondent samples differ."
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "No comparable 2021 AMA AI-use survey point is included.",
+      "sourceIds": []
+    },
+    {
+      "year": 2022,
+      "text": "No comparable 2022 AMA AI-use survey point is included.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "The first AMA comparison wave found 38% professional AI use.",
+      "sourceIds": [
+        "b21s1"
+      ]
+    },
+    {
+      "year": 2024,
+      "text": "The next survey found 66% professional AI use; this includes administrative and informational tasks.",
+      "sourceIds": [
+        "b21s2"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "AMA published the 2024 survey results, documenting growing physician use and interest.",
+      "sourceIds": [
+        "b21s2"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "AMA reported 81% use in its March 2026 release; FDA’s AI-enabled-device list continued to be updated.",
+      "sourceIds": [
+        "b21s1",
+        "b21s3"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "October 27: Abridge adds clinician-reviewed order staging and an evaluation dashboard (company disclosure).",
+      "sourceIds": [
+        "b21r_abridge_oct"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Documentation burden gives a concrete return-on-time use case",
+    "Integration with existing records reduces workflow switching",
+    "Validated narrow tools can be deployed without solving all of medicine"
+  ],
+  "bottlenecks": [
+    "Hallucinated notes, biased performance and missed findings",
+    "Clinical evidence may not transfer between patient populations",
+    "Billing, consent, liability and monitoring require local implementation"
+  ],
+  "watchMetrics": [
+    "Net documentation and order time after corrections, segmented by specialty and language",
+    "Prospective omissions, erroneous orders, near misses and patient outcomes after workflow expansion",
+    "Active paid clinician use, retained contracts and margins; keep availability separate from utilization",
+    "Local outcome monitoring versus vendor-wide evaluation dashboards"
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "status": "Public",
+      "ticker": "NASDAQ:MSFT",
+      "role": "Clinical documentation, healthcare cloud and AI copilots.",
+      "url": "https://www.microsoft.com/en-us/industry/health/microsoft-cloud-for-healthcare",
+      "sourceIds": [
+        "b21c1"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation.",
+      "assessment": {
+        "technical": "Established documentation and EHR integration with role-specific workflows; trial results for older DAX versions cannot be assumed to describe current Dragon.",
+        "commercial": "Public platform vendor with physician/nurse offerings; this review does not establish standalone product revenue or retention.",
+        "overlooked": "Workflow distribution may matter as much as model quality; compare corrected-note time in local deployments.",
+        "sourceIds": [
+          "b21r_ms",
+          "b21r_ucla"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "name": "Oracle",
+      "status": "Public",
+      "ticker": "NYSE:ORCL",
+      "role": "Electronic health records and embedded clinical AI.",
+      "url": "https://www.oracle.com/health/",
+      "sourceIds": [
+        "b21c2"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation.",
+      "assessment": {
+        "technical": "Embedded chart review, dictation and coding keep review within the EHR.",
+        "commercial": "August2026 release reports US availability; disclosed time savings are vendor claims, not independently audited economics.",
+        "overlooked": "EHR integration offers distribution, but switching friction and clinician review burden require customer evidence.",
+        "sourceIds": [
+          "b21r_oracle"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "name": "GE HealthCare",
+      "status": "Public",
+      "ticker": "NASDAQ:GEHC",
+      "role": "Imaging devices, workflow software and diagnostic AI.",
+      "url": "https://www.gehealthcare.com/",
+      "sourceIds": [
+        "b21c3"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Siemens Healthineers",
+      "status": "Public",
+      "ticker": "XETRA:SHL",
+      "role": "Diagnostic imaging and clinical AI software.",
+      "url": "https://www.siemens-healthineers.com/",
+      "sourceIds": [
+        "b21c4"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Philips",
+      "status": "Public",
+      "ticker": "NYSE:PHG",
+      "role": "Imaging, monitoring and clinical informatics.",
+      "url": "https://www.philips.com/healthcare",
+      "sourceIds": [
+        "b21c5"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Tempus AI",
+      "status": "Public",
+      "ticker": "NASDAQ:TEM",
+      "role": "Clinical data, oncology diagnostics and AI applications.",
+      "url": "https://www.tempus.com/",
+      "sourceIds": [
+        "b21c6"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Aidoc",
+      "status": "Private",
+      "ticker": null,
+      "role": "Clinical imaging AI and hospital deployment platform.",
+      "url": "https://www.aidoc.com/",
+      "sourceIds": [
+        "b21c7"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Abridge",
+      "status": "Private",
+      "ticker": null,
+      "role": "Clinician-reviewed ambient documentation.",
+      "url": "https://www.abridge.com/",
+      "sourceIds": [
+        "b21c8"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation.",
+      "assessment": {
+        "technical": "Orders and chart context extend ambient notes; published methods expose evaluation limits.",
+        "commercial": "Private supplier with a published Sutter implementation; October capabilities alone do not prove renewal rates or margins.",
+        "overlooked": "Governance tooling could support larger deployments; customer-specific outcome validation is still needed.",
+        "sourceIds": [
+          "b21r_abridge_oct",
+          "b21r_sutter"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "name": "Ambience Healthcare",
+      "status": "Private",
+      "ticker": null,
+      "role": "Ambient documentation and clinical workflow support.",
+      "url": "https://www.ambiencehealthcare.com/",
+      "sourceIds": [
+        "b21c9"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Nabla",
+      "status": "Private",
+      "ticker": null,
+      "role": "Ambient clinical notes and assistant workflows.",
+      "url": "https://www.nabla.com/",
+      "sourceIds": [
+        "b21c10"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation.",
+      "assessment": {
+        "technical": "Older tested version reduced note time in a UCLA randomized trial; use current-version local validation.",
+        "commercial": "Private ambient documentation supplier; trial utilization is not company-wide paid adoption.",
+        "overlooked": "Controlled evidence can differentiate vendors, but one institution and English-only encounters limit generalization.",
+        "sourceIds": [
+          "b21r_ucla"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    }
+  ],
+  "trackers": [
+    {
+      "name": "MobiHealthNews",
+      "url": "https://www.mobihealthnews.com/tag/ai",
+      "kind": "Specialist news",
+      "coverage": "Clinical AI, digital health funding and workflow deployments.",
+      "domain": "mobihealthnews.com",
+      "latestObserved": "2026-10-14",
+      "activityEvidenceUrl": "https://www.mobihealthnews.com/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn142search4",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "Healthcare IT News",
+      "url": "https://www.healthcareitnews.com/topics/artificial-intelligence",
+      "kind": "Specialist news",
+      "coverage": "Hospital AI deployment, ambient tools and clinical governance.",
+      "domain": "healthcareitnews.com",
+      "latestObserved": "2026-08-28",
+      "activityEvidenceUrl": "https://www.healthcareitnews.com/topics/artificial-intelligence",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn145search8",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning",
+      "kind": "Specialist news",
+      "coverage": "Clinical AI companies, health-system purchases and implementation.",
+      "domain": "fiercehealthcare.com",
+      "latestObserved": "2026-09-15",
+      "activityEvidenceUrl": "https://www.fiercehealthcare.com/ai-and-machine-learning/knowtex-launches-frontier-healthcare-ai-lab",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn145search27",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "MedCity News",
+      "url": "https://medcitynews.com/",
+      "kind": "Specialist news",
+      "coverage": "Healthcare AI business, data quality and implementation; includes contributed analysis.",
+      "domain": "medcitynews.com",
+      "latestObserved": "2026-03-11",
+      "activityEvidenceUrl": "https://medcitynews.com/2026/03/artificial-intelligence-and-the-data-quality-problem-no-one-can-ignore/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn145search24",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "MedTech Dive",
+      "url": "https://www.medtechdive.com/topic/ai/",
+      "kind": "Specialist news",
+      "coverage": "Diagnostic AI devices, regulatory milestones and commercialisation.",
+      "domain": "medtechdive.com",
+      "latestObserved": "2026-06-26",
+      "activityEvidenceUrl": "https://www.medtechdive.com/news/aidoc-wins-breakthrough-nod-for-ai-that-reads-chest-x-rays/823895/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn145search12",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "Healthcare Dive",
+      "url": "https://www.healthcaredive.com/",
+      "kind": "Specialist news",
+      "coverage": "Health-system technology purchasing, costs and payer policy; broad provider beat.",
+      "domain": "healthcaredive.com",
+      "latestObserved": "2026-06-11",
+      "activityEvidenceUrl": "https://www.healthcaredive.com/news/ai-push-healthcare-costs-higher-health-plans-say-pwc/822645/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn142search35",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "AuntMinnie",
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence",
+      "kind": "Specialist news",
+      "coverage": "Radiology AI research, products and clinical workflow.",
+      "domain": "auntminnie.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn142search14",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "STAT",
+      "url": "https://www.statnews.com/",
+      "kind": "Specialist news",
+      "coverage": "Clinical AI evidence, regulatory review and health-technology business.",
+      "domain": "statnews.com",
+      "latestObserved": "2026-05-05",
+      "activityEvidenceUrl": "https://www.statnews.com/2026/05/05/did-ai-really-beat-doctors-at-diagnosis-health-tech/",
+      "activityNote": "Dated article and twice-weekly Health Tech newsletter verified; full article may require STAT+.",
+      "activitySourceRef": "turn187search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "American Medical Association",
+      "url": "https://www.ama-assn.org/practice-management/digital-health",
+      "kind": "Association news and surveys",
+      "coverage": "Physician AI use, implementation guidance and professional policy.",
+      "domain": "ama-assn.org",
+      "latestObserved": "2026-03-12",
+      "activityEvidenceUrl": "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn227view3",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    },
+    {
+      "name": "TechTarget Virtual Healthcare",
+      "url": "https://www.techtarget.com/virtualhealthcare/resources/Remote-patient-monitoring",
+      "kind": "Specialist news",
+      "coverage": "Digital health and clinical automation within the broader virtual-care beat; use alongside specialist diagnostic outlets.",
+      "domain": "techtarget.com",
+      "latestObserved": "2026-08-18",
+      "activityEvidenceUrl": "https://www.techtarget.com/virtualhealthcare/resources/Remote-patient-monitoring",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn251search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "AI diagnostics and clinical copilots"
+    }
+  ],
+  "sources": [
+    {
+      "id": "b21s1",
+      "title": "AI usage among doctors doubles as confidence grows",
+      "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
+      "publisher": "American Medical Association",
+      "date": "2026-03-12",
+      "claim": "38% in 2023 and 81% in the 2026 release; professional use, not autonomous diagnosis.",
+      "type": "Association survey",
+      "ref": "turn84view2"
+    },
+    {
+      "id": "b21s2",
+      "title": "Physician enthusiasm grows for health care AI",
+      "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-physician-enthusiasm-grows-health-care-ai",
+      "publisher": "American Medical Association",
+      "date": null,
+      "claim": "66% use in the 2024 survey wave.",
+      "type": "Association survey",
+      "ref": "turn79search6"
+    },
+    {
+      "id": "b21s3",
+      "title": "List of AI-enabled medical devices",
+      "url": "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices",
+      "publisher": "US FDA",
+      "date": null,
+      "claim": "Authorised device list; authorisation is not proof of broad clinical adoption.",
+      "type": "Regulatory database",
+      "ref": "turn4search0"
+    },
+    {
+      "id": "b21c1",
+      "title": "Microsoft — official company information",
+      "url": "https://www.microsoft.com/en-us/industry/health/microsoft-cloud-for-healthcare",
+      "publisher": "Microsoft",
+      "date": null,
+      "claim": "Clinical documentation, healthcare cloud and AI copilots.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c2",
+      "title": "Oracle — official company information",
+      "url": "https://www.oracle.com/health/",
+      "publisher": "Oracle",
+      "date": null,
+      "claim": "Electronic health records and embedded clinical AI.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c3",
+      "title": "GE HealthCare — official company information",
+      "url": "https://www.gehealthcare.com/",
+      "publisher": "GE HealthCare",
+      "date": null,
+      "claim": "Imaging devices, workflow software and diagnostic AI.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c4",
+      "title": "Siemens Healthineers — official company information",
+      "url": "https://www.siemens-healthineers.com/",
+      "publisher": "Siemens Healthineers",
+      "date": null,
+      "claim": "Diagnostic imaging and clinical AI software.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c5",
+      "title": "Philips — official company information",
+      "url": "https://www.philips.com/healthcare",
+      "publisher": "Philips",
+      "date": null,
+      "claim": "Imaging, monitoring and clinical informatics.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c6",
+      "title": "Tempus AI — official company information",
+      "url": "https://www.tempus.com/",
+      "publisher": "Tempus AI",
+      "date": null,
+      "claim": "Clinical data, oncology diagnostics and AI applications.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c7",
+      "title": "Aidoc — official company information",
+      "url": "https://www.aidoc.com/",
+      "publisher": "Aidoc",
+      "date": null,
+      "claim": "Clinical imaging AI and hospital deployment platform.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c8",
+      "title": "Abridge — official company information",
+      "url": "https://www.abridge.com/",
+      "publisher": "Abridge",
+      "date": null,
+      "claim": "Clinician-reviewed ambient documentation.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c9",
+      "title": "Ambience Healthcare — official company information",
+      "url": "https://www.ambiencehealthcare.com/",
+      "publisher": "Ambience Healthcare",
+      "date": null,
+      "claim": "Ambient documentation and clinical workflow support.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21c10",
+      "title": "Nabla — official company information",
+      "url": "https://www.nabla.com/",
+      "publisher": "Nabla",
+      "date": null,
+      "claim": "Ambient clinical notes and assistant workflows.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b21r_abridge_oct",
+      "title": "Now in Practice: October 2026",
+      "url": "https://www.abridge.com/blog/now-in-practice-october-2026",
+      "publisher": "Abridge",
+      "date": "2026-10-27",
+      "accessed": "2026-10-28",
+      "claim": "Orders are staged for clinician signature; an evaluation dashboard exposes vendor-wide methods and limitations.",
+      "type": "Company disclosure"
+    },
+    {
+      "id": "b21r_ama",
+      "title": "AI usage among doctors doubles as confidence grows",
+      "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
+      "publisher": "American Medical Association",
+      "date": "2026-03-12",
+      "accessed": "2026-10-28",
+      "claim": "81% reported professional AI use; common uses include research summaries and documentation.",
+      "type": "Association survey"
+    },
+    {
+      "id": "b21r_devices",
+      "title": "List of Artificial Intelligence-Enabled Medical Devices",
+      "url": "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices",
+      "publisher": "US FDA",
+      "date": null,
+      "accessed": "2026-10-28",
+      "claim": "Device authorizations are a regulatory inventory, not a measure of hospital use or patient benefit.",
+      "type": "Regulatory database"
+    },
+    {
+      "id": "b21r_genai",
+      "title": "Considerations for the Regulation of Generative AI-Enabled Medical Devices: Discussion Paper and Request for Feedback",
+      "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+      "publisher": "US FDA",
+      "date": "2026-08-18",
+      "accessed": "2026-10-28",
+      "claim": "Discussion covers risk, premarket evaluation and postmarket monitoring; it is explicitly neither draft nor final guidance.",
+      "type": "Regulatory discussion paper"
+    },
+    {
+      "id": "b21r_ms",
+      "title": "Dragon Copilot meets the moment at HIMSS 2026",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/healthcare/2026/03/05/unify-simplify-scale-microsoft-dragon-copilot-meets-the-moment-at-himss-2026/",
+      "publisher": "Microsoft",
+      "date": "2026-03-05",
+      "accessed": "2026-10-28",
+      "claim": "Role-specific physician and nurse workflows, EHR integrations, and radiology preview.",
+      "type": "Company disclosure"
+    },
+    {
+      "id": "b21r_oracle",
+      "title": "Clinical AI Agent expands with coding, dictation and chart review",
+      "url": "https://www.oracle.com/news/announcement/oracle-health-expands-clinical-ai-agent-with-coding-dictation-chart-review-2026-08-19/",
+      "publisher": "Oracle",
+      "date": "2026-08-19",
+      "accessed": "2026-10-28",
+      "claim": "US availability of expanded documentation, coding and chart review; clinicians retain review and signature responsibilities.",
+      "type": "Company disclosure"
+    },
+    {
+      "id": "b21r_ucla",
+      "title": "Ambient AI Scribes in Clinical Practice: A Randomized Trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12768499/",
+      "publisher": "NEJM AI / UCLA",
+      "date": "2025-11-26",
+      "accessed": "2026-10-28",
+      "claim": "238 outpatient physicians: Nabla lowered time-in-note versus control; DAX did not significantly do so. Findings apply to tested versions and setting.",
+      "type": "Randomized trial"
+    },
+    {
+      "id": "b21r_uw",
+      "title": "A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Improve Health Practitioner Well-Being",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/",
+      "publisher": "NEJM AI / University of Wisconsin",
+      "date": "2025-11-26",
+      "accessed": "2026-10-28",
+      "claim": "24-week randomized implementation reduced work exhaustion/interpersonal disengagement without a significant increase in professional fulfillment.",
+      "type": "Randomized trial"
+    },
+    {
+      "id": "b21r_sutter",
+      "title": "Evaluation of an Ambient Artificial Intelligence Documentation Platform for Clinicians",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2833433",
+      "publisher": "JAMA Network Open / Sutter Health",
+      "date": "2025-05-02",
+      "accessed": "2026-10-28",
+      "claim": "100 selected ambulatory clinicians using Abridge; improved experience and note time with variable outcomes by sex and specialty.",
+      "type": "Quality-improvement study"
+    },
+    {
+      "id": "b21r_consent",
+      "title": "Informed Consent for Ambient Documentation Using Generative AI in Ambulatory Care",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2836694",
+      "publisher": "JAMA Network Open",
+      "date": "2025-07-22",
+      "accessed": "2026-10-28",
+      "claim": "A 121-user qualitative evaluation found comfort depended on trust, understanding and the consent discussion.",
+      "type": "Quality-improvement study"
+    }
+  ],
+  "interpretation": "Company and technology proxies measure different things across trends. Compare direction within a row; do not add these measures together or rank sectors by their raw values.",
+  "researchStatus": "Monthly review checked 2026-10-28; source dates and limitations retained.",
+  "outlookMetrics": [],
+  "forwardInterpretation": "The maturity path is an analyst scenario for the stated market scope. A score of 4 means routine use in that scope, not a measured adoption percentage. The window can shift if the listed cost, performance, evidence or policy bottlenecks fail to clear.",
+  "companyMapNote": "Curated leading developers, operators, suppliers and commercial partners. Inclusion shows a plausible business connection, not a guarantee of profit or an exhaustive list. Parent and subsidiary exposure is stated in the company role.",
+  "coverage": {
+    "distinctTrackerDomains": 10,
+    "recentlyDatedTrackers": 10,
+    "numericHistoricalPoints": 3
+  },
+  "reviewNote": "Deep review: ten primary/company/regulatory/research sources checked. October 27 release is the interval trigger; older studies provide counterevidence. Prior adoption series and 2027–2031 analyst window retained, with no inferred autonomous-care adoption."
+}

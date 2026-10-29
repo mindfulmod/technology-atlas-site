@@ -1,0 +1,692 @@
+{
+  "id": 8,
+  "name": "Silicon photonics and optical interconnects",
+  "category": "Compute & trust",
+  "summary": "Light carries data between chips and systems to relieve the energy and bandwidth limits of electrical connections.",
+  "useCase": "A large AI cluster uses optical links and eventually optics closer to the processor to move data across thousands of accelerators.",
+  "whyNow": "AI clusters place heavy demands on interconnect bandwidth and energy. Commercial transceivers are established, while co-packaged optics and optical input/output remain at earlier stages. Coherent’s Data Center and Communications revenue provides an observable adjacent-market signal: about US$2.63 billion in fiscal 2024, US$3.76 billion in 2025 and US$5.27 billion in 2026. Most of that cannot be labeled new silicon-photonics adoption. APC’s October 20 manufacturing and test portfolio strengthens the integration path. Concurrent pluggable-optics development means CPO should be evaluated by workload and service economics, rather than assumed to replace every optical module.",
+  "mainstream": {
+    "year": 2030,
+    "range": [
+      2028,
+      2033
+    ],
+    "confidence": "Medium",
+    "scope": "Co-packaged optics and optical I/O used routinely in the largest bandwidth-constrained AI and cloud systems.",
+    "basis": "Analyst estimate",
+    "rationale": "Bandwidth economics and current supplier investment support deployment this decade. Mature pluggable optics remain a strong alternative, so the transition depends on reliability, manufacturability and serviceability rather than technical demonstrations alone. Enterprise-wide optical chip-to-chip interconnects could arrive later than hyperscale use.",
+    "sourceIds": [
+      "a08_s1",
+      "a08_s2",
+      "a08_s3"
+    ]
+  },
+  "direction": "Accelerating from components toward integrated systems",
+  "metric": {
+    "name": "Coherent Data Center and Communications revenue — adjacent proxy",
+    "unit": "US$ billion per fiscal year",
+    "scope": "Coherent’s reported segment, including established optical communications products; fiscal years end in June.",
+    "comparable": true,
+    "limitations": "This is a broad optical-communications supplier segment, not the size of the silicon-photonics or co-packaged-optics market. The series uses the comparable segment presentation in the FY2026 filing. It reflects price, mix and demand as well as units.",
+    "points": [
+      {
+        "year": 2024,
+        "value": 2.631369,
+        "status": "observed",
+        "sourceId": "a08_s1"
+      },
+      {
+        "year": 2025,
+        "value": 3.755164,
+        "status": "observed",
+        "sourceId": "a08_s1"
+      },
+      {
+        "year": 2026,
+        "value": 5.274629,
+        "status": "observed",
+        "sourceId": "a08_s1",
+        "periodEnd": "2026-06-30"
+      }
+    ],
+    "growthLabel": "Segment revenue roughly doubled from FY2024 to FY2026",
+    "future": [],
+    "futureNote": "No comparable external segment-revenue forecast is used. Follow qualified co-packaged products, port shipments and energy per bit to see whether the technical transition becomes economic."
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "note": "Analyst ordinal assessment, not an adoption percentage: 0 research, 1 proof of concept, 2 pilots, 3 commercial niche, 4 routine use in the stated market, 5 established/expanding. Future values are a scenario."
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "No comparable optical-I/O shipment count identified; conventional fiber links were already established.",
+      "sourceIds": []
+    },
+    {
+      "year": 2022,
+      "text": "No harmonized commercial co-packaged-optics adoption metric supplied.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "No comparable market-wide annual deployment measurement identified.",
+      "sourceIds": []
+    },
+    {
+      "year": 2024,
+      "text": "Coherent’s comparable segment recorded US$2.63 billion revenue, an adjacent demand measure.",
+      "sourceIds": [
+        "a08_s1"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "Coherent reported initial 1.6T transceiver revenue shipments and US$3.76 billion segment revenue.",
+      "sourceIds": [
+        "a08_s1",
+        "a08_s2"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "The segment reached US$5.27 billion; Ayar Labs expanded its announced 2026 funding to US$650 million.",
+      "sourceIds": [
+        "a08_s1",
+        "a08_s3"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "October 20: APC released five manufacturing/interface and practice documents; implementation and qualification remain the next tests.",
+      "sourceIds": [
+        "a08_oct_apc"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Larger AI clusters reward bandwidth density and lower energy per transmitted bit.",
+    "Foundry, packaging, laser and networking ecosystems are investing in integrated optical systems."
+  ],
+  "bottlenecks": [
+    "Laser integration, thermal behavior, packaging yield and optical alignment must work at manufacturing scale.",
+    "Replacing serviceable pluggable modules changes maintenance and system-repair economics."
+  ],
+  "watchMetrics": [
+    "Energy per bit and delivered bandwidth at equal link length and reliability.",
+    "Revenue-bearing co-packaged-optics port shipments and field failure rates, separate from sampling announcements.",
+    "Qualified multi-vendor assemblies, manufacturing yield and field replacement time.",
+    "Revenue explicitly attributed to integrated optics, separate from broader optical-communications revenue."
+  ],
+  "companies": [
+    {
+      "name": "Broadcom",
+      "status": "Public",
+      "ticker": "NASDAQ:AVGO",
+      "role": "Switching silicon and co-packaged optical networking.",
+      "url": "https://investors.broadcom.com/",
+      "sourceIds": [
+        "a08_c1",
+        "a08_oct_brcm",
+        "a08_oct_cls"
+      ],
+      "assessment": {
+        "technical": "Integrates CPO with switching silicon, including the TH6-Davisson portfolio.",
+        "commercial": "System partners supply a path to deployment; the reviewed announcement does not disclose CPO unit sales.",
+        "overlooked": "Analyst view: software, cooling and service integration matter alongside optical-engine performance.",
+        "sourceIds": [
+          "a08_oct_brcm",
+          "a08_oct_cls"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "name": "Marvell",
+      "status": "Public",
+      "ticker": "NASDAQ:MRVL",
+      "role": "Optical DSPs, custom silicon and data infrastructure.",
+      "url": "https://investor.marvell.com/",
+      "sourceIds": [
+        "a08_c2"
+      ]
+    },
+    {
+      "name": "Coherent",
+      "status": "Public",
+      "ticker": "NYSE:COHR",
+      "role": "Lasers, optical components and transceivers.",
+      "url": "https://ir.coherent.com/",
+      "sourceIds": [
+        "a08_c3",
+        "a08_oct_photonlink"
+      ],
+      "assessment": {
+        "technical": "PhotonLink combines laser, fiber, detector, assembly and test capabilities.",
+        "commercial": "The September launch expected a CY 2026 Q4 ramp; it does not prove that ramp has occurred.",
+        "overlooked": "Analyst view: enabling components can serve several integration architectures, but segment revenue is not pure CPO exposure.",
+        "sourceIds": [
+          "a08_oct_photonlink"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "name": "Lumentum",
+      "status": "Public",
+      "ticker": "NASDAQ:LITE",
+      "role": "Optical components and laser supply.",
+      "url": "https://investor.lumentum.com/",
+      "sourceIds": [
+        "a08_c4"
+      ]
+    },
+    {
+      "name": "Intel",
+      "status": "Public",
+      "ticker": "NASDAQ:INTC",
+      "role": "Silicon photonics and integrated computing research/products.",
+      "url": "https://www.intc.com/",
+      "sourceIds": [
+        "a08_c5"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "status": "Public",
+      "ticker": "NASDAQ:CSCO",
+      "role": "Optical networking systems and high-speed connectivity.",
+      "url": "https://investor.cisco.com/",
+      "sourceIds": [
+        "a08_c6"
+      ]
+    },
+    {
+      "name": "TSMC",
+      "status": "Public",
+      "ticker": "NYSE:TSM",
+      "role": "Fabrication and packaging enabling integrated photonics.",
+      "url": "https://investor.tsmc.com/",
+      "sourceIds": [
+        "a08_c7"
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "status": "Public",
+      "ticker": "NASDAQ:NVDA",
+      "role": "AI networking and optical system integration.",
+      "url": "https://investor.nvidia.com/",
+      "sourceIds": [
+        "a08_c8",
+        "a08_oct_usfp"
+      ],
+      "assessment": {
+        "technical": "Works with Cisco on a next-generation pluggable alternative as well as optical networking.",
+        "commercial": "USFP is a planned form factor; the announcement does not establish deployment volume.",
+        "overlooked": "Analyst view: continued pluggable progress raises the economic hurdle for CPO replacement.",
+        "sourceIds": [
+          "a08_oct_usfp"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "name": "Ayar Labs",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private optical I/O and co-packaged optics.",
+      "url": "https://ayarlabs.com/news/ayar-labs-expands-2026-funding-to-650-million/",
+      "sourceIds": [
+        "a08_c9",
+        "a08_oct_ayar"
+      ],
+      "assessment": {
+        "technical": "Develops optical connectivity close to compute with manufacturing partners.",
+        "commercial": "September financing supports scale-up readiness; recurring revenue and shipment volume remain undisclosed in the reviewed release.",
+        "overlooked": "Analyst view: integration partnerships may matter more than headline funding when assessing execution.",
+        "sourceIds": [
+          "a08_oct_ayar"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "name": "Eliyan",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private interconnect technology; adjacent electrical/optical system exposure.",
+      "url": "https://eliyan.com/news/eliyan-achieves-unicorn-status-with-145-million-series-c/",
+      "sourceIds": [
+        "a08_c10"
+      ]
+    },
+    {
+      "name": "Lightmatter",
+      "status": "Private",
+      "ticker": null,
+      "role": "Optical engines, external laser modules and integrated AI-system interconnects.",
+      "url": "https://lightmatter.com/",
+      "sourceIds": [
+        "a08_oct_lm"
+      ],
+      "assessment": {
+        "technical": "Demonstrated switch and accelerator-tray integration with optical interconnects.",
+        "commercial": "The Flex collaboration is a production-validation platform, while the XPU tray is a prototype; volume revenue is not disclosed.",
+        "overlooked": "Analyst view: standardized rack integration and detachable connectors address practical deployment bottlenecks.",
+        "sourceIds": [
+          "a08_oct_lm"
+        ],
+        "checkedAt": "2026-10-28"
+      }
+    }
+  ],
+  "trackers": [
+    {
+      "name": "Lightwave Online",
+      "url": "https://www.lightwaveonline.com/",
+      "kind": "Specialist news",
+      "coverage": "Optical networks, transceivers and co-packaged optics.",
+      "domain": "lightwaveonline.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.lightwaveonline.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Photonics Spectra",
+      "url": "https://www.photonics.com/Photonics-Technology",
+      "kind": "Specialist news",
+      "coverage": "Silicon photonics, lasers and optical components.",
+      "domain": "photonics.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.photonics.com/Photonics-Technology",
+      "activityNote": "Dated silicon-photonics coverage verified in search index; some pages restrict retrieval."
+    },
+    {
+      "name": "EE Times",
+      "url": "https://www.eetimes.com/",
+      "kind": "Specialist news",
+      "coverage": "Semiconductors, embedded AI, optics and industrial electronics.",
+      "domain": "eetimes.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.eetimes.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/",
+      "kind": "Specialist news",
+      "coverage": "Chiplets, packaging, photonics and AI-processor engineering.",
+      "domain": "semiengineering.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://semiengineering.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "SemiWiki",
+      "url": "https://semiwiki.com/category/chiplet/",
+      "kind": "Specialist news",
+      "coverage": "Chiplets, foundries, interconnect IP and AI systems.",
+      "domain": "semiwiki.com",
+      "latestObserved": "2026-10-02",
+      "activityEvidenceUrl": "https://semiwiki.com/semiconductor-manufacturers/intel/374240-intel-foundry-ai-performance-now-depends-on-the-whole-system/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Electronic Design",
+      "url": "https://www.electronicdesign.com/",
+      "kind": "Specialist news",
+      "coverage": "Embedded processors, edge inference, power and sensors.",
+      "domain": "electronicdesign.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.electronicdesign.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/",
+      "kind": "Specialist news",
+      "coverage": "AI capacity, network optics, data-center builds and power constraints.",
+      "domain": "datacenterdynamics.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.datacenterdynamics.com/en/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "eeNews Europe",
+      "url": "https://www.eenewseurope.com/en/",
+      "kind": "Specialist news",
+      "coverage": "Semiconductors, embedded AI and component supply chains.",
+      "domain": "eenewseurope.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.eenewseurope.com/en/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Fierce Network",
+      "url": "https://www.fierce-network.com/",
+      "kind": "Specialist news",
+      "coverage": "Private networks, telecom/satellite convergence and AI networking.",
+      "domain": "fierce-network.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.fierce-network.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The Register",
+      "url": "https://www.theregister.com/ai_ml/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI, infrastructure, local models and deployment risks.",
+      "domain": "theregister.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Network World",
+      "url": "https://www.networkworld.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise networks, edge, data-center AI and knowledge infrastructure.",
+      "domain": "networkworld.com",
+      "latestObserved": "2026-10-07",
+      "activityEvidenceUrl": "https://www.networkworld.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    }
+  ],
+  "sources": [
+    {
+      "id": "a08_s1",
+      "title": "Coherent fiscal 2026 Annual Report",
+      "url": "https://ir.coherent.com/static-files/afd880a5-f5c9-46c2-b16a-1f2cbe90e28b",
+      "publisher": "Coherent",
+      "date": null,
+      "accessed": "2026-10-28",
+      "claim": "Comparable Data Center and Communications segment revenue for FY2024–FY2026.",
+      "type": "Company annual report",
+      "ref": "turn12search49",
+      "publishedPeriod": "2026-08"
+    },
+    {
+      "id": "a08_s2",
+      "title": "Coherent fiscal 2025 fourth-quarter results",
+      "url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/financial-releases/2025/august-13/earnings-release-fy25-q4.pdf",
+      "publisher": "Coherent",
+      "date": "2025-08-13",
+      "accessed": "2026-10-17",
+      "claim": "Initial 1.6T transceiver revenue shipments.",
+      "type": "Company earnings",
+      "ref": "turn12search51"
+    },
+    {
+      "id": "a08_s3",
+      "title": "Ayar Labs expands 2026 funding to US$650 million",
+      "url": "https://ayarlabs.com/news/ayar-labs-expands-2026-funding-to-650-million/",
+      "publisher": "Ayar Labs",
+      "date": "2026-09-10",
+      "accessed": "2026-10-17",
+      "claim": "Private funding supporting optical interconnect production.",
+      "type": "Company announcement",
+      "ref": "turn162search0"
+    },
+    {
+      "id": "a08_s4",
+      "title": "Coherent fourth-quarter and full-year fiscal 2026 results",
+      "url": "https://ir.coherent.com/news-releases/news-release-details/coherent-corp-reports-fourth-quarter-and-full-year-fiscal-2026",
+      "publisher": "Coherent",
+      "date": "2026-08-12",
+      "accessed": "2026-10-17",
+      "claim": "Fiscal-year endpoint and business context.",
+      "type": "Company earnings",
+      "ref": "turn12search32"
+    },
+    {
+      "id": "a08_c1",
+      "title": "Broadcom: product portfolio, company or investor information",
+      "url": "https://investors.broadcom.com/",
+      "publisher": "Broadcom",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn212view0"
+    },
+    {
+      "id": "a08_c2",
+      "title": "Marvell: product portfolio, company or investor information",
+      "url": "https://investor.marvell.com/",
+      "publisher": "Marvell",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn212view1"
+    },
+    {
+      "id": "a08_c3",
+      "title": "Coherent: product portfolio, company or investor information",
+      "url": "https://ir.coherent.com/",
+      "publisher": "Coherent",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn211view2"
+    },
+    {
+      "id": "a08_c4",
+      "title": "Lumentum: product portfolio, company or investor information",
+      "url": "https://investor.lumentum.com/",
+      "publisher": "Lumentum",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn211view3"
+    },
+    {
+      "id": "a08_c5",
+      "title": "Intel: product portfolio, company or investor information",
+      "url": "https://www.intc.com/",
+      "publisher": "Intel",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view8"
+    },
+    {
+      "id": "a08_c6",
+      "title": "Cisco: product portfolio, company or investor information",
+      "url": "https://investor.cisco.com/",
+      "publisher": "Cisco",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn211view4"
+    },
+    {
+      "id": "a08_c7",
+      "title": "TSMC: product portfolio, company or investor information",
+      "url": "https://investor.tsmc.com/",
+      "publisher": "TSMC",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn212view5"
+    },
+    {
+      "id": "a08_c8",
+      "title": "NVIDIA: product portfolio, company or investor information",
+      "url": "https://investor.nvidia.com/",
+      "publisher": "NVIDIA",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view5"
+    },
+    {
+      "id": "a08_c9",
+      "title": "Ayar Labs: product portfolio, company or investor information",
+      "url": "https://ayarlabs.com/news/ayar-labs-expands-2026-funding-to-650-million/",
+      "publisher": "Ayar Labs",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn162search0"
+    },
+    {
+      "id": "a08_c10",
+      "title": "Eliyan: product portfolio, company or investor information",
+      "url": "https://eliyan.com/news/eliyan-achieves-unicorn-status-with-145-million-series-c/",
+      "publisher": "Eliyan",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn162search5"
+    },
+    {
+      "id": "a08_oct_apc",
+      "title": "APC publishes manufacturing and interface document portfolio",
+      "url": "https://www.advanced-photonics.org/apc-documents-press-release",
+      "publisher": "Advanced Photonics Coalition",
+      "date": "2026-10-20",
+      "accessed": "2026-10-28",
+      "claim": "Five specifications and practice documents address photonics manufacturing, testing and interfaces.",
+      "checkedAt": "2026-10-28",
+      "type": "Industry standards announcement",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "a08_oct_usfp",
+      "title": "NVIDIA and Cisco introduce USFP pluggable-optics plans",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Cisco-Introduce-New-Pluggable-Optics-Form-Factor-to-Scale-AI-Factories/default.aspx",
+      "publisher": "NVIDIA / Cisco",
+      "date": "2026-10-12",
+      "accessed": "2026-10-28",
+      "claim": "A competing pluggable roadmap remains active; specifications are announced capabilities, not field results.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "a08_oct_brcm",
+      "title": "Broadcom OCP networking portfolio",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-redefines-ai-infrastructure-industry-leading-networking",
+      "publisher": "Broadcom",
+      "date": "2026-10-08",
+      "accessed": "2026-10-28",
+      "claim": "TH6-Davisson CPO is part of Broadcom’s demonstrated networking portfolio.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "a08_oct_lm",
+      "title": "Lightmatter and Flex show open-rack optical systems",
+      "url": "https://lightmatter.com/press-release/lightmatter-delivers-open-rack-cpo-switch-and-xpu-scale-up-server-through-independent-collaborations-with-flex-and-other-industry-partners/",
+      "publisher": "Lightmatter",
+      "date": "2026-10-12",
+      "accessed": "2026-10-28",
+      "claim": "Switch production-validation platform and separate XPU prototype demonstrate integration, not deployment volume.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "a08_oct_ayar",
+      "title": "Ayar Labs expands 2026 financing",
+      "url": "https://ayarlabs.com/news/ayar-labs-expands-2026-funding-to-650-million/",
+      "publisher": "Ayar Labs",
+      "date": "2026-09-10",
+      "accessed": "2026-10-28",
+      "claim": "Financing supports manufacturing readiness; funding is not sales.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "id": "a08_oct_photonlink",
+      "title": "Coherent launches PhotonLink",
+      "url": "https://ir.coherent.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai",
+      "publisher": "Coherent",
+      "date": "2026-09-21",
+      "accessed": "2026-10-28",
+      "claim": "Platform spans integrated optical assembly and test; CY 2026 Q4 revenue ramp is a company expectation.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "a08_oct_cls",
+      "title": "Celestica introduces DS6005 CPO switch",
+      "url": "https://celestica.gcs-web.com/news-releases/news-release-details/celestica-introduces-ds6005-data-center-switch-co-packaged",
+      "publisher": "Celestica",
+      "date": "2026-10-12",
+      "accessed": "2026-10-28",
+      "claim": "A liquid-cooled CPO switch design includes field-replaceable external lasers.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "a08_oct_intel",
+      "title": "Intel demonstrates optical I/O chiplet",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-first-integrated-optical-io-chiplet.html",
+      "publisher": "Intel",
+      "date": "2024-06-26",
+      "accessed": "2026-10-28",
+      "claim": "Historical live-data demonstration of optical I/O co-packaged with a CPU; not evidence of 2026 shipments.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2024-06-26"
+    },
+    {
+      "id": "a08_oct_ocs",
+      "title": "TPU v4: an optically reconfigurable supercomputer",
+      "url": "https://arxiv.org/abs/2304.01433",
+      "publisher": "Jouppi et al. / Google, ISCA research",
+      "date": "2023-04-20",
+      "accessed": "2026-10-28",
+      "claim": "Deployed optical circuit switching is related but distinct from co-packaged optics.",
+      "checkedAt": "2026-10-28",
+      "type": "Research paper / operator-reported implementation",
+      "publishedAt": "2023-04-20"
+    }
+  ],
+  "companyMapNote": "Curated leading and enabling companies, not an exhaustive list or investment recommendation. Public parent exposure may be indirect; private status and pending transactions are assessed at the cutoff.",
+  "trackersNote": "Each site showed dated activity within the preceding 12 months. Dedicated specialists are combined with clearly described broader beats; activity evidence verifies the publication is active, not that every outlet posts on this exact subtopic daily.",
+  "coverage": {
+    "distinctTrackerDomains": 11,
+    "recentlyDatedTrackers": 11,
+    "numericHistoricalPoints": 3
+  },
+  "reviewNote": "October 28 early monthly run: APC’s October 20 manufacturing and test portfolio strengthens the integration path. Concurrent pluggable-optics development means CPO should be evaluated by workload and service economics, rather than assumed to replace every optical module. Existing numerical observations and mainstream range retained. Source publication precision preserved in publishedPeriod; no day inferred."
+}

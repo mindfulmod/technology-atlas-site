@@ -1,0 +1,570 @@
+{
+  "id": 20,
+  "name": "Software-defined vehicles",
+  "category": "Automation & mobility",
+  "summary": "Vehicle functions are increasingly controlled by updateable software running on consolidated computing platforms.",
+  "useCase": "A manufacturer repairs a software fault remotely, updates the user interface and adds a supported function over the vehicle’s life.",
+  "whyNow": "Automakers are rebuilding electrical architectures and software supply chains. QNX’s large embedded base indicates a foundation for this shift, but an operating system inside a car does not by itself make the car fully software-defined.",
+  "mainstream": {
+    "year": 2029,
+    "range": [
+      2027,
+      2032
+    ],
+    "confidence": "High",
+    "scope": "New vehicle platforms from major manufacturers with centralised computing, managed software updates and ongoing feature maintenance.",
+    "basis": "Analyst estimate",
+    "rationale": "Existing software suppliers and announced next-generation platforms support routine use this decade. Vehicle programme cycles slow deployment; the installed vehicle fleet will take much longer to turn over.",
+    "sourceIds": [
+      "b20s1",
+      "b20s2",
+      "b20s3",
+      "b20s4"
+    ]
+  },
+  "direction": "Accelerating",
+  "metric": {
+    "name": "QNX embedded vehicle installed base",
+    "unit": "million vehicles",
+    "scope": "BlackBerry QNX software in vehicles on the road; foundational software proxy",
+    "comparable": false,
+    "limitations": "Cumulative embedded software base, not a count of fully software-defined vehicles or annual new-vehicle sales. Many older systems have limited updateability. No 2026 incremental total is invented.",
+    "points": [
+      {
+        "year": 2021,
+        "value": 195,
+        "status": "observed",
+        "sourceId": "b20s1"
+      },
+      {
+        "year": 2025,
+        "value": 275,
+        "status": "observed",
+        "sourceId": "b20s2"
+      }
+    ],
+    "future": [],
+    "futureNote": "No defensible like-for-like external forecast is available for this KPI. The forward maturity path is a separately labelled analyst scenario, not a numerical adoption forecast."
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ]
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "BlackBerry reported QNX embedded in more than 195 million vehicles.",
+      "sourceIds": [
+        "b20s1"
+      ]
+    },
+    {
+      "year": 2022,
+      "text": "No comparable 2022 installed-base observation is included in this review.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "No comparable 2023 installed-base observation is included; the historical maturity score is an analyst assessment.",
+      "sourceIds": []
+    },
+    {
+      "year": 2024,
+      "text": "No comparable 2024 measurement is included; supplier adoption is not equivalent to complete vehicle architecture conversion.",
+      "sourceIds": []
+    },
+    {
+      "year": 2025,
+      "text": "BlackBerry reported a 275-million-vehicle QNX installed base in its December release.",
+      "sourceIds": [
+        "b20s2"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "QNX announced that BMW’s next-generation vehicle platforms would use its technology; current filings still reference 275 million vehicles.",
+      "sourceIds": [
+        "b20s3",
+        "b20s4"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Common software platforms can reduce duplicated engineering",
+    "Remote fixes lower some service costs",
+    "Vehicle computing suppliers benefit as manufacturers consolidate controllers"
+  ],
+  "bottlenecks": [
+    "Functional safety and cybersecurity must survive frequent updates",
+    "Legacy architectures and supplier contracts complicate migration",
+    "Customers may reject paid features or poorly supported software"
+  ],
+  "watchMetrics": [
+    "Share of new platforms with centralised compute and OTA update coverage",
+    "Software-defect recall costs and successful update rates",
+    "Per-vehicle software backlog and recurring revenue with clear definitions"
+  ],
+  "companies": [
+    {
+      "name": "BlackBerry / QNX",
+      "status": "Public",
+      "ticker": "NYSE:BB",
+      "role": "Safety-oriented vehicle operating systems and middleware.",
+      "url": "https://qnx.software/",
+      "sourceIds": [
+        "b20c1"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Qualcomm",
+      "status": "Public",
+      "ticker": "NASDAQ:QCOM",
+      "role": "Cockpit, connectivity and driver-assistance compute platforms.",
+      "url": "https://www.qualcomm.com/products/automotive",
+      "sourceIds": [
+        "b20c2"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "NVIDIA",
+      "status": "Public",
+      "ticker": "NASDAQ:NVDA",
+      "role": "Automotive computing and development software.",
+      "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+      "sourceIds": [
+        "b20c3"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "NXP Semiconductors",
+      "status": "Public",
+      "ticker": "NASDAQ:NXPI",
+      "role": "Vehicle processors, networks and zonal control electronics.",
+      "url": "https://www.nxp.com/applications/automotive:AUTOMOTIVE",
+      "sourceIds": [
+        "b20c4"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Arm",
+      "status": "Public",
+      "ticker": "NASDAQ:ARM",
+      "role": "Processor architecture licensed into automotive chips.",
+      "url": "https://www.arm.com/markets/automotive",
+      "sourceIds": [
+        "b20c5"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Rivian",
+      "status": "Public",
+      "ticker": "NASDAQ:RIVN",
+      "role": "Vehicle software and electrical architecture, including partnership licensing.",
+      "url": "https://rivian.com/",
+      "sourceIds": [
+        "b20c6"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Volkswagen Group",
+      "status": "Public",
+      "ticker": "XETRA:VOW3",
+      "role": "Vehicle platform demand and software architecture deployment.",
+      "url": "https://www.volkswagen-group.com/",
+      "sourceIds": [
+        "b20c7"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Bosch",
+      "status": "Private",
+      "ticker": null,
+      "role": "Automotive controllers, middleware and software engineering.",
+      "url": "https://www.bosch-mobility.com/",
+      "sourceIds": [
+        "b20c8"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Applied Intuition",
+      "status": "Private",
+      "ticker": null,
+      "role": "Vehicle software, simulation and validation platform.",
+      "url": "https://www.appliedintuition.com/",
+      "sourceIds": [
+        "b20c9"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Vector Informatik",
+      "status": "Private",
+      "ticker": null,
+      "role": "Automotive embedded software and development tools.",
+      "url": "https://www.vector.com/",
+      "sourceIds": [
+        "b20c10"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    }
+  ],
+  "trackers": [
+    {
+      "name": "Embedded",
+      "url": "https://www.embedded.com/",
+      "kind": "Specialist news",
+      "coverage": "Embedded vehicle software, security and development architecture.",
+      "domain": "embedded.com",
+      "latestObserved": "2026-09-24",
+      "activityEvidenceUrl": "https://www.embedded.com/why-software-defined-vehicles-need-a-new-security-foundation/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn125search1",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "Automotive Testing Technology International",
+      "url": "https://www.automotivetestingtechnologyinternational.com/news/software-engineering-sdvs",
+      "kind": "Specialist news",
+      "coverage": "SDV engineering, simulation, software partnerships and validation.",
+      "domain": "automotivetestingtechnologyinternational.com",
+      "latestObserved": "2026-10-07",
+      "activityEvidenceUrl": "https://www.automotivetestingtechnologyinternational.com/news/software-engineering-sdvs/applied-intuition-and-honda-collaborate-on-next-gen-software-defined-vehicle-development.html",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn125search5",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "WardsAuto",
+      "url": "https://www.wardsauto.com/",
+      "kind": "Specialist news",
+      "coverage": "Automaker execution and the commercial shift to software-defined vehicles.",
+      "domain": "wardsauto.com",
+      "latestObserved": "2026-06-04",
+      "activityEvidenceUrl": "https://www.wardsauto.com/news/why-western-oems-are-falling-behind-china-in-sdv-development/821897/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn138search1",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "electrive",
+      "url": "https://www.electrive.com/",
+      "kind": "Specialist news",
+      "coverage": "EV software architectures, suppliers and driver-assistance partnerships.",
+      "domain": "electrive.com",
+      "latestObserved": "2026-01-07",
+      "activityEvidenceUrl": "https://www.electrive.com/2026/01/07/zf-and-qualcomm-develop-adas-systems-up-to-level-3/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn138search3",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "Design News",
+      "url": "https://www.designnews.com/automotive-engineering",
+      "kind": "Specialist news",
+      "coverage": "Automotive connectivity and software architecture engineering.",
+      "domain": "designnews.com",
+      "latestObserved": "2026-08-11",
+      "activityEvidenceUrl": "https://www.designnews.com/automotive-engineering/software-defined-connectivity-becomes-strategic-priority-for-automakers-as-networks-evolve",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn138search11",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "kind": "Specialist news",
+      "coverage": "Vehicle-platform strategy and software-led competition; broader mobility beat.",
+      "domain": "techcrunch.com",
+      "latestObserved": "2026-03-14",
+      "activityEvidenceUrl": "https://techcrunch.com/2026/03/14/honda-is-killing-its-evs-and-any-chance-of-competing-in-the-future/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn138search19",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "EE Times",
+      "url": "https://www.eetimes.com/designline/automotive-designline/",
+      "kind": "Specialist news",
+      "coverage": "Automotive semiconductors, software tooling and safety architectures.",
+      "domain": "eetimes.com",
+      "latestObserved": "2026-01-26",
+      "activityEvidenceUrl": "https://www.eetimes.com/software-takes-the-wheel-building-safer-smarter-sdvs/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn247search8",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "Automotive World",
+      "url": "https://www.automotiveworld.com/",
+      "kind": "Specialist news",
+      "coverage": "Automotive software, supply-chain and manufacturer strategy.",
+      "domain": "automotiveworld.com",
+      "latestObserved": "2026-06-10",
+      "activityEvidenceUrl": "https://www.automotiveworld.com/magazine/automotive-world-magazine-june-2026/",
+      "activityNote": "June 2026 issue date and coverage indexed; direct fetch returned 403, so full articles may require access.",
+      "activitySourceRef": "turn129search9",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/",
+      "kind": "Business news",
+      "coverage": "Automaker/supplier software agreements and platform investment.",
+      "domain": "reuters.com",
+      "latestObserved": "2026-07-21",
+      "activityEvidenceUrl": "https://www.reuters.com/business/autos-transportation/mobileye-supply-stellantis-with-cloud-based-driver-assistance-technology-2026-07-21/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn1news41",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "SAE Mobilus",
+      "url": "https://saemobilus.sae.org/",
+      "kind": "Research and standards feed",
+      "coverage": "New SDV technical papers, standards context and engineering developments.",
+      "domain": "saemobilus.sae.org",
+      "latestObserved": "2026-01-16",
+      "activityEvidenceUrl": "https://saemobilus.sae.org/papers/software-defined-vehicles-architecting-future-intelligent-connected-mobility-2026-26-0691",
+      "activityNote": "Technical-paper publication dated January 16, 2026; conference date January 28 differs. A research tracker rather than daily news.",
+      "activitySourceRef": "turn247search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    },
+    {
+      "name": "QNX newsroom",
+      "url": "https://qnx.software/",
+      "kind": "Vendor newsroom",
+      "coverage": "Vehicle software product releases and design wins; company perspective.",
+      "domain": "qnx.software",
+      "latestObserved": "2026-01-06",
+      "activityEvidenceUrl": "https://qnx.software/en/press-release/2026/qnx-technology-to-help-drive-bmw-group-s-next-generation-of-software-defined-vehicles",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn13search34",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "Software-defined vehicles"
+    }
+  ],
+  "sources": [
+    {
+      "id": "b20s1",
+      "title": "QNX software embedded in over 195 million vehicles",
+      "url": "https://www.prnewswire.com/news-releases/blackberry-qnx-software-is-now-embedded-in-over-195-million-vehicles-301315834.html",
+      "publisher": "BlackBerry",
+      "date": "2021-06-21",
+      "claim": "QNX installed-base milestone.",
+      "type": "Company disclosure",
+      "ref": "turn13search26"
+    },
+    {
+      "id": "b20s2",
+      "title": "Third-quarter fiscal 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1070235/000107023525000196/q3fy26ex-991.htm",
+      "publisher": "BlackBerry / SEC",
+      "date": "2025-12-18",
+      "claim": "275-million-vehicle installed base.",
+      "type": "Regulatory filing",
+      "ref": "turn13search28"
+    },
+    {
+      "id": "b20s3",
+      "title": "QNX technology to help drive BMW Group software-defined vehicles",
+      "url": "https://qnx.software/en/press-release/2026/qnx-technology-to-help-drive-bmw-group-s-next-generation-of-software-defined-vehicles",
+      "publisher": "QNX",
+      "date": "2026-01-06",
+      "claim": "BMW next-generation platform relationship and QNX vehicle base.",
+      "type": "Company disclosure",
+      "ref": "turn13search34"
+    },
+    {
+      "id": "b20s4",
+      "title": "Quarterly filing for period ended August 31, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1070235/000107023526000115/bbry-20260831.htm",
+      "publisher": "BlackBerry / SEC",
+      "date": null,
+      "claim": "Current QNX installed-base and automotive business context.",
+      "type": "Regulatory filing",
+      "ref": "turn13search30"
+    },
+    {
+      "id": "b20c1",
+      "title": "BlackBerry / QNX — official company information",
+      "url": "https://qnx.software/",
+      "publisher": "BlackBerry / QNX",
+      "date": null,
+      "claim": "Safety-oriented vehicle operating systems and middleware.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c2",
+      "title": "Qualcomm — official company information",
+      "url": "https://www.qualcomm.com/products/automotive",
+      "publisher": "Qualcomm",
+      "date": null,
+      "claim": "Cockpit, connectivity and driver-assistance compute platforms.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c3",
+      "title": "NVIDIA — official company information",
+      "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+      "publisher": "NVIDIA",
+      "date": null,
+      "claim": "Automotive computing and development software.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c4",
+      "title": "NXP Semiconductors — official company information",
+      "url": "https://www.nxp.com/applications/automotive:AUTOMOTIVE",
+      "publisher": "NXP Semiconductors",
+      "date": null,
+      "claim": "Vehicle processors, networks and zonal control electronics.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c5",
+      "title": "Arm — official company information",
+      "url": "https://www.arm.com/markets/automotive",
+      "publisher": "Arm",
+      "date": null,
+      "claim": "Processor architecture licensed into automotive chips.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c6",
+      "title": "Rivian — official company information",
+      "url": "https://rivian.com/",
+      "publisher": "Rivian",
+      "date": null,
+      "claim": "Vehicle software and electrical architecture, including partnership licensing.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c7",
+      "title": "Volkswagen Group — official company information",
+      "url": "https://www.volkswagen-group.com/",
+      "publisher": "Volkswagen Group",
+      "date": null,
+      "claim": "Vehicle platform demand and software architecture deployment.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c8",
+      "title": "Bosch — official company information",
+      "url": "https://www.bosch-mobility.com/",
+      "publisher": "Bosch",
+      "date": null,
+      "claim": "Automotive controllers, middleware and software engineering.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c9",
+      "title": "Applied Intuition — official company information",
+      "url": "https://www.appliedintuition.com/",
+      "publisher": "Applied Intuition",
+      "date": null,
+      "claim": "Vehicle software, simulation and validation platform.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b20c10",
+      "title": "Vector Informatik — official company information",
+      "url": "https://www.vector.com/",
+      "publisher": "Vector Informatik",
+      "date": null,
+      "claim": "Automotive embedded software and development tools.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "a20r_qnx_oct",
+      "title": "QNX royalty backlog exceeds $1.2 billion",
+      "url": "https://qnx.software/en/press-release/2026/blackberry-qnx-royalty-backlog-exceeds-1-2-billion",
+      "publisher": "BlackBerry / QNX",
+      "date": "2026-10-20",
+      "accessed": "2026-10-28",
+      "claim": "Company-reported royalty backlog exceeded $1.2 billion; backlog is not current revenue or installed vehicles.",
+      "type": "Company disclosure"
+    },
+    {
+      "id": "a20r_survey_oct",
+      "title": "Under the Hood SDV Developer Report 2026",
+      "url": "https://qnx.software/en/press-release/2026/qnx-research-finds-automotive-developers-spend-more-than-a-third-of-their-time-on-software-plumbing",
+      "publisher": "BlackBerry / QNX",
+      "date": "2026-10-21",
+      "accessed": "2026-10-28",
+      "claim": "Survey of 1,100 automotive software developers reports average 35% effort on foundational integration.",
+      "type": "Commissioned developer survey"
+    }
+  ],
+  "interpretation": "Company and technology proxies measure different things across trends. Compare direction within a row; do not add these measures together or rank sectors by their raw values.",
+  "researchStatus": "Monthly review checked 2026-10-28; source dates and limitations retained.",
+  "outlookMetrics": [],
+  "forwardInterpretation": "The maturity path is an analyst scenario for the stated market scope. A score of 4 means routine use in that scope, not a measured adoption percentage. The window can shift if the listed cost, performance, evidence or policy bottlenecks fail to clear.",
+  "companyMapNote": "Curated leading developers, operators, suppliers and commercial partners. Inclusion shows a plausible business connection, not a guarantee of profit or an exhaustive list. Parent and subsidiary exposure is stated in the company role.",
+  "coverage": {
+    "distinctTrackerDomains": 11,
+    "recentlyDatedTrackers": 11,
+    "numericHistoricalPoints": 2
+  },
+  "reviewNote": "New backlog and integration-burden evidence added. These measure prospective royalties and survey responses, not delivered vehicle penetration. Historic installed-base chart unchanged."
+}

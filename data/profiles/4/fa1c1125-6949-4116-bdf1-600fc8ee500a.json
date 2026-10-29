@@ -1,0 +1,568 @@
+{
+  "id": 4,
+  "name": "AI-native software development",
+  "category": "Intelligence",
+  "summary": "Coding assistants and agents help write, test, review and maintain software throughout the development process.",
+  "useCase": "A developer asks an assistant to update an API client, generate regression tests and open a proposed change for review.",
+  "whyNow": "Developer tools combine access to source code, execution environments and feedback from tests, making software an unusually measurable AI application. Microsoft reported more than one million paid GitHub Copilot users in late 2023 and 1.8 million in 2024. Its later 20-million-user disclosure includes a broader audience, so it must not be treated as paid-subscriber growth. GitHub’s October 28 documentation adds continuous cloud-to-local agent sessions for paid plans; this is a workflow release, not a new paid-adoption statistic.",
+  "mainstream": {
+    "year": 2027,
+    "range": [
+      2026,
+      2029
+    ],
+    "confidence": "High",
+    "scope": "Supervised AI assistance in professional software teams, with testing and accountable human review.",
+    "basis": "Analyst estimate",
+    "rationale": "The product category has paying users, mature distribution and fast feedback. In the 2026 McKinsey survey, coding-agent scaling was already material among large organizations. The forecast concerns routine assistance and bounded delegated changes; autonomous ownership of complex software systems remains much less certain.",
+    "sourceIds": [
+      "a04_s1",
+      "a04_s2",
+      "a04_s3",
+      "a04_s5"
+    ]
+  },
+  "direction": "Accelerating; quality control becomes central",
+  "metric": {
+    "name": "Paid GitHub Copilot users — company proxy",
+    "unit": "million paid users",
+    "scope": "Microsoft-reported GitHub Copilot paying users, dated snapshots.",
+    "comparable": false,
+    "limitations": "The starting point is a lower bound and snapshot timing differs. Microsoft’s 20 million total users in 2025 includes a different population and is excluded from this paid series. Subscriber counts do not establish engineering productivity or software quality.",
+    "points": [
+      {
+        "year": 2023,
+        "value": 1,
+        "status": "observed",
+        "sourceId": "a04_s1",
+        "qualifier": ">",
+        "asOf": "2023-10-24"
+      },
+      {
+        "year": 2024,
+        "value": 1.8,
+        "status": "observed",
+        "sourceId": "a04_s2",
+        "asOf": "2024-06-30"
+      }
+    ],
+    "growthLabel": ">1m paid users in 2023; 1.8m in 2024",
+    "future": [],
+    "futureNote": "No defensible same-definition subscriber forecast is supplied. Future gains should be judged by shipped, reliable software per engineer, not generated lines of code."
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      5,
+      5,
+      5
+    ],
+    "note": "Analyst ordinal assessment, not an adoption percentage: 0 research, 1 proof of concept, 2 pilots, 3 commercial niche, 4 routine use in the stated market, 5 established/expanding. Future values are a scenario."
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "GitHub introduced Copilot as an AI pair-programming technical preview.",
+      "sourceIds": [
+        "a04_s4"
+      ]
+    },
+    {
+      "year": 2022,
+      "text": "The paid-user time series is unavailable here; no interpolated adoption count is inserted.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "Microsoft reported more than one million paid GitHub Copilot users in October.",
+      "sourceIds": [
+        "a04_s1"
+      ]
+    },
+    {
+      "year": 2024,
+      "text": "The Microsoft annual report reported 1.8 million paid users.",
+      "sourceIds": [
+        "a04_s2"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "Microsoft reported 20 million total Copilot users, a definition break from paid subscribers.",
+      "sourceIds": [
+        "a04_s3"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "McKinsey found growing large-company coding-agent deployment; Cursor became part of SpaceX in August.",
+      "sourceIds": [
+        "a04_s5",
+        "a04_s6"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Code repositories, tests and build systems provide machine-readable feedback.",
+    "AI lowers the cost of repetitive maintenance, prototypes and migration work."
+  ],
+  "bottlenecks": [
+    "Generated changes can introduce subtle security, reliability and licensing problems.",
+    "Review capacity, context quality and test coverage can become the bottleneck as code output rises."
+  ],
+  "watchMetrics": [
+    "Lead time to a deployed change alongside escaped defects and rework.",
+    "Cost per accepted change and the share of agent proposals that pass meaningful tests and review."
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "status": "Public",
+      "ticker": "NASDAQ:MSFT",
+      "role": "GitHub Copilot and developer-platform distribution.",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "sourceIds": [
+        "a04_c1"
+      ]
+    },
+    {
+      "name": "Alphabet",
+      "status": "Public",
+      "ticker": "NASDAQ:GOOGL",
+      "role": "Gemini development tools and cloud infrastructure.",
+      "url": "https://abc.xyz/investor/",
+      "sourceIds": [
+        "a04_c2"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "status": "Public",
+      "ticker": "NASDAQ:AMZN",
+      "role": "AWS developer assistants and application-migration services.",
+      "url": "https://ir.aboutamazon.com/",
+      "sourceIds": [
+        "a04_c3"
+      ]
+    },
+    {
+      "name": "IBM",
+      "status": "Public",
+      "ticker": "NYSE:IBM",
+      "role": "Enterprise code assistants and modernization.",
+      "url": "https://www.ibm.com/",
+      "sourceIds": [
+        "a04_c4"
+      ]
+    },
+    {
+      "name": "GitLab",
+      "status": "Public",
+      "ticker": "NASDAQ:GTLB",
+      "role": "AI integrated with software delivery and security workflows.",
+      "url": "https://about.gitlab.com/",
+      "sourceIds": [
+        "a04_c5"
+      ]
+    },
+    {
+      "name": "SpaceX",
+      "status": "Public",
+      "ticker": "NASDAQ:SPCX",
+      "role": "Owns Cursor after the August 2026 transaction; software exposure through a diversified public parent.",
+      "url": "https://ir.spacex.com/faqs-and-contact/",
+      "sourceIds": [
+        "a04_c6"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private Codex and coding-model services.",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "sourceIds": [
+        "a04_c7"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private Claude Code supplier; IPO preparation remains pending.",
+      "url": "https://www.anthropic.com/news/series-h",
+      "sourceIds": [
+        "a04_c8"
+      ]
+    },
+    {
+      "name": "JetBrains",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private IDE and AI-development tool company.",
+      "url": "https://www.jetbrains.com/",
+      "sourceIds": [
+        "a04_c9"
+      ]
+    },
+    {
+      "name": "Replit",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private agent-driven application development platform.",
+      "url": "https://replit.com/",
+      "sourceIds": [
+        "a04_c10"
+      ]
+    },
+    {
+      "name": "Cognition",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private software-agent company and Windsurf owner.",
+      "url": "https://cognition.com/",
+      "sourceIds": [
+        "a04_c11"
+      ]
+    }
+  ],
+  "trackers": [
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI: agents, models and operating economics.",
+      "domain": "venturebeat.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://venturebeat.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "kind": "Specialist news",
+      "coverage": "AI startups, product launches and business adoption.",
+      "domain": "techcrunch.com",
+      "latestObserved": "2026-05-28",
+      "activityEvidenceUrl": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/",
+      "kind": "Specialist news",
+      "coverage": "Models, multimodal capabilities and agent behavior.",
+      "domain": "the-decoder.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://the-decoder.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The Register",
+      "url": "https://www.theregister.com/ai_ml/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI, infrastructure, local models and deployment risks.",
+      "domain": "theregister.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "InfoQ",
+      "url": "https://www.infoq.com/ai-ml-data-eng/",
+      "kind": "Specialist news",
+      "coverage": "Production AI architecture, coding tools, retrieval and privacy.",
+      "domain": "infoq.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.infoq.com/ai-ml-data-eng/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "CIO",
+      "url": "https://www.cio.com/",
+      "kind": "Specialist news",
+      "coverage": "Broad enterprise beat: AI purchasing, workflow redesign and governance.",
+      "domain": "cio.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.cio.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "SiliconANGLE",
+      "url": "https://siliconangle.com/",
+      "kind": "Specialist news",
+      "coverage": "Cloud and enterprise AI vendors, economics and infrastructure.",
+      "domain": "siliconangle.com",
+      "latestObserved": "2026-09-11",
+      "activityEvidenceUrl": "https://siliconangle.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/ai/",
+      "kind": "Specialist news",
+      "coverage": "Broad technology beat: models, coding, AI hardware and limitations.",
+      "domain": "arstechnica.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://arstechnica.com/ai/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Computerworld",
+      "url": "https://www.computerworld.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise applications, knowledge work and endpoint AI.",
+      "domain": "computerworld.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.computerworld.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The New Stack",
+      "url": "https://thenewstack.io/",
+      "kind": "Specialist news",
+      "coverage": "Developer and cloud-native AI engineering and sensitive workloads.",
+      "domain": "thenewstack.io",
+      "latestObserved": "2026-09-28",
+      "activityEvidenceUrl": "https://thenewstack.io/confidential-ai-sensitive-enterprise-data/",
+      "activityNote": "Dated article verified in search index; direct retrieval access-restricted."
+    },
+    {
+      "name": "Network World",
+      "url": "https://www.networkworld.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise networks, edge, data-center AI and knowledge infrastructure.",
+      "domain": "networkworld.com",
+      "latestObserved": "2026-10-07",
+      "activityEvidenceUrl": "https://www.networkworld.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    }
+  ],
+  "sources": [
+    {
+      "id": "a04_s1",
+      "title": "FY2024 first-quarter earnings call",
+      "url": "https://www.microsoft.com/en-us/Investor/events/FY-2024/earnings-fy-2024-q1.aspx",
+      "publisher": "Microsoft",
+      "date": "2023-10-24",
+      "accessed": "2026-10-17",
+      "claim": "More than one million paid Copilot users.",
+      "type": "Company earnings",
+      "ref": "turn10search9"
+    },
+    {
+      "id": "a04_s2",
+      "title": "Microsoft 2024 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "publisher": "Microsoft",
+      "date": "2024-07-30",
+      "accessed": "2026-10-17",
+      "claim": "1.8 million paid GitHub Copilot users.",
+      "type": "Company annual report",
+      "ref": "turn10search2"
+    },
+    {
+      "id": "a04_s3",
+      "title": "Microsoft 2025 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "publisher": "Microsoft",
+      "date": "2025-07-30",
+      "accessed": "2026-10-17",
+      "claim": "20 million total users, not a paid-subscriber continuation.",
+      "type": "Company annual report",
+      "ref": "turn213view0"
+    },
+    {
+      "id": "a04_s4",
+      "title": "Introducing GitHub Copilot: your AI pair programmer",
+      "url": "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/",
+      "publisher": "GitHub",
+      "date": "2021-06-29",
+      "accessed": "2026-10-17",
+      "claim": "2021 product introduction.",
+      "type": "Primary product announcement",
+      "ref": "turn207view2"
+    },
+    {
+      "id": "a04_s5",
+      "title": "The state of AI in 2026",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "publisher": "McKinsey",
+      "date": "2026-08-25",
+      "accessed": "2026-10-17",
+      "claim": "Large organizations scaling coding agents.",
+      "type": "Primary research",
+      "ref": "turn53view0"
+    },
+    {
+      "id": "a04_s6",
+      "title": "Cursor company announcements",
+      "url": "https://cursor.com/blog/topic/company",
+      "publisher": "Cursor",
+      "date": "2026-08-14",
+      "accessed": "2026-10-17",
+      "claim": "Cursor is now part of SpaceX.",
+      "type": "Company announcement",
+      "ref": "turn171search4"
+    },
+    {
+      "id": "a04_c1",
+      "title": "Microsoft: product portfolio, company or investor information",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "publisher": "Microsoft",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view0"
+    },
+    {
+      "id": "a04_c2",
+      "title": "Alphabet: product portfolio, company or investor information",
+      "url": "https://abc.xyz/investor/",
+      "publisher": "Alphabet",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view1"
+    },
+    {
+      "id": "a04_c3",
+      "title": "Amazon: product portfolio, company or investor information",
+      "url": "https://ir.aboutamazon.com/",
+      "publisher": "Amazon",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view2"
+    },
+    {
+      "id": "a04_c4",
+      "title": "IBM: product portfolio, company or investor information",
+      "url": "https://www.ibm.com/",
+      "publisher": "IBM",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a04_c5",
+      "title": "GitLab: product portfolio, company or investor information",
+      "url": "https://about.gitlab.com/",
+      "publisher": "GitLab",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a04_c6",
+      "title": "SpaceX: product portfolio, company or investor information",
+      "url": "https://ir.spacex.com/faqs-and-contact/",
+      "publisher": "SpaceX",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn38search0"
+    },
+    {
+      "id": "a04_c7",
+      "title": "OpenAI: product portfolio, company or investor information",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "publisher": "OpenAI",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn161search3"
+    },
+    {
+      "id": "a04_c8",
+      "title": "Anthropic: product portfolio, company or investor information",
+      "url": "https://www.anthropic.com/news/series-h",
+      "publisher": "Anthropic",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn161search0"
+    },
+    {
+      "id": "a04_c9",
+      "title": "JetBrains: product portfolio, company or investor information",
+      "url": "https://www.jetbrains.com/",
+      "publisher": "JetBrains",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn214view3"
+    },
+    {
+      "id": "a04_c10",
+      "title": "Replit: product portfolio, company or investor information",
+      "url": "https://replit.com/",
+      "publisher": "Replit",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn214view4"
+    },
+    {
+      "id": "a04_c11",
+      "title": "Cognition: product portfolio, company or investor information",
+      "url": "https://cognition.com/",
+      "publisher": "Cognition",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn214view5"
+    },
+    {
+      "id": "a04_oct_copilot",
+      "title": "GitHub Copilot on GitHub.com and Mobile",
+      "url": "https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github",
+      "publisher": "GitHub",
+      "date": "2026-10-28",
+      "accessed": "2026-10-28",
+      "claim": "Documentation states the new paid-plan cloud experience starts October 28, with sessions continuing across clients.",
+      "checkedAt": "2026-10-28",
+      "type": "Product documentation",
+      "publishedAt": "2026-10-28"
+    }
+  ],
+  "companyMapNote": "Curated leading and enabling companies, not an exhaustive list or investment recommendation. Public parent exposure may be indirect; private status and pending transactions are assessed at the cutoff.",
+  "trackersNote": "Each site showed dated activity within the preceding 12 months. Dedicated specialists are combined with clearly described broader beats; activity evidence verifies the publication is active, not that every outlet posts on this exact subtopic daily.",
+  "coverage": {
+    "distinctTrackerDomains": 11,
+    "recentlyDatedTrackers": 11,
+    "numericHistoricalPoints": 2
+  },
+  "reviewNote": "October 28 early monthly run: GitHub’s October 28 documentation adds continuous cloud-to-local agent sessions for paid plans; this is a workflow release, not a new paid-adoption statistic. Existing numerical observations and mainstream range retained."
+}

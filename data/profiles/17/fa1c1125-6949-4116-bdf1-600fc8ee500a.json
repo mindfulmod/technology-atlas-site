@@ -1,0 +1,556 @@
+{
+  "id": 17,
+  "name": "Humanoid robots in structured industrial work",
+  "category": "Automation & mobility",
+  "summary": "Human-shaped robots attempt useful physical tasks in factories and warehouses designed around people.",
+  "useCase": "A humanoid repeatedly moves standardized totes between a fixed station and a conveyor, with measured uptime and a safe escalation process.",
+  "whyNow": "Actuators, perception and robot-learning systems are improving, and some suppliers now disclose revenue and customer trials. UBTECH’s full-size humanoid products and services revenue rose from RMB35.6 million in 2024 to RMB820.6 million in 2025. BMW described a 2025 Figure pilot involving roughly 1,250 operating hours. Neither figure proves broad economical autonomy across a full factory shift.",
+  "mainstream": {
+    "year": 2034,
+    "range": [
+      2031,
+      2035
+    ],
+    "confidence": "Low",
+    "scope": "Repeatable, narrowly specified tasks in structured factories and warehouses, with human support and controlled operating areas.",
+    "basis": "Conditional analyst estimate",
+    "rationale": "Real customer trials and early revenue make industrial niches plausible by 2035. Reliability, safety, maintenance and labor-equivalent cost remain unproven at broad scale. A credible downside is that adoption remains a niche beyond 2035 or is displaced by cheaper robot arms and wheeled systems. General-purpose household robots are outside this forecast.",
+    "sourceIds": [
+      "a17_s1",
+      "a17_s2",
+      "a17_s3",
+      "a17_s6"
+    ]
+  },
+  "direction": "Rapid early commercialization; low-confidence scale-up",
+  "metric": {
+    "name": "UBTECH full-size humanoid products and services revenue",
+    "unit": "RMB million per calendar year",
+    "scope": "UBTECH’s disclosed full-size embodied-intelligence humanoid business; one supplier.",
+    "comparable": true,
+    "limitations": "Company-specific revenue from a very small base, including products and services. Sales may include research, demonstration or government customers rather than sustained productive industrial use. The 2026 annual result is not yet available; first-half revenue is not substituted. The annual-report PDF was verified via its indexed HKEX filing; direct extraction exceeded retrieval size limits.",
+    "points": [
+      {
+        "year": 2024,
+        "value": 35.6,
+        "status": "observed",
+        "sourceId": "a17_s1"
+      },
+      {
+        "year": 2025,
+        "value": 820.6,
+        "status": "observed",
+        "sourceId": "a17_s1"
+      }
+    ],
+    "growthLabel": "Early-base revenue rose roughly 23× in 2025",
+    "future": [],
+    "futureNote": "Do not extrapolate the early 23× increase. Factory capacity, conditional orders and planned shipments are not realized sales or productive robot hours. The forward maturity path is explicitly conditional."
+  },
+  "outlookMetrics": [
+    {
+      "name": "Agility RoboFab designed annual capacity",
+      "year": 2026,
+      "value": 10000,
+      "unit": "robots per year",
+      "scope": "Factory design capacity at full utilization",
+      "status": "company target",
+      "sourceId": "a17_s3",
+      "note": "A designed capacity ceiling disclosed in September 2026, not robots produced, shipped or sold. No date for reaching full utilization is assumed."
+    }
+  ],
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "note": "Analyst ordinal assessment, not an adoption percentage: 0 research, 1 proof of concept, 2 pilots, 3 commercial niche, 4 routine use in the stated market, 5 established/expanding. Future values are a scenario."
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "Hyundai completed a controlling investment in Boston Dynamics, illustrating incumbent interest in advanced robotics.",
+      "sourceIds": [
+        "a17_s5"
+      ]
+    },
+    {
+      "year": 2022,
+      "text": "No defensible industry-wide commercial deployment count identified.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "No consistent production-hour or revenue series for the whole humanoid industry identified.",
+      "sourceIds": []
+    },
+    {
+      "year": 2024,
+      "text": "UBTECH reported RMB35.6 million of full-size humanoid products and services revenue.",
+      "sourceIds": [
+        "a17_s1"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "UBTECH’s category revenue reached RMB820.6 million; BMW’s Figure pilot accumulated about 1,250 operating hours.",
+      "sourceIds": [
+        "a17_s1",
+        "a17_s2"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "Agility unveiled Digit 5 and continued its proposed public transaction; BMW introduced another industrial humanoid trial in Leipzig.",
+      "sourceIds": [
+        "a17_s2",
+        "a17_s3",
+        "a17_s4"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "A human-compatible form can access some existing tools and spaces without a full factory redesign.",
+    "Learning systems and simulation may lower the cost of teaching repetitive manipulation tasks."
+  ],
+  "bottlenecks": [
+    "Dexterity, battery endurance, falls, maintenance and safe proximity to people remain difficult.",
+    "Purpose-built arms and mobile robots may deliver better economics; supplier orders can be conditional and capacity announcements speculative."
+  ],
+  "watchMetrics": [
+    "Paid productive hours per robot, intervention frequency, uptime and independently measured cost per completed task.",
+    "Repeat orders from operating customers, including service costs and comparison with simpler automation alternatives."
+  ],
+  "companies": [
+    {
+      "name": "UBTECH",
+      "status": "Public",
+      "ticker": "HKEX:9880",
+      "role": "Public humanoid manufacturer with separately disclosed business revenue.",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "sourceIds": [
+        "a17_c1"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "status": "Public",
+      "ticker": "NASDAQ:TSLA",
+      "role": "Optimus development; current economic exposure is mainly a diversified vehicle/energy business.",
+      "url": "https://www.tesla.com/AI",
+      "sourceIds": [
+        "a17_c2"
+      ]
+    },
+    {
+      "name": "Hyundai Motor",
+      "status": "Public",
+      "ticker": "KRX:005380",
+      "role": "Indirect exposure through controlled private Boston Dynamics.",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000000516",
+      "sourceIds": [
+        "a17_c3"
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "status": "Public",
+      "ticker": "NASDAQ:NVDA",
+      "role": "Robot computing, simulation and learning infrastructure; enabling supplier.",
+      "url": "https://investor.nvidia.com/",
+      "sourceIds": [
+        "a17_c4"
+      ]
+    },
+    {
+      "name": "Harmonic Drive Systems",
+      "status": "Public",
+      "ticker": "TSE:6324",
+      "role": "Precision motion components; indirect supplier exposure.",
+      "url": "https://www.hds.co.jp/english/",
+      "sourceIds": [
+        "a17_c5"
+      ]
+    },
+    {
+      "name": "Figure AI",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private humanoid developer; distinct from unrelated public companies with Figure in their name.",
+      "url": "https://www.figure.ai/news/series-c",
+      "sourceIds": [
+        "a17_c6"
+      ]
+    },
+    {
+      "name": "Agility Robotics",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private Digit supplier; proposed Churchill XI business combination still pending at cutoff.",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination",
+      "sourceIds": [
+        "a17_c7"
+      ]
+    },
+    {
+      "name": "Apptronik",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private Apollo humanoid developer.",
+      "url": "https://apptronik.com/",
+      "sourceIds": [
+        "a17_c8"
+      ]
+    },
+    {
+      "name": "Sanctuary AI",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private physical-AI and industrial manipulation developer.",
+      "url": "https://sanctuary.ai/",
+      "sourceIds": [
+        "a17_c9"
+      ]
+    },
+    {
+      "name": "SiMa.ai",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private edge AI compute enabling physical robots; indirect supplier exposure.",
+      "url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "sourceIds": [
+        "a17_c10"
+      ]
+    }
+  ],
+  "trackers": [
+    {
+      "name": "Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/",
+      "kind": "Specialist news",
+      "coverage": "Specialist humanoid shipments, supplier launches and industrial trials.",
+      "domain": "roboticsandautomationnews.com",
+      "latestObserved": "2026-10-02",
+      "activityEvidenceUrl": "https://roboticsandautomationnews.com/2026/10/02/idc-data-shows-agibot-led-global-humanoid-robot-shipments-in-h1-2026/105463/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Association for Advancing Automation",
+      "url": "https://www.automate.org/",
+      "kind": "Industry association news",
+      "coverage": "Humanoid adoption economics, factory buyers and alternatives.",
+      "domain": "automate.org",
+      "latestObserved": "2026-09-11",
+      "activityEvidenceUrl": "https://www.automate.org/business-of-automation/episodes",
+      "activityNote": "Dated September 11 episode verifies recent publication; the separately sourced September humanoid article adds topic-specific evidence."
+    },
+    {
+      "name": "Automation World",
+      "url": "https://www.automationworld.com/",
+      "kind": "Specialist news",
+      "coverage": "Industrial AI, robots, maintenance, digital twins and plant operations.",
+      "domain": "automationworld.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.automationworld.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Control Engineering",
+      "url": "https://www.controleng.com/",
+      "kind": "Specialist news",
+      "coverage": "Controls, digital twins, industrial AI, motion and implementation.",
+      "domain": "controleng.com",
+      "latestObserved": "2026-10-05",
+      "activityEvidenceUrl": "https://www.controleng.com/how-integrating-new-ai-tools-helps-automation-motion-control/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Design World",
+      "url": "https://www.designworldonline.com/",
+      "kind": "Specialist news",
+      "coverage": "Robots, motion systems, industrial machinery and components.",
+      "domain": "designworldonline.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.designworldonline.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Engineering.com",
+      "url": "https://www.engineering.com/",
+      "kind": "Specialist news",
+      "coverage": "Engineering software, twins, physical AI and industrial technology.",
+      "domain": "engineering.com",
+      "latestObserved": "2026-10-14",
+      "activityEvidenceUrl": "https://www.engineering.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "EE Times",
+      "url": "https://www.eetimes.com/",
+      "kind": "Specialist news",
+      "coverage": "Semiconductors, embedded AI, optics and industrial electronics.",
+      "domain": "eetimes.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.eetimes.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Manufacturing Dive",
+      "url": "https://www.manufacturingdive.com/",
+      "kind": "Specialist news",
+      "coverage": "Broad manufacturing business beat: investment, automation and labor.",
+      "domain": "manufacturingdive.com",
+      "latestObserved": "2026-10-06",
+      "activityEvidenceUrl": "https://www.manufacturingdive.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI: agents, models and operating economics.",
+      "domain": "venturebeat.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://venturebeat.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "kind": "Specialist news",
+      "coverage": "Humanoid startups, funding, deployments and expansion.",
+      "domain": "techcrunch.com",
+      "latestObserved": "2026-07-17",
+      "activityEvidenceUrl": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/ai/",
+      "kind": "Specialist news",
+      "coverage": "Broad technology beat covering physical AI, robotics and deployment limits.",
+      "domain": "arstechnica.com",
+      "latestObserved": "2026-10-12",
+      "activityEvidenceUrl": "https://arstechnica.com/ai/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    }
+  ],
+  "sources": [
+    {
+      "id": "a17_s1",
+      "title": "UBTECH 2025 Annual Report",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "publisher": "UBTECH / HKEX",
+      "date": "2026-04-14",
+      "accessed": "2026-10-17",
+      "claim": "Full-size humanoid products and services revenue: RMB35.6m in 2024 and RMB820.6m in 2025.",
+      "type": "Company annual report",
+      "ref": "turn150search45"
+    },
+    {
+      "id": "a17_s2",
+      "title": "First humanoid robot introduced in Plant Leipzig",
+      "url": "https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html",
+      "publisher": "BMW Group",
+      "date": "2026-09-21",
+      "accessed": "2026-10-17",
+      "claim": "2026 Leipzig trial and 2025 Figure pilot operating experience.",
+      "type": "Customer deployment report",
+      "ref": "turn270view2"
+    },
+    {
+      "id": "a17_s3",
+      "title": "Agility unveils Digit 5",
+      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+      "publisher": "Agility Robotics",
+      "date": "2026-09-15",
+      "accessed": "2026-10-17",
+      "claim": "New product, conditional orders and RoboFab designed capacity of 10,000 per year.",
+      "type": "Company announcement",
+      "ref": "turn270view1"
+    },
+    {
+      "id": "a17_s4",
+      "title": "Agility / Churchill XI registration statement declared effective",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination",
+      "publisher": "Agility Robotics",
+      "date": "2026-10-13",
+      "accessed": "2026-10-17",
+      "claim": "Proposed business combination remains pending; not yet an Agility public listing.",
+      "type": "Company transaction announcement",
+      "ref": "turn38search4"
+    },
+    {
+      "id": "a17_s5",
+      "title": "Hyundai completes acquisition of Boston Dynamics",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000000516",
+      "publisher": "Hyundai Motor Group",
+      "date": "2021-06-21",
+      "accessed": "2026-10-17",
+      "claim": "Controlling 80% investment in Boston Dynamics.",
+      "type": "Company announcement",
+      "ref": "turn143search5"
+    },
+    {
+      "id": "a17_s6",
+      "title": "GXO’s automation plans and humanoid deployment constraints",
+      "url": "https://www.automate.org/robotics/industry-insights/gxo-plans-20-000-robots-in-2026-none-of-them-will-be-humanoids",
+      "publisher": "Association for Advancing Automation",
+      "date": null,
+      "accessed": "2026-10-28",
+      "claim": "Buyer perspective distinguishing humanoid pilots from broad production automation.",
+      "type": "Industry association analysis",
+      "ref": "turn206search26",
+      "publishedPeriod": "2026-09"
+    },
+    {
+      "id": "a17_c1",
+      "title": "UBTECH: product portfolio, company or investor information",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "publisher": "UBTECH",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn150search45"
+    },
+    {
+      "id": "a17_c2",
+      "title": "Tesla: product portfolio, company or investor information",
+      "url": "https://www.tesla.com/AI",
+      "publisher": "Tesla",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a17_c3",
+      "title": "Hyundai Motor: product portfolio, company or investor information",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000000516",
+      "publisher": "Hyundai Motor",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn143search5"
+    },
+    {
+      "id": "a17_c4",
+      "title": "NVIDIA: product portfolio, company or investor information",
+      "url": "https://investor.nvidia.com/",
+      "publisher": "NVIDIA",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view5"
+    },
+    {
+      "id": "a17_c5",
+      "title": "Harmonic Drive Systems: product portfolio, company or investor information",
+      "url": "https://www.hds.co.jp/english/",
+      "publisher": "Harmonic Drive Systems",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a17_c6",
+      "title": "Figure AI: product portfolio, company or investor information",
+      "url": "https://www.figure.ai/news/series-c",
+      "publisher": "Figure AI",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn143search1"
+    },
+    {
+      "id": "a17_c7",
+      "title": "Agility Robotics: product portfolio, company or investor information",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination",
+      "publisher": "Agility Robotics",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn38search4"
+    },
+    {
+      "id": "a17_c8",
+      "title": "Apptronik: product portfolio, company or investor information",
+      "url": "https://apptronik.com/",
+      "publisher": "Apptronik",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a17_c9",
+      "title": "Sanctuary AI: product portfolio, company or investor information",
+      "url": "https://sanctuary.ai/",
+      "publisher": "Sanctuary AI",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn214view2"
+    },
+    {
+      "id": "a17_c10",
+      "title": "SiMa.ai: product portfolio, company or investor information",
+      "url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "publisher": "SiMa.ai",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn160search0"
+    },
+    {
+      "id": "a17r_gxo_oct",
+      "title": "GXO and Agility expand partnership to additional US sites",
+      "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations",
+      "publisher": "GXO / Agility Robotics",
+      "date": "2026-10-26",
+      "accessed": "2026-10-28",
+      "claim": "Two additional GXO sites expected in early 2027; announced plans are separate from existing operational experience.",
+      "type": "Company disclosure"
+    }
+  ],
+  "companyMapNote": "Curated leading and enabling companies, not an exhaustive list or investment recommendation. Public parent exposure may be indirect; private status and pending transactions are assessed at the cutoff.",
+  "trackersNote": "Each site showed dated activity within the preceding 12 months. Dedicated specialists are combined with clearly described broader beats; activity evidence verifies the publication is active, not that every outlet posts on this exact subtopic daily.",
+  "coverage": {
+    "distinctTrackerDomains": 11,
+    "recentlyDatedTrackers": 11,
+    "numericHistoricalPoints": 2
+  },
+  "reviewNote": "October 26 joint announcement adds a planned two-site expansion; existing commercial experience strengthens the signal but unit economics and scalable deployments remain unproven. Historical revenue/measurements unchanged.",
+  "researchStatus": "Monthly review checked 2026-10-28; source dates and limitations retained."
+}

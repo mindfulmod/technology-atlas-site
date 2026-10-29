@@ -1,0 +1,542 @@
+{
+  "id": 36,
+  "name": "High-temperature and industrial heat pumps",
+  "category": "Electrification",
+  "summary": "Industrial heat pumps upgrade low-grade waste heat into useful hot water or steam, reducing the fuel needed for process heating.",
+  "useCase": "A food plant recovers refrigeration heat and uses it to pasteurise or clean equipment instead of producing all its heat with gas.",
+  "whyNow": "High-temperature products are moving from prototypes into operating industrial sites. The IEA’s 2026 review says systems below 120°C have entered commercial operation and units below 160°C are beginning to do so. Japan’s installed industrial capacity approached 650 MW in 2024, but this still served only around 1% of light-industry heat demand. Wider adoption depends on each site’s waste-heat temperature, operating hours, electrical connection and electricity-to-gas price ratio. A good coefficient of performance in one demonstration is not a universal economic case: the required temperature lift is decisive. This is a market with strong technical potential and highly uneven project economics.",
+  "mainstream": {
+    "year": 2031,
+    "range": [
+      2028,
+      2035
+    ],
+    "confidence": "Medium",
+    "scope": "Routine selection for suitable low-to-medium-temperature process-heat projects in food, paper and other light industries, especially with recoverable waste heat.",
+    "basis": "Analyst estimate; conditional sector adoption",
+    "rationale": "Repeat industrial packages, integrator experience and rising efficiency support adoption in the early 2030s. This does not imply widespread replacement of very high-temperature furnaces. IEA’s current-policy scenario is broadly stagnant through 2035, whereas its stated-policy scenario reaches about 8% of light-industry heat demand; policy and electricity economics are therefore material conditions.",
+    "sourceIds": [
+      "c36a",
+      "c36b"
+    ]
+  },
+  "direction": "Growing, policy sensitive",
+  "metric": {
+    "name": "Installed industrial heat-pump capacity in Japan",
+    "unit": "MW thermal",
+    "scope": "Japan; industrial equipment only, not residential or all commercial heat pumps.",
+    "comparable": false,
+    "limitations": "Only one comparable observation within 2021–2026 was publicly established in the selected sources. The IEA/HPT commentary gives 290 MW a decade earlier, but that lies outside the requested five-year window. Do not invent annual values or infer the industrial trend from residential sales.",
+    "points": [
+      {
+        "year": 2024,
+        "value": 650,
+        "status": "observed",
+        "sourceId": "c36a",
+        "approximate": true
+      }
+    ],
+    "future": [],
+    "futureNote": "No defensible comparable external deployment forecast found. The separate maturity path is an analyst scenario, not measured adoption.",
+    "growthLabel": "≈650 MW in Japan in 2024; sparse annual data"
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "The IEA HPT Annex 58 programme began its 2021–2023 high-temperature heat-pump work; deployment statistics remained fragmented.",
+      "sourceIds": [
+        "c36c"
+      ]
+    },
+    {
+      "year": 2022,
+      "text": "IEA HPT’s synthesis describes demonstration of equipment reaching around 120°C during this period.",
+      "sourceIds": [
+        "c36b"
+      ]
+    },
+    {
+      "year": 2023,
+      "text": "Annex 58 published its technology review in September, consolidating available products and development work.",
+      "sourceIds": [
+        "c36c"
+      ]
+    },
+    {
+      "year": 2024,
+      "text": "Japan’s industrial heat-pump capacity reached nearly 650 MW, still about 1% of light-industry heat demand.",
+      "sourceIds": [
+        "c36a"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "EHPA’s industrial programme highlighted operating use in food, paper, chemicals and other industries; this is sector evidence, not a global installation census.",
+      "sourceIds": [
+        "c36d"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "IEA’s first Heat Pump Monitor identified early commercial operation below 160°C and major policy-dependent differences in the 2035 outlook.",
+      "sourceIds": [
+        "c36a"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Reusing waste heat can reduce fuel use and exposure to fossil-fuel price volatility.",
+    "Existing compressor, refrigeration and engineering suppliers can industrialise proven components.",
+    "Long operating hours in factories can improve payback when electricity is competitively priced."
+  ],
+  "bottlenecks": [
+    "Capital cost, process integration and plant downtime complicate retrofits.",
+    "High electricity-to-gas prices can outweigh an attractive technical efficiency.",
+    "Above roughly 160–200°C, technology readiness and economics remain more demanding."
+  ],
+  "watchMetrics": [
+    "MW thermal commissioned for industrial service, separated by delivered temperature.",
+    "Measured seasonal/process COP and total delivered heat cost at a specified temperature lift.",
+    "Share of repeat orders and standard packages versus heavily customised pilots."
+  ],
+  "sources": [
+    {
+      "id": "c36a",
+      "title": "Heat Pump Monitor 2026: key findings",
+      "url": "https://www.iea.org/reports/heat-pump-monitor-2026/key-findings",
+      "publisher": "IEA",
+      "date": "2026-07-28",
+      "claim": "Japan capacity, temperature readiness, and scenario-dependent industrial uptake by 2035.",
+      "type": "Primary research",
+      "ref": "turn152view0"
+    },
+    {
+      "id": "c36b",
+      "title": "Heat Pumps Step Up: What the IEA Heat Pump Monitor 2026 Means",
+      "url": "https://heatpumpingtechnologies.org/articles/heat-pumps-step-up-what-the-ieas-heat-pump-monitor-2026-means-for-heating-industry-and-energy-security/",
+      "publisher": "IEA HPT TCP",
+      "date": null,
+      "claim": "Technical synthesis: historical Japan baseline, process temperatures and industrial economics.",
+      "type": "Primary research",
+      "ref": "turn152view1"
+    },
+    {
+      "id": "c36c",
+      "title": "Project 58: High-Temperature Heat Pumps",
+      "url": "https://heatpumpingtechnologies.org/project58/",
+      "publisher": "IEA HPT TCP",
+      "date": null,
+      "claim": "2021–2023 programme and September 2023 technology report.",
+      "type": "Primary research",
+      "ref": "turn148search2"
+    },
+    {
+      "id": "c36d",
+      "title": "Annual report 2025: the industrial sleeping giant",
+      "url": "https://ehpa.org/news-and-resources/publications/annual-report-2025-the-industrial-sleeping-giant/",
+      "publisher": "European Heat Pump Association",
+      "date": "2026-01-28",
+      "claim": "Industrial programme and operating sectors; technical potential is not adoption.",
+      "type": "Primary research",
+      "ref": "turn25search2"
+    },
+    {
+      "id": "c36co1",
+      "title": "GEA Group: official company information",
+      "url": "https://www.gea.com/en/products/heat-pumps/",
+      "publisher": "GEA Group",
+      "date": null,
+      "claim": "Industrial heat pumps and integrated heating/refrigeration equipment.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co2",
+      "title": "Johnson Controls: official company information",
+      "url": "https://www.johnsoncontrols.com/",
+      "publisher": "Johnson Controls",
+      "date": null,
+      "claim": "Sabroe and other industrial high-temperature heat-pump systems and controls.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co3",
+      "title": "Trane Technologies: official company information",
+      "url": "https://www.tranetechnologies.com/",
+      "publisher": "Trane Technologies",
+      "date": null,
+      "claim": "Large commercial and industrial heat pumps and heat-recovery systems.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co4",
+      "title": "Daikin Industries: official company information",
+      "url": "https://www.daikin.com/",
+      "publisher": "Daikin Industries",
+      "date": null,
+      "claim": "Heat-pump equipment and compressors; industrial exposure within a broad HVAC business.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co5",
+      "title": "Mitsubishi Electric: official company information",
+      "url": "https://www.mitsubishielectric.com/",
+      "publisher": "Mitsubishi Electric",
+      "date": null,
+      "claim": "Heat pumps, compressors and industrial electrification components; diversified exposure.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co6",
+      "title": "Danfoss: official company information",
+      "url": "https://www.danfoss.com/",
+      "publisher": "Danfoss",
+      "date": null,
+      "claim": "Compressors, drives, heat exchangers and controls that enable industrial heat pumps.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co7",
+      "title": "Mayekawa: official company information",
+      "url": "https://www.mayekawa.com/",
+      "publisher": "Mayekawa",
+      "date": null,
+      "claim": "Industrial refrigeration and heat-pump systems using natural refrigerants.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co8",
+      "title": "Oilon: official company information",
+      "url": "https://oilon.com/",
+      "publisher": "Oilon",
+      "date": null,
+      "claim": "Industrial and district-heating heat pumps and thermal engineering.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co9",
+      "title": "Skyven Technologies: official company information",
+      "url": "https://www.skyven.co/",
+      "publisher": "Skyven Technologies",
+      "date": null,
+      "claim": "Steam-generating industrial heat pumps and heat-as-a-service projects.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "c36co10",
+      "title": "Futraheat: official company information",
+      "url": "https://www.futraheat.com/",
+      "publisher": "Futraheat",
+      "date": null,
+      "claim": "High-temperature heat-pump technology designed to supply industrial steam.",
+      "type": "Company disclosure",
+      "ref": null
+    },
+    {
+      "id": "oct28-36-scan",
+      "title": "Industrial Accelerator Act: one size can’t fit all",
+      "url": "https://ehpa.org/news-and-resources/news/industrial-accelerator-act-one-size-cant-fit-all/",
+      "publisher": "European Heat Pump Association",
+      "date": "2026-10-22",
+      "accessed": "2026-10-28",
+      "claim": "EHPA’s 22 October policy position calls for manufacturing rules that reflect differing heat-pump supply chains; this is advocacy, not a deployment measurement.",
+      "type": "Industry association policy position"
+    }
+  ],
+  "trackers": [
+    {
+      "name": "Cooling Post",
+      "url": "https://www.coolingpost.com/products/high-temperature-hydrocarbon-heat-pumps/",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "coolingpost.com",
+      "latestObserved": "2026-09-15",
+      "activityEvidenceUrl": "https://www.coolingpost.com/products/high-temperature-hydrocarbon-heat-pumps/",
+      "activityNote": "Publication date directly observed on the retrieved page: 2026-09-15.",
+      "verifiedRecent": true,
+      "evidenceTitle": "High-temperature hydrocarbon heat pumps - Cooling Post",
+      "evidenceRef": "turn215view0"
+    },
+    {
+      "name": "ACHR News",
+      "url": "https://digital.achrnews.com/articles/report-shows-heat-pumps-viable-in-commercial-and-industrial-markets",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "achrnews.com",
+      "latestObserved": "2026-05-18",
+      "activityEvidenceUrl": "https://digital.achrnews.com/articles/report-shows-heat-pumps-viable-in-commercial-and-industrial-markets",
+      "activityNote": "Dated item visible in retrieved page/index: 2026-05-18. Search publication metadata: 5 months ago. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "NEWS • May 18, 2026 • Report Shows Heat Pumps Viable in Commercial and Industrial Markets",
+      "evidenceRef": "turn46search25"
+    },
+    {
+      "name": "IEA Heat Pumping Technologies TCP",
+      "url": "https://heatpumpingtechnologies.org/publications/modularisation-and-upscaling-of-high-temperature-heat-pumpsfor-industrial-applications/",
+      "kind": "Research / association / public updates",
+      "coverage": "Industrial heat pump developments; primary updates and research.",
+      "domain": "heatpumpingtechnologies.org",
+      "latestObserved": "2026-05-26",
+      "activityEvidenceUrl": "https://heatpumpingtechnologies.org/publications/modularisation-and-upscaling-of-high-temperature-heat-pumpsfor-industrial-applications/",
+      "activityNote": "Dated item visible in retrieved page/index: 2026-05-26. Search publication metadata: 4 months ago. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "Modularisation and Upscaling of high temperature heat pumps for industrial applications - HPT - Heat Pumping Technologies",
+      "evidenceRef": "turn46search13"
+    },
+    {
+      "name": "European Heat Pump Association",
+      "url": "https://ehpa.org/industrial-heat-pumps/",
+      "kind": "Research / association / public updates",
+      "coverage": "Industrial heat pump developments; primary updates and research.",
+      "domain": "ehpa.org",
+      "latestObserved": "2026-05-22",
+      "activityEvidenceUrl": "https://ehpa.org/industrial-heat-pumps/",
+      "activityNote": "Dated item visible in retrieved page/index: 2026-05-22. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "Industrial heat pumps - European Heat Pump Association",
+      "evidenceRef": "turn46search0"
+    },
+    {
+      "name": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/09/03/skyven-technologies-industrial-heat-pump-achieves-cop-of-8-0/",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "pv-magazine.com",
+      "latestObserved": "2026-09-03",
+      "activityEvidenceUrl": "https://www.pv-magazine.com/2026/09/03/skyven-technologies-industrial-heat-pump-achieves-cop-of-8-0/",
+      "activityNote": "Dated article URL: 2026-09-03. Search publication metadata: last month. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "Skyven Technologies’ industrial heat pump achieves COP of 8.0 - pv magazine Global",
+      "evidenceRef": "turn44search0"
+    },
+    {
+      "name": "RenewEconomy",
+      "url": "https://reneweconomy.com.au/the-hidden-transition-businesses-are-quietly-dumping-gas-for-electric-in-big-shift-to-industrial-heat-pumps/",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "reneweconomy.com.au",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://reneweconomy.com.au/the-hidden-transition-businesses-are-quietly-dumping-gas-for-electric-in-big-shift-to-industrial-heat-pumps/",
+      "activityNote": "Dated item visible in retrieved page/index: 2026-10-15. Search publication metadata: 2 days ago. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "The hidden transition: Businesses are quietly dumping gas for electric in big shift to industrial heat pumps",
+      "evidenceRef": "turn44search12"
+    },
+    {
+      "name": "Energy Live News",
+      "url": "https://www.energylivenews.com/2026/09/23/can-heat-pumps-help-industry-decarbonise/",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "energylivenews.com",
+      "latestObserved": "2026-09-23",
+      "activityEvidenceUrl": "https://www.energylivenews.com/2026/09/23/can-heat-pumps-help-industry-decarbonise/",
+      "activityNote": "Dated article URL: 2026-09-23. Search publication metadata: 3 weeks ago. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "Can heat pumps help industry decarbonise? - Energy Live News",
+      "evidenceRef": "turn113search0"
+    },
+    {
+      "name": "Natural Refrigerants",
+      "url": "https://naturalrefrigerants.com/news/chillventa-2026-natural-refrigerant-industrial-heat-pumps-a-focus-of-2026-chillventa-congr/",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "naturalrefrigerants.com",
+      "latestObserved": "2026-10-13",
+      "activityEvidenceUrl": "https://naturalrefrigerants.com/news/chillventa-2026-natural-refrigerant-industrial-heat-pumps-a-focus-of-2026-chillventa-congr/",
+      "activityNote": "Publication date directly observed on the retrieved page: 2026-10-13.",
+      "verifiedRecent": true,
+      "evidenceTitle": "Chillventa 2026: Natural Refrigerant Industrial Heat Pumps a Focus of 2026 Chillventa Congress · NaturalRefrigerants.com",
+      "evidenceRef": "turn215view1"
+    },
+    {
+      "name": "chemengonline.com",
+      "url": "https://www.chemengonline.com/industrial-heat-pumps-for-waste-heat-upgrading/",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "chemengonline.com",
+      "latestObserved": "2026-10-01",
+      "activityEvidenceUrl": "https://www.chemengonline.com/industrial-heat-pumps-for-waste-heat-upgrading/",
+      "activityNote": "Dated item visible in retrieved page/index: 2026-10-01. Search publication metadata: 2 weeks ago. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "Industrial Heat Pumps for Waste-Heat Upgrading - Chemical Engineering | Page 1",
+      "evidenceRef": "turn189search0"
+    },
+    {
+      "name": "heat-exchanger-world.com",
+      "url": "https://heat-exchanger-world.com/uniper-evonik-commission-innovative-heat-pump-in-ruhr/",
+      "kind": "Specialist news",
+      "coverage": "Industrial heat pump developments; commercial deployments, policy and industry news.",
+      "domain": "heat-exchanger-world.com",
+      "latestObserved": "2026-04-17",
+      "activityEvidenceUrl": "https://heat-exchanger-world.com/uniper-evonik-commission-innovative-heat-pump-in-ruhr/",
+      "activityNote": "Dated item visible in retrieved page/index: 2026-04-17. Search publication metadata: 6 months ago. ",
+      "verifiedRecent": true,
+      "evidenceTitle": "Uniper-Evonik commission innovative heat pump in Ruhr - Heat Exchanger World",
+      "evidenceRef": "turn189search23"
+    }
+  ],
+  "companies": [
+    {
+      "name": "GEA Group",
+      "status": "Public",
+      "ticker": "XETRA:G1A",
+      "role": "Industrial heat pumps and integrated heating/refrigeration equipment.",
+      "url": "https://www.gea.com/en/products/heat-pumps/",
+      "sourceIds": [
+        "c36co1"
+      ]
+    },
+    {
+      "name": "Johnson Controls",
+      "status": "Public",
+      "ticker": "NYSE:JCI",
+      "role": "Sabroe and other industrial high-temperature heat-pump systems and controls.",
+      "url": "https://www.johnsoncontrols.com/",
+      "sourceIds": [
+        "c36co2"
+      ]
+    },
+    {
+      "name": "Trane Technologies",
+      "status": "Public",
+      "ticker": "NYSE:TT",
+      "role": "Large commercial and industrial heat pumps and heat-recovery systems.",
+      "url": "https://www.tranetechnologies.com/",
+      "sourceIds": [
+        "c36co3"
+      ]
+    },
+    {
+      "name": "Daikin Industries",
+      "status": "Public",
+      "ticker": "TSE:6367",
+      "role": "Heat-pump equipment and compressors; industrial exposure within a broad HVAC business.",
+      "url": "https://www.daikin.com/",
+      "sourceIds": [
+        "c36co4"
+      ]
+    },
+    {
+      "name": "Mitsubishi Electric",
+      "status": "Public",
+      "ticker": "TSE:6503",
+      "role": "Heat pumps, compressors and industrial electrification components; diversified exposure.",
+      "url": "https://www.mitsubishielectric.com/",
+      "sourceIds": [
+        "c36co5"
+      ]
+    },
+    {
+      "name": "Danfoss",
+      "status": "Private",
+      "ticker": null,
+      "role": "Compressors, drives, heat exchangers and controls that enable industrial heat pumps.",
+      "url": "https://www.danfoss.com/",
+      "sourceIds": [
+        "c36co6"
+      ]
+    },
+    {
+      "name": "Mayekawa",
+      "status": "Private",
+      "ticker": null,
+      "role": "Industrial refrigeration and heat-pump systems using natural refrigerants.",
+      "url": "https://www.mayekawa.com/",
+      "sourceIds": [
+        "c36co7"
+      ]
+    },
+    {
+      "name": "Oilon",
+      "status": "Private",
+      "ticker": null,
+      "role": "Industrial and district-heating heat pumps and thermal engineering.",
+      "url": "https://oilon.com/",
+      "sourceIds": [
+        "c36co8"
+      ]
+    },
+    {
+      "name": "Skyven Technologies",
+      "status": "Private",
+      "ticker": null,
+      "role": "Steam-generating industrial heat pumps and heat-as-a-service projects.",
+      "url": "https://www.skyven.co/",
+      "sourceIds": [
+        "c36co9"
+      ]
+    },
+    {
+      "name": "Futraheat",
+      "status": "Private",
+      "ticker": null,
+      "role": "High-temperature heat-pump technology designed to supply industrial steam.",
+      "url": "https://www.futraheat.com/",
+      "sourceIds": [
+        "c36co10"
+      ]
+    }
+  ],
+  "outlookMetrics": [
+    {
+      "name": "Industrial heat pumps: stated-policy scenario",
+      "year": 2035,
+      "value": 8,
+      "unit": "% of heat demand",
+      "scope": "Global light-industry heat demand",
+      "status": "IEA STEPS scenario",
+      "sourceId": "c36a",
+      "note": "About 8% under stated policies; not all industrial heat and not the stagnant current-policy case."
+    },
+    {
+      "name": "Industrial heat pumps: net-zero pathway",
+      "year": 2035,
+      "value": 20,
+      "unit": "% of heat demand",
+      "scope": "Global light-industry heat demand",
+      "status": "IEA NZE normative pathway",
+      "sourceId": "c36a",
+      "note": "A pathway consistent with the IEA net-zero scenario, not an unconditional market forecast."
+    }
+  ],
+  "coverage": {
+    "distinctTrackerDomains": 10,
+    "recentlyDatedTrackers": 10,
+    "numericHistoricalPoints": 1
+  },
+  "reviewNote": "28 October broad review: new association policy commentary reinforces supply-chain and affordability dependencies. No verified new installed-capacity evidence justifies changing the existing curve or adoption estimate."
+}

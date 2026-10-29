@@ -1,0 +1,559 @@
+{
+  "id": 3,
+  "name": "Edge and on-device AI",
+  "category": "Intelligence",
+  "summary": "AI runs locally on phones, PCs, cameras and industrial equipment to reduce latency and reliance on a cloud connection.",
+  "useCase": "A factory camera detects a defective component immediately on the production line; a laptop transcribes a confidential meeting locally.",
+  "whyNow": "Specialized neural processors are spreading through devices while smaller models improve the range of feasible local tasks. Hardware availability is moving faster than evidence of daily use. Counterpoint counted 143 generative-AI-capable smartphone models in Q1 2025, up from 123 one quarter earlier. IoT Analytics still estimated that fewer than 1% of connected IoT devices contained a true AI accelerator at the end of 2025. Apple’s October 27 iMac launch adds another on-device AI platform; manufacturer benchmarks are not a measure of everyday usage.",
+  "mainstream": {
+    "year": 2029,
+    "range": [
+      2027,
+      2031
+    ],
+    "confidence": "High",
+    "scope": "Routine useful local AI on premium-to-midrange PCs and phones, plus selected industrial edge devices; not every connected sensor.",
+    "basis": "Analyst estimate",
+    "rationale": "A normal device replacement cycle can distribute capable hardware rapidly, and Gartner expected AI PCs to become standard by 2029. Adoption of useful applications may lag the installed chips. Memory costs, battery life and weaker-than-expected PC demand could delay the window, especially outside premium markets.",
+    "sourceIds": [
+      "a03_s1",
+      "a03_s2",
+      "a03_s3",
+      "a03_s4"
+    ]
+  },
+  "direction": "Expanding from premium devices",
+  "metric": {
+    "name": "GenAI-capable smartphone models tracked",
+    "unit": "device models",
+    "scope": "Counterpoint Research’s global capable-smartphone catalog.",
+    "comparable": false,
+    "limitations": "Supply-side model count, not shipment volume, installed base or active AI feature use. Two quarterly snapshots, not annual totals. Devices differ substantially in local model capability. There is no fabricated continuous 2021–2026 adoption series.",
+    "points": [
+      {
+        "year": 2024,
+        "value": 123,
+        "status": "observed",
+        "sourceId": "a03_s1",
+        "asOf": "2024-12-31"
+      },
+      {
+        "year": 2025,
+        "value": 143,
+        "status": "observed",
+        "sourceId": "a03_s1",
+        "asOf": "2025-03-31"
+      }
+    ],
+    "growthLabel": "+20 capable models between Q4 2024 and Q1 2025",
+    "future": [],
+    "futureNote": "Gartner’s separately displayed PC forecast concerns a different device class and was published in August 2025, before the 2026 memory-market shock."
+  },
+  "outlookMetrics": [
+    {
+      "name": "AI PC shipments",
+      "year": 2026,
+      "value": 143,
+      "unit": "million PCs",
+      "scope": "Worldwide; Gartner August 2025 forecast",
+      "status": "external forecast",
+      "sourceId": "a03_s2",
+      "note": "Forecast of 55% of PC shipments. Not an observed 2026 result and not directly comparable with smartphone model counts."
+    }
+  ],
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "note": "Analyst ordinal assessment, not an adoption percentage: 0 research, 1 proof of concept, 2 pilots, 3 commercial niche, 4 routine use in the stated market, 5 established/expanding. Future values are a scenario."
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "No comparable generative edge-AI adoption measure identified; earlier mobile neural processing had different workloads.",
+      "sourceIds": []
+    },
+    {
+      "year": 2022,
+      "text": "No comparable local-generative-AI usage count identified.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "IDC identified the first next-generation AI smartphones in the second half of 2023.",
+      "sourceIds": [
+        "a03_s5"
+      ]
+    },
+    {
+      "year": 2024,
+      "text": "Counterpoint’s year-end catalog contained 123 GenAI-capable smartphone models.",
+      "sourceIds": [
+        "a03_s1"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "The catalog reached 143 models in Q1; true edge accelerators remained rare across the broader IoT base.",
+      "sourceIds": [
+        "a03_s1",
+        "a03_s3"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "IDC highlighted memory-related PC and smartphone constraints; Microchip completed its acquisition of Hailo in September.",
+      "sourceIds": [
+        "a03_s4",
+        "a03_s6"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Low-latency and offline operation create clear value for cameras, machinery and mobile interfaces.",
+    "Local processing can reduce cloud traffic and keep selected sensitive inputs on the device."
+  ],
+  "bottlenecks": [
+    "Memory bandwidth, heat, power and model size limit useful local workloads.",
+    "A capable NPU can remain idle if applications do not provide a compelling recurring use case."
+  ],
+  "watchMetrics": [
+    "Active local-inference users and workload share, rather than device marketing labels.",
+    "Cost and energy per useful inference, measured at the required accuracy and latency."
+  ],
+  "companies": [
+    {
+      "name": "Qualcomm",
+      "status": "Public",
+      "ticker": "NASDAQ:QCOM",
+      "role": "Snapdragon smartphone and PC processors with AI acceleration.",
+      "url": "https://investor.qualcomm.com/",
+      "sourceIds": [
+        "a03_c1"
+      ]
+    },
+    {
+      "name": "Apple",
+      "status": "Public",
+      "ticker": "NASDAQ:AAPL",
+      "role": "Integrated hardware, operating systems and local-model distribution.",
+      "url": "https://investor.apple.com/",
+      "sourceIds": [
+        "a03_c2"
+      ]
+    },
+    {
+      "name": "AMD",
+      "status": "Public",
+      "ticker": "NASDAQ:AMD",
+      "role": "Ryzen AI processors and embedded compute.",
+      "url": "https://ir.amd.com/",
+      "sourceIds": [
+        "a03_c3"
+      ]
+    },
+    {
+      "name": "Intel",
+      "status": "Public",
+      "ticker": "NASDAQ:INTC",
+      "role": "Core Ultra processors and edge platforms.",
+      "url": "https://www.intc.com/",
+      "sourceIds": [
+        "a03_c4"
+      ]
+    },
+    {
+      "name": "MediaTek",
+      "status": "Public",
+      "ticker": "TWSE:2454",
+      "role": "Mobile and embedded AI system-on-chips.",
+      "url": "https://www.mediatek.com/",
+      "sourceIds": [
+        "a03_c5"
+      ]
+    },
+    {
+      "name": "Arm",
+      "status": "Public",
+      "ticker": "NASDAQ:ARM",
+      "role": "Processor architecture and ecosystem IP; indirect design exposure.",
+      "url": "https://investors.arm.com/",
+      "sourceIds": [
+        "a03_c6"
+      ]
+    },
+    {
+      "name": "NXP",
+      "status": "Public",
+      "ticker": "NASDAQ:NXPI",
+      "role": "Industrial and automotive edge processing.",
+      "url": "https://www.nxp.com/",
+      "sourceIds": [
+        "a03_c7"
+      ]
+    },
+    {
+      "name": "Microchip Technology",
+      "status": "Public",
+      "ticker": "NASDAQ:MCHP",
+      "role": "Embedded products plus Hailo, acquired September 2026.",
+      "url": "https://ir.microchip.com/news-events/press-releases/detail/1415/microchip-technology-completes-acquisition-of-hailo",
+      "sourceIds": [
+        "a03_c8"
+      ]
+    },
+    {
+      "name": "SiMa.ai",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private physical-AI edge processors and software.",
+      "url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "sourceIds": [
+        "a03_c9"
+      ]
+    },
+    {
+      "name": "Baya Systems",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private interconnect IP enabling advanced AI systems; indirect supplier exposure.",
+      "url": "https://bayasystems.com/press-releases/baya-systems-raises-36m-propel-ai-chiplet-innovation/",
+      "sourceIds": [
+        "a03_c10"
+      ]
+    }
+  ],
+  "trackers": [
+    {
+      "name": "EE Times",
+      "url": "https://www.eetimes.com/",
+      "kind": "Specialist news",
+      "coverage": "Semiconductors, embedded AI, optics and industrial electronics.",
+      "domain": "eetimes.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.eetimes.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/",
+      "kind": "Specialist news",
+      "coverage": "Chiplets, packaging, photonics and AI-processor engineering.",
+      "domain": "semiengineering.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://semiengineering.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Electronic Design",
+      "url": "https://www.electronicdesign.com/",
+      "kind": "Specialist news",
+      "coverage": "Embedded processors, edge inference, power and sensors.",
+      "domain": "electronicdesign.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.electronicdesign.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "ServeTheHome",
+      "url": "https://www.servethehome.com/",
+      "kind": "Specialist news",
+      "coverage": "Server, accelerator, memory, networking and edge hardware.",
+      "domain": "servethehome.com",
+      "latestObserved": "2026-10-12",
+      "activityEvidenceUrl": "https://www.servethehome.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Tom’s Hardware",
+      "url": "https://www.tomshardware.com/",
+      "kind": "Specialist news",
+      "coverage": "Processors, AI PCs, memory, packaging and suppliers.",
+      "domain": "tomshardware.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.tomshardware.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "eeNews Europe",
+      "url": "https://www.eenewseurope.com/en/",
+      "kind": "Specialist news",
+      "coverage": "Semiconductors, embedded AI and component supply chains.",
+      "domain": "eenewseurope.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.eenewseurope.com/en/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The Register",
+      "url": "https://www.theregister.com/ai_ml/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI, infrastructure, local models and deployment risks.",
+      "domain": "theregister.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/ai/",
+      "kind": "Specialist news",
+      "coverage": "Broad technology beat: models, coding, AI hardware and limitations.",
+      "domain": "arstechnica.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://arstechnica.com/ai/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "IoT Now",
+      "url": "https://iot-now.com/news/",
+      "kind": "Specialist news",
+      "coverage": "Industrial connectivity, edge intelligence and NTN chipsets.",
+      "domain": "iot-now.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://iot-now.com/news/products-and-services/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "IoT Business News",
+      "url": "https://iotbusinessnews.com/",
+      "kind": "Specialist news",
+      "coverage": "Industrial IoT, modules, satellite connectivity and operator partnerships.",
+      "domain": "iotbusinessnews.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://iotbusinessnews.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "InfoQ",
+      "url": "https://www.infoq.com/ai-ml-data-eng/",
+      "kind": "Specialist news",
+      "coverage": "Production AI architecture, coding tools, retrieval and privacy.",
+      "domain": "infoq.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.infoq.com/ai-ml-data-eng/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    }
+  ],
+  "sources": [
+    {
+      "id": "a03_s1",
+      "title": "Global GenAI-capable smartphone report, Q1 2025",
+      "url": "https://counterpointresearch.com/de/reports/global-genai-capable-smartphone-report-q1-2025",
+      "publisher": "Counterpoint Research",
+      "date": null,
+      "accessed": "2026-10-28",
+      "claim": "Catalog grew from 123 models in Q4 2024 to 143 in Q1 2025. Exact report publication date was not exposed.",
+      "type": "Primary research",
+      "ref": "turn176search4",
+      "publishedPeriod": "2025"
+    },
+    {
+      "id": "a03_s2",
+      "title": "AI PCs to represent 31 percent of worldwide PC market by end of 2025",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-28-gartner-says-artificial-intelligence-pcs-will-represent-31-percent-of-worldwide-pc-market-by-the-end-of-2025",
+      "publisher": "Gartner",
+      "date": "2025-08-28",
+      "accessed": "2026-10-17",
+      "claim": "2026 forecast of 143 million AI PCs and expected normality by 2029.",
+      "type": "Primary research",
+      "ref": "turn53view1"
+    },
+    {
+      "id": "a03_s3",
+      "title": "State of enterprise IoT: from IoT to autonomous connected operations",
+      "url": "https://iot-analytics.com/state-of-enterprise-iot-from-iot-autonomous-connected-operations/",
+      "publisher": "IoT Analytics",
+      "date": "2026-02-04",
+      "accessed": "2026-10-17",
+      "claim": "Less than 1% of the IoT base contained true edge AI acceleration at December 2025.",
+      "type": "Primary research",
+      "ref": "turn134view0"
+    },
+    {
+      "id": "a03_s4",
+      "title": "Higher ASPs, lower unit volumes: the memory crisis reshapes the PC and smartphone outlook",
+      "url": "https://www.idc.com/resource-center/blog/higher-asps-lower-unit-volumes-how-the-memory-crisis-is-reshaping-the-pc-and-smartphone-outlook/",
+      "publisher": "IDC",
+      "date": null,
+      "accessed": "2026-10-28",
+      "claim": "Memory and device-market constraints qualify prior forecasts.",
+      "type": "Primary research",
+      "ref": "turn36search6",
+      "publishedPeriod": "2026-03"
+    },
+    {
+      "id": "a03_s5",
+      "title": "The future of next-gen AI smartphones",
+      "url": "https://www.idc.com/resource-center/blog/the-future-of-next-gen-ai-smartphones/",
+      "publisher": "IDC",
+      "date": "2024-02-19",
+      "accessed": "2026-10-17",
+      "claim": "Next-generation device definition and first 2023 products.",
+      "type": "Primary research",
+      "ref": "turn3search0"
+    },
+    {
+      "id": "a03_s6",
+      "title": "Microchip Technology completes acquisition of Hailo",
+      "url": "https://ir.microchip.com/news-events/press-releases/detail/1415/microchip-technology-completes-acquisition-of-hailo",
+      "publisher": "Microchip",
+      "date": "2026-09-21",
+      "accessed": "2026-10-17",
+      "claim": "Hailo is owned by public Microchip at cutoff.",
+      "type": "Company announcement",
+      "ref": "turn171search0"
+    },
+    {
+      "id": "a03_c1",
+      "title": "Qualcomm: product portfolio, company or investor information",
+      "url": "https://investor.qualcomm.com/",
+      "publisher": "Qualcomm",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view7"
+    },
+    {
+      "id": "a03_c2",
+      "title": "Apple: product portfolio, company or investor information",
+      "url": "https://investor.apple.com/",
+      "publisher": "Apple",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view3"
+    },
+    {
+      "id": "a03_c3",
+      "title": "AMD: product portfolio, company or investor information",
+      "url": "https://ir.amd.com/",
+      "publisher": "AMD",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view6"
+    },
+    {
+      "id": "a03_c4",
+      "title": "Intel: product portfolio, company or investor information",
+      "url": "https://www.intc.com/",
+      "publisher": "Intel",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view8"
+    },
+    {
+      "id": "a03_c5",
+      "title": "MediaTek: product portfolio, company or investor information",
+      "url": "https://www.mediatek.com/",
+      "publisher": "MediaTek",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn212view3"
+    },
+    {
+      "id": "a03_c6",
+      "title": "Arm: product portfolio, company or investor information",
+      "url": "https://investors.arm.com/",
+      "publisher": "Arm",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn212view2"
+    },
+    {
+      "id": "a03_c7",
+      "title": "NXP: product portfolio, company or investor information",
+      "url": "https://www.nxp.com/",
+      "publisher": "NXP",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a03_c8",
+      "title": "Microchip Technology: product portfolio, company or investor information",
+      "url": "https://ir.microchip.com/news-events/press-releases/detail/1415/microchip-technology-completes-acquisition-of-hailo",
+      "publisher": "Microchip Technology",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn171search0"
+    },
+    {
+      "id": "a03_c9",
+      "title": "SiMa.ai: product portfolio, company or investor information",
+      "url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "publisher": "SiMa.ai",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn160search0"
+    },
+    {
+      "id": "a03_c10",
+      "title": "Baya Systems: product portfolio, company or investor information",
+      "url": "https://bayasystems.com/press-releases/baya-systems-raises-36m-propel-ai-chiplet-innovation/",
+      "publisher": "Baya Systems",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn164search0"
+    },
+    {
+      "id": "a03_oct_imac",
+      "title": "Apple announces iMac with M6",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+      "publisher": "Apple",
+      "date": "2026-10-27",
+      "accessed": "2026-10-28",
+      "claim": "New hardware and on-device AI performance claims; no independent real-world adoption result.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-10-27"
+    }
+  ],
+  "companyMapNote": "Curated leading and enabling companies, not an exhaustive list or investment recommendation. Public parent exposure may be indirect; private status and pending transactions are assessed at the cutoff.",
+  "trackersNote": "Each site showed dated activity within the preceding 12 months. Dedicated specialists are combined with clearly described broader beats; activity evidence verifies the publication is active, not that every outlet posts on this exact subtopic daily.",
+  "coverage": {
+    "distinctTrackerDomains": 11,
+    "recentlyDatedTrackers": 11,
+    "numericHistoricalPoints": 2
+  },
+  "reviewNote": "October 28 early monthly run: Apple’s October 27 iMac launch adds another on-device AI platform; manufacturer benchmarks are not a measure of everyday usage. Existing numerical observations and mainstream range retained. Source publication precision preserved in publishedPeriod; no day inferred."
+}

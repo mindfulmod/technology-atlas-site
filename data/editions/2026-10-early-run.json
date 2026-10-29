@@ -1,0 +1,977 @@
+{
+  "id": "2026-10-early-run",
+  "title": "From capability to repeatable use",
+  "subtitle": "October research, run ahead of November 1. Clinical AI, optical infrastructure and deployment plans put the focus on what works in practice. Five signals, two deeper investigations and two emerging areas to explore.",
+  "publishedAt": "2026-10-28",
+  "status": "partial",
+  "statusLabel": "Early run · source gaps",
+  "readingMinutes": 5,
+  "coverageNote": "All 50 original technologies received a bounded source scan for October 18–28, with two completed deep reviews: clinical AI (10 sources) and silicon photonics (9). Seventeen profiles gain sourced notes or assessments. This edition is marked partial because some primary pages were inaccessible or incomplete: NRC, Twist, Deere, Emulate, DOE, IEA HPT, an EU page and an IATA article. Accessible alternatives and indexed official text were used where possible; the scan log records the limits. Gated material was not accessed. Older evidence is labeled as background, and no detected update does not mean no change occurred. Historical measurements and adoption estimates are retained. The October preview remains archived, and November 1 research stays scheduled.",
+  "highlights": [
+    {
+      "title": "Clinical AI expands into the encounter, and evaluation becomes part of the product",
+      "summary": "Abridge’s October 27 release adds order staging and chart-aware documentation. Our interpretation is that buyer attention should shift toward how these functions are checked inside each hospital. The adjacent evidence is mixed: UCLA’s earlier randomized trial found a modest documentation-time reduction for Nabla and no significant reduction for DAX versus control. That does not rank today’s products, but it challenges blanket productivity claims. For company discovery, the distinction is useful: public Microsoft and Oracle offer embedded distribution, while private Abridge and Nabla offer focused alternatives. Follow corrected-work time, safety monitoring and repeat paid use, rather than counting announced features. The deeper review separates this week’s product update from earlier clinical research.",
+      "technologyIds": [
+        21
+      ],
+      "sources": [
+        {
+          "title": "Now in Practice: October 2026",
+          "url": "https://www.abridge.com/blog/now-in-practice-october-2026",
+          "publisher": "Abridge",
+          "publishedAt": "2026-10-27",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "Orders are staged for clinician signature; an evaluation dashboard exposes vendor-wide methods and limitations.",
+          "id": "b21r_abridge_oct"
+        },
+        {
+          "title": "Ambient AI Scribes in Clinical Practice: A Randomized Trial",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12768499/",
+          "publisher": "NEJM AI / UCLA",
+          "publishedAt": "2025-11-26",
+          "checkedAt": "2026-10-28",
+          "type": "Randomized trial",
+          "claim": "238 outpatient physicians: Nabla lowered time-in-note versus control; DAX did not significantly do so. Findings apply to tested versions and setting.",
+          "id": "b21r_ucla"
+        },
+        {
+          "title": "Dragon Copilot meets the moment at HIMSS 2026",
+          "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/healthcare/2026/03/05/unify-simplify-scale-microsoft-dragon-copilot-meets-the-moment-at-himss-2026/",
+          "publisher": "Microsoft",
+          "publishedAt": "2026-03-05",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "Role-specific physician and nurse workflows, EHR integrations, and radiology preview.",
+          "id": "b21r_ms"
+        },
+        {
+          "title": "Clinical AI Agent expands with coding, dictation and chart review",
+          "url": "https://www.oracle.com/news/announcement/oracle-health-expands-clinical-ai-agent-with-coding-dictation-chart-review-2026-08-19/",
+          "publisher": "Oracle",
+          "publishedAt": "2026-08-19",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "US availability of expanded documentation, coding and chart review; clinicians retain review and signature responsibilities.",
+          "id": "b21r_oracle"
+        }
+      ],
+      "evidenceType": "Company disclosure + controlled research + analyst interpretation"
+    },
+    {
+      "title": "Optics gains a manufacturing playbook",
+      "summary": "On October 20, the Advanced Photonics Coalition published manufacturing, interface and testing documents for integrated optics. This is evidence that suppliers are working on the practical hand-offs needed to build systems together. It is not evidence that manufacturing yields improved or that deployment costs fell. The deeper review puts that milestone beside earlier demonstrations and product plans, including the competing pluggable-optics direction announced by NVIDIA and Cisco on October 12. Our interpretation: the useful company question is which suppliers can deliver reliable, serviceable systems for a specific workload. A compelling prototype and a dependable production installation are different achievements. Public component vendors and private optical-I/O specialists remain worth comparing through customer qualification and field results.",
+      "technologyIds": [
+        7,
+        8
+      ],
+      "sources": [
+        {
+          "title": "APC publishes manufacturing and interface document portfolio",
+          "url": "https://www.advanced-photonics.org/apc-documents-press-release",
+          "publisher": "Advanced Photonics Coalition",
+          "publishedAt": "2026-10-20",
+          "checkedAt": "2026-10-28",
+          "type": "Industry standards announcement",
+          "id": "a08_oct_apc",
+          "accessed": "2026-10-28",
+          "claim": "Five specifications and practice documents address photonics manufacturing, testing and interfaces.",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "NVIDIA and Cisco introduce USFP pluggable-optics plans",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Cisco-Introduce-New-Pluggable-Optics-Form-Factor-to-Scale-AI-Factories/default.aspx",
+          "publisher": "NVIDIA / Cisco",
+          "publishedAt": "2026-10-12",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_usfp",
+          "accessed": "2026-10-28",
+          "claim": "A competing pluggable roadmap remains active; specifications are announced capabilities, not field results.",
+          "date": "2026-10-12"
+        }
+      ],
+      "evidenceType": "Industry standards publication + analyst interpretation"
+    },
+    {
+      "title": "PQC moves from algorithm selection to migration execution",
+      "summary": "NIST published its transition report on October 27, identifying quantum-vulnerable cryptographic standards and the post-quantum standards intended to replace them. The report supports federal migration priorities and gives the ecosystem a clearer technical reference. It does not report how many organizations have finished migration, and this edition makes no claim about a new legally binding deadline. Our research interpretation is that implementation deserves more attention: discovering where cryptography is used, checking interoperability and replacing systems without disrupting service. For company discovery, look for evidence that a supplier can help customers complete those tasks, rather than treating a standards announcement as proof of revenue or deployed protection. The existing network-specific adoption measurements are unchanged.",
+      "technologyIds": [
+        9
+      ],
+      "sources": [
+        {
+          "title": "Transition to Post-Quantum Cryptography Standards",
+          "url": "https://www.nist.gov/publications/transition-post-quantum-cryptography-standards",
+          "publisher": "NIST",
+          "publishedAt": "2026-10-27",
+          "checkedAt": "2026-10-28",
+          "type": "Government technical report",
+          "id": "a09_oct_ir8547",
+          "accessed": "2026-10-28",
+          "claim": "Final IR8547 maps vulnerable algorithms to replacement standards and migration priorities.",
+          "date": "2026-10-27"
+        }
+      ],
+      "evidenceType": "Government technical report + analyst interpretation"
+    },
+    {
+      "title": "Physical automation separates operating expansion from future intent",
+      "summary": "GXO and Agility’s October 26 agreement plans Digit deployments at two more warehouses in early 2027. This is a stronger commercial signal than an isolated demonstration, but the new sites are not operating yet and the announcement does not disclose unit economics. Waymo’s official updates, meanwhile, report new airport access and expanded service territory during the review interval. Its Madrid announcement is groundwork, not a live service. These distinctions matter when comparing public operators with private developers: actual recurring operations, future site commitments and manufacturing capacity are different stages of evidence. The Atlas records each without turning planned rollout into an observed fleet or usage number.",
+      "technologyIds": [
+        17,
+        18
+      ],
+      "sources": [
+        {
+          "title": "GXO and Agility expand partnership to additional US sites",
+          "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations",
+          "publisher": "GXO / Agility Robotics",
+          "publishedAt": "2026-10-26",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "Two additional GXO sites expected in early 2027; announced plans are separate from existing operational experience.",
+          "id": "a17r_gxo_oct"
+        },
+        {
+          "title": "Waypoint: updates from the road",
+          "url": "https://waymo.com/blog/",
+          "publisher": "Waymo",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "October 21 airport access at LAS and October 27 service-area expansion; Madrid groundwork announced October 20.",
+          "id": "a18r_waymo_oct"
+        }
+      ],
+      "evidenceType": "Company/customer disclosures + analyst interpretation"
+    },
+    {
+      "title": "Stablecoin infrastructure adds a liquidity workflow",
+      "summary": "Circle announced Circle Match on October 22 for eligible institutional Mint customers. Its prefunded hourly auctions match USDC minting and redemption demand, giving participants control over acceptable fees or rebates. This is a defined product change inside an existing institutional workflow. Circle did not disclose matched volume, repeat participation or customer savings achieved, so those outcomes remain unknown. Our interpretation is that execution quality and repeat use will be more informative than the launch itself. The product addresses primary mint-and-redeem activity; it should not be read as a measurement of consumer payments or economy-wide stablecoin adoption. We retain the circulation series and will look for operating evidence before changing the commercial assessment.",
+      "technologyIds": [
+        48
+      ],
+      "sources": [
+        {
+          "title": "Circle Match: Get a rebate to Mint, Set Your Price to Redeem",
+          "url": "https://www.circle.com/blog/circle-match-get-a-rebate-to-mint-set-your-price-to-redeem",
+          "publisher": "Circle",
+          "publishedAt": "2026-10-22",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure"
+        }
+      ],
+      "evidenceType": "Company disclosure; analyst interpretation"
+    }
+  ],
+  "deepDives": [
+    {
+      "technologyId": 21,
+      "title": "Clinical AI moves beyond the note—can evidence keep up?",
+      "summary": "The fresh signal is broader workflow scope. Abridge’s October 27 release stages orders for signature and adds evaluation visibility. The research question is whether expansion translates into safer, reliably faster clinical work. Earlier trials provide useful boundaries: documentation tools can help, but measured benefit varies by setting and product version.",
+      "findings": [
+        "New interval evidence — Abridge describes an Evaluation Dashboard with methods, refresh cadence and limitations. It reports vendor-wide results, so a hospital still needs its own validation; the release is a capability announcement, not a patient-outcome trial.",
+        "Adoption context — AMA’s March 2026 survey reports 81% of respondents using AI professionally. Research summaries and documentation are common uses; this cannot be interpreted as 81% autonomous diagnostic adoption. The Atlas’s existing survey series is retained.",
+        "Controlled counterevidence — UCLA randomized 238 outpatient physicians to DAX, Nabla or usual care. Nabla reduced time-in-note 9.5% versus control; DAX’s change was not significant. Inaccuracies were reported occasionally. These were 2024–25 versions, one institution and English-only encounters, not a current vendor ranking.",
+        "A second randomized implementation — The 24-week Wisconsin study reduced work exhaustion/interpersonal disengagement without a significant professional-fulfillment increase. This supports selective benefit rather than a universal productivity claim.",
+        "Customer and consent evidence — Sutter’s 100-clinician Abridge quality-improvement study found better experience and note time with varying effects by specialty and sex. A separate 121-user consent study found trust and explanation shaped acceptance. Both are earlier implementation evidence, not results for the October release.",
+        "Competitive context — Microsoft documents EHR-connected physician and nursing workflows; Oracle’s August release added US coding, dictation and chart review. Integration is therefore a competitive requirement. Feature lists do not settle comparative clinical quality or sustainable economics.",
+        "Regulatory boundary — FDA’s device list tracks authorizations rather than deployment outcomes. Its August GenAI paper discusses evaluation and monitoring but explicitly is not draft/final guidance. The October 19 comment deadline is a process milestone, not a new authorization standard."
+      ],
+      "unknowns": [
+        "Safety and time savings for the newly expanded order and chart workflows in independent prospective studies.",
+        "Paid usage, renewal rates and per-encounter economics disclosed consistently across private and public vendors.",
+        "Generalization across languages, specialties, patient groups and under-resourced settings.",
+        "Whether saved documentation time improves clinician well-being or is absorbed into higher workload."
+      ],
+      "nextCheck": "Look for customer-specific evaluation of the October functions, correction/omission rates, order-error monitoring, and current-version controlled comparisons. Track FDA follow-up separately from the closed discussion-paper comment window.",
+      "sources": [
+        {
+          "title": "Now in Practice: October 2026",
+          "url": "https://www.abridge.com/blog/now-in-practice-october-2026",
+          "publisher": "Abridge",
+          "publishedAt": "2026-10-27",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "Orders are staged for clinician signature; an evaluation dashboard exposes vendor-wide methods and limitations.",
+          "id": "b21r_abridge_oct"
+        },
+        {
+          "title": "AI usage among doctors doubles as confidence grows",
+          "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
+          "publisher": "American Medical Association",
+          "publishedAt": "2026-03-12",
+          "checkedAt": "2026-10-28",
+          "type": "Association survey",
+          "claim": "81% reported professional AI use; common uses include research summaries and documentation.",
+          "id": "b21r_ama"
+        },
+        {
+          "title": "List of Artificial Intelligence-Enabled Medical Devices",
+          "url": "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices",
+          "publisher": "US FDA",
+          "checkedAt": "2026-10-28",
+          "type": "Regulatory database",
+          "claim": "Device authorizations are a regulatory inventory, not a measure of hospital use or patient benefit.",
+          "id": "b21r_devices"
+        },
+        {
+          "title": "Considerations for the Regulation of Generative AI-Enabled Medical Devices: Discussion Paper and Request for Feedback",
+          "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+          "publisher": "US FDA",
+          "publishedAt": "2026-08-18",
+          "checkedAt": "2026-10-28",
+          "type": "Regulatory discussion paper",
+          "claim": "Discussion covers risk, premarket evaluation and postmarket monitoring; it is explicitly neither draft nor final guidance.",
+          "id": "b21r_genai"
+        },
+        {
+          "title": "Dragon Copilot meets the moment at HIMSS 2026",
+          "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/healthcare/2026/03/05/unify-simplify-scale-microsoft-dragon-copilot-meets-the-moment-at-himss-2026/",
+          "publisher": "Microsoft",
+          "publishedAt": "2026-03-05",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "Role-specific physician and nurse workflows, EHR integrations, and radiology preview.",
+          "id": "b21r_ms"
+        },
+        {
+          "title": "Clinical AI Agent expands with coding, dictation and chart review",
+          "url": "https://www.oracle.com/news/announcement/oracle-health-expands-clinical-ai-agent-with-coding-dictation-chart-review-2026-08-19/",
+          "publisher": "Oracle",
+          "publishedAt": "2026-08-19",
+          "checkedAt": "2026-10-28",
+          "type": "Company disclosure",
+          "claim": "US availability of expanded documentation, coding and chart review; clinicians retain review and signature responsibilities.",
+          "id": "b21r_oracle"
+        },
+        {
+          "title": "Ambient AI Scribes in Clinical Practice: A Randomized Trial",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12768499/",
+          "publisher": "NEJM AI / UCLA",
+          "publishedAt": "2025-11-26",
+          "checkedAt": "2026-10-28",
+          "type": "Randomized trial",
+          "claim": "238 outpatient physicians: Nabla lowered time-in-note versus control; DAX did not significantly do so. Findings apply to tested versions and setting.",
+          "id": "b21r_ucla"
+        },
+        {
+          "title": "A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Improve Health Practitioner Well-Being",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/",
+          "publisher": "NEJM AI / University of Wisconsin",
+          "publishedAt": "2025-11-26",
+          "checkedAt": "2026-10-28",
+          "type": "Randomized trial",
+          "claim": "24-week randomized implementation reduced work exhaustion/interpersonal disengagement without a significant increase in professional fulfillment.",
+          "id": "b21r_uw"
+        },
+        {
+          "title": "Evaluation of an Ambient Artificial Intelligence Documentation Platform for Clinicians",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2833433",
+          "publisher": "JAMA Network Open / Sutter Health",
+          "publishedAt": "2025-05-02",
+          "checkedAt": "2026-10-28",
+          "type": "Quality-improvement study",
+          "claim": "100 selected ambulatory clinicians using Abridge; improved experience and note time with variable outcomes by sex and specialty.",
+          "id": "b21r_sutter"
+        },
+        {
+          "title": "Informed Consent for Ambient Documentation Using Generative AI in Ambulatory Care",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2836694",
+          "publisher": "JAMA Network Open",
+          "publishedAt": "2025-07-22",
+          "checkedAt": "2026-10-28",
+          "type": "Quality-improvement study",
+          "claim": "A 121-user qualitative evaluation found comfort depended on trust, understanding and the consent discussion.",
+          "id": "b21r_consent"
+        }
+      ],
+      "companyLens": "Public Microsoft and Oracle have distribution through existing clinical systems. Private Abridge is expanding workflow breadth; private Nabla has a useful controlled-study signal from an older version. Compare technical evidence, customer execution and underexamined integration opportunities separately; no investment ranking or valuation is inferred."
+    },
+    {
+      "technologyId": 8,
+      "title": "Optical interconnects: who can turn integration into deployment?",
+      "summary": "The clearest new signal is manufacturing coordination, not a market-wide shipment surge. APC’s October 20 documents address the hand-offs between suppliers. Reviewing nine primary sources suggests an ecosystem moving toward deployable systems, while mature pluggables continue to improve. Keep the 2030 midpoint and 2028–2033 range as analyst judgments rather than promoting announcements into an observed adoption curve.",
+      "findings": [
+        "APC published five documents covering CPO architecture, recommended practices, test, multicore-fiber interfaces and silicon-photonics manufacturing. This is an observed publication milestone; interoperability, yield and cost improvement still need implementation evidence.",
+        "The October 12 Lightmatter/Flex switch is a production-validation system; its separate accelerator tray is a proof of concept. Celestica’s same-day DS6005 introduction shows an integrated design with replaceable external lasers. These are different maturity signals, not comparable installed-base counts.",
+        "Broadcom’s October 8 portfolio places optical integration beside switching and NIC products. Coherent’s September21 PhotonLink launch spans component assembly and test and expected a Q4 calendar2026 ramp. Those earlier releases provide context, not fresh post-cutoff revenue observations.",
+        "Counterevidence to an inevitable wholesale CPO transition: NVIDIA and Cisco announced USFP plans on October 12 to extend pluggable bandwidth density. Architecture decisions remain workload- and maintenance-dependent; vendor performance claims require like-for-like validation.",
+        "Ayar’s September financing supports engineering and manufacturing readiness, without establishing customer shipments. Intel’s 2024 live optical-I/O demonstration is a useful technical reference but cannot stand in for 2026 commercialization.",
+        "Google’s TPU v4 research describes deployed optical circuit switching. This proves useful optical system architectures can reach production, but OCS switches network paths and should not be counted as CPO adoption."
+      ],
+      "unknowns": [
+        "Comparable production port shipments, manufacturing yields, field failures and repair costs across competing designs.",
+        "How much announced supplier revenue comes from integrated optics rather than established transceivers.",
+        "Which workloads justify optical I/O close to compute after including lasers, packaging, cooling and maintenance."
+      ],
+      "nextCheck": "Seek customer qualification and field-reliability disclosures, explicit integrated-optics revenue, and measured power per bit at matched bandwidth, reach and availability. Recheck Coherent’s announced CY 2026 Q4 ramp after actual results.",
+      "sources": [
+        {
+          "title": "APC publishes manufacturing and interface document portfolio",
+          "url": "https://www.advanced-photonics.org/apc-documents-press-release",
+          "publisher": "Advanced Photonics Coalition",
+          "publishedAt": "2026-10-20",
+          "checkedAt": "2026-10-28",
+          "type": "Industry standards announcement",
+          "id": "a08_oct_apc",
+          "accessed": "2026-10-28",
+          "claim": "Five specifications and practice documents address photonics manufacturing, testing and interfaces.",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "NVIDIA and Cisco introduce USFP pluggable-optics plans",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Cisco-Introduce-New-Pluggable-Optics-Form-Factor-to-Scale-AI-Factories/default.aspx",
+          "publisher": "NVIDIA / Cisco",
+          "publishedAt": "2026-10-12",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_usfp",
+          "accessed": "2026-10-28",
+          "claim": "A competing pluggable roadmap remains active; specifications are announced capabilities, not field results.",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Broadcom OCP networking portfolio",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-redefines-ai-infrastructure-industry-leading-networking",
+          "publisher": "Broadcom",
+          "publishedAt": "2026-10-08",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_brcm",
+          "accessed": "2026-10-28",
+          "claim": "TH6-Davisson CPO is part of Broadcom’s demonstrated networking portfolio.",
+          "date": "2026-10-08"
+        },
+        {
+          "title": "Lightmatter and Flex show open-rack optical systems",
+          "url": "https://lightmatter.com/press-release/lightmatter-delivers-open-rack-cpo-switch-and-xpu-scale-up-server-through-independent-collaborations-with-flex-and-other-industry-partners/",
+          "publisher": "Lightmatter",
+          "publishedAt": "2026-10-12",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_lm",
+          "accessed": "2026-10-28",
+          "claim": "Switch production-validation platform and separate XPU prototype demonstrate integration, not deployment volume.",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Ayar Labs expands 2026 financing",
+          "url": "https://ayarlabs.com/news/ayar-labs-expands-2026-funding-to-650-million/",
+          "publisher": "Ayar Labs",
+          "publishedAt": "2026-09-10",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_ayar",
+          "accessed": "2026-10-28",
+          "claim": "Financing supports manufacturing readiness; funding is not sales.",
+          "date": "2026-09-10"
+        },
+        {
+          "title": "Coherent launches PhotonLink",
+          "url": "https://ir.coherent.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai",
+          "publisher": "Coherent",
+          "publishedAt": "2026-09-21",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_photonlink",
+          "accessed": "2026-10-28",
+          "claim": "Platform spans integrated optical assembly and test; CY 2026 Q4 revenue ramp is a company expectation.",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Celestica introduces DS6005 CPO switch",
+          "url": "https://celestica.gcs-web.com/news-releases/news-release-details/celestica-introduces-ds6005-data-center-switch-co-packaged",
+          "publisher": "Celestica",
+          "publishedAt": "2026-10-12",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_cls",
+          "accessed": "2026-10-28",
+          "claim": "A liquid-cooled CPO switch design includes field-replaceable external lasers.",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Intel demonstrates optical I/O chiplet",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-first-integrated-optical-io-chiplet.html",
+          "publisher": "Intel",
+          "publishedAt": "2024-06-26",
+          "checkedAt": "2026-10-28",
+          "type": "Company announcement",
+          "id": "a08_oct_intel",
+          "accessed": "2026-10-28",
+          "claim": "Historical live-data demonstration of optical I/O co-packaged with a CPU; not evidence of 2026 shipments.",
+          "date": "2024-06-26"
+        },
+        {
+          "title": "TPU v4: an optically reconfigurable supercomputer",
+          "url": "https://arxiv.org/abs/2304.01433",
+          "publisher": "Jouppi et al. / Google, ISCA research",
+          "publishedAt": "2023-04-20",
+          "checkedAt": "2026-10-28",
+          "type": "Research paper / operator-reported implementation",
+          "id": "a08_oct_ocs",
+          "accessed": "2026-10-28",
+          "claim": "Deployed optical circuit switching is related but distinct from co-packaged optics.",
+          "date": "2023-04-20"
+        }
+      ],
+      "companyLens": "Public names Broadcom, Coherent and NVIDIA offer switching, enabling components or alternative architectures; private Ayar Labs and Lightmatter offer focused integration approaches. The profile separates technical capability, commercial evidence and analyst views on overlooked execution factors. No valuation or return ranking is inferred."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "optical-circuit-switching",
+      "title": "Reconfigurable optical networks",
+      "subtitle": "A neighboring area to watch separately",
+      "summary": "Optical circuit switching changes network connections using light. Google’s TPU v4 research is evidence of an existing deployed architecture, while APC now includes OCS in its broader implementation work. This candidate is newly surfaced for the Atlas; the technology itself is not new.",
+      "statusLabel": "Candidate — not promoted",
+      "technologyIds": [
+        6,
+        8
+      ],
+      "whyWatch": "It may change how AI clusters allocate network capacity. Its deployment economics should be assessed separately from optical chip packaging.",
+      "questions": [
+        "Do benefits generalize beyond one operator’s topology and workloads?",
+        "What are switching latency, reliability and operational trade-offs at scale?"
+      ],
+      "nextCheck": "Look for additional operator deployments and comparable workload-level utilization data.",
+      "sources": [
+        {
+          "title": "TPU v4: an optically reconfigurable supercomputer",
+          "url": "https://arxiv.org/abs/2304.01433",
+          "publisher": "Jouppi et al. / Google, ISCA research",
+          "publishedAt": "2023-04-20",
+          "checkedAt": "2026-10-28",
+          "type": "Research paper / operator-reported implementation",
+          "id": "a08_oct_ocs",
+          "accessed": "2026-10-28",
+          "claim": "Deployed optical circuit switching is related but distinct from co-packaged optics.",
+          "date": "2023-04-20"
+        },
+        {
+          "title": "APC publishes manufacturing and interface document portfolio",
+          "url": "https://www.advanced-photonics.org/apc-documents-press-release",
+          "publisher": "Advanced Photonics Coalition",
+          "publishedAt": "2026-10-20",
+          "checkedAt": "2026-10-28",
+          "type": "Industry standards announcement",
+          "id": "a08_oct_apc",
+          "accessed": "2026-10-28",
+          "claim": "Five specifications and practice documents address photonics manufacturing, testing and interfaces.",
+          "date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "agentic-earth-observation",
+      "title": "Agentic Earth observation",
+      "subtitle": "From finding evidence to executing geospatial analysis",
+      "summary": "ESA’s 8 October EVE release describes a live text-based research assistant. Retrieving and analysing satellite data through multi-step workflows is a future phase, with imagery capabilities planned for 2027. An ESA/BIFOLD workshop scheduled for 19–21 October shows research activity around the idea; it does not establish production readiness.",
+      "statusLabel": "Research candidate",
+      "technologyIds": [
+        1,
+        5,
+        49
+      ],
+      "whyWatch": "A useful bridge between AI agents and Earth-observation analytics, if systems can produce reproducible, source-traceable results. This is a newly surfaced candidate, not an event claimed to have begun after the cutoff.",
+      "questions": [
+        "Can users reproduce each spatial analysis and trace it to imagery, dates and processing steps?",
+        "How often do results agree with independent ground truth?",
+        "Which customers repeatedly use the output in a real decision?"
+      ],
+      "nextCheck": "Look for publicly reproducible multi-step demonstrations, independent evaluations and deployed customer workflows; distinguish the 2027 imagery plan from capabilities available today.",
+      "sources": [
+        {
+          "title": "Introducing ESA’s Earth Virtual Expert",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Introducing_ESA_s_Earth_Virtual_Expert",
+          "publisher": "European Space Agency",
+          "publishedAt": "2026-10-08",
+          "checkedAt": "2026-10-28",
+          "type": "Public research institution disclosure"
+        },
+        {
+          "title": "Agentic AI for Earth Observation Workshop",
+          "url": "https://commercialisation.esa.int/event/agentic-ai-for-earth-observation-workshop/",
+          "publisher": "European Space Agency",
+          "checkedAt": "2026-10-28",
+          "type": "Research event announcement"
+        }
+      ]
+    }
+  ],
+  "scanLog": [
+    {
+      "technologyId": 1,
+      "checkedAt": "2026-10-28",
+      "result": "Glean announced code-authored agents on October 21. This is a product/governance change; it supplies no independently measured success rate or incremental deployment count.",
+      "sourceUrls": [
+        "https://www.glean.com/blog/glean-headless-agent-builder",
+        "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+      ]
+    },
+    {
+      "technologyId": 2,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Microsoft Copilot October 27 release notes and Apple Intelligence newsroom. New workflow/context features were documented; no comparable interval measure of multimodal usage was found, so adoption metrics remain unchanged.",
+      "sourceUrls": [
+        "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+        "https://www.apple.com/newsroom/topics/apple-intelligence/"
+      ]
+    },
+    {
+      "technologyId": 3,
+      "checkedAt": "2026-10-28",
+      "result": "Apple announced M6 iMac on October 27 with on-device AI claims. Treat its performance comparisons as vendor benchmarks, not population adoption or independent end-to-end productivity evidence.",
+      "sourceUrls": [
+        "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/"
+      ]
+    },
+    {
+      "technologyId": 4,
+      "checkedAt": "2026-10-28",
+      "result": "GitHub documents a new paid-plan cloud Copilot experience starting October 28 with sessions moving between web/mobile and local clients. No comparable new paid-user count was verified.",
+      "sourceUrls": [
+        "https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github",
+        "https://code.visualstudio.com/blogs/archive"
+      ]
+    },
+    {
+      "technologyId": 5,
+      "checkedAt": "2026-10-28",
+      "result": "Glean introduced Data Analysis on October 20 and a Claude Marketplace route on October26. These broaden capability and distribution; neither establishes a new ARR observation.",
+      "sourceUrls": [
+        "https://www.glean.com/blog/glean-for-data-analysis",
+        "https://www.glean.com/blog/glean-claude-marketplace"
+      ]
+    },
+    {
+      "technologyId": 6,
+      "checkedAt": "2026-10-28",
+      "result": "NVIDIA announced DSX POD on October 21. Reference-design and early 2027 partner-delivery claims shift attention to complete systems; they are not an observed increase in accelerator revenue or shipments.",
+      "sourceUrls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Introduces-DSX-POD-AI-Factories-to-Accelerate-Europes-Infrastructure-Deployment/default.aspx"
+      ]
+    },
+    {
+      "technologyId": 7,
+      "checkedAt": "2026-10-28",
+      "result": "Checked UCIe release index and optical packaging portfolio. The index still lists the August 2025 UCIe 3.0 release; no new UCIe specification in October18–28 was verified. APC’s October 20 work is complementary photonics manufacturing evidence.",
+      "sourceUrls": [
+        "https://www.uciexpress.org/press-releases",
+        "https://www.advanced-photonics.org/apc-documents-press-release"
+      ]
+    },
+    {
+      "technologyId": 8,
+      "checkedAt": "2026-10-28",
+      "result": "Deep review completed across nine primary sources. APC’s October 20 portfolio is new interval evidence; earlier company demonstrations, financing and product roadmaps are background. No comparable new CPO shipment or field-reliability series was identified.",
+      "sourceUrls": [
+        "https://www.advanced-photonics.org/apc-documents-press-release",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Cisco-Introduce-New-Pluggable-Optics-Form-Factor-to-Scale-AI-Factories/default.aspx",
+        "https://ir.coherent.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai",
+        "https://lightmatter.com/press-release/lightmatter-delivers-open-rack-cpo-switch-and-xpu-scale-up-server-through-independent-collaborations-with-flex-and-other-industry-partners/"
+      ]
+    },
+    {
+      "technologyId": 9,
+      "checkedAt": "2026-10-28",
+      "result": "NIST published final IR8547 on October 27, adding an official transition framework. This is a standards/planning milestone, not evidence that organizations have completed migration.",
+      "sourceUrls": [
+        "https://www.nist.gov/publications/transition-post-quantum-cryptography-standards",
+        "https://www.nist.gov/pqc"
+      ]
+    },
+    {
+      "technologyId": 10,
+      "checkedAt": "2026-10-28",
+      "result": "Checked CCC current site and 2026 archive, including attestation/project material. No dated October18–28 deployment measurement was established; retained existing adoption assessment. Archive freshness limits confidence in absence of change.",
+      "sourceUrls": [
+        "https://confidentialcomputing.io/",
+        "https://confidentialcomputing.io/2026/"
+      ]
+    },
+    {
+      "technologyId": 11,
+      "checkedAt": "2026-10-28",
+      "result": "Rechecked GSA September 2026 public summary: definitions and missing vendor submissions qualify its 2Q26 reference count. No newer comparable count established in this scan; gated annexes were not accessed.",
+      "sourceUrls": [
+        "https://gsacom.com/paper/private-mobile-networks-september-2026-2/",
+        "https://gsacom.com/webinars/"
+      ]
+    },
+    {
+      "technologyId": 12,
+      "checkedAt": "2026-10-28",
+      "result": "Rechecked T-Satellite live offering and its device, sky-view, limited-data and availability caveats. The undated service page cannot establish the timing of any October18–28 change; no new usage series accepted.",
+      "sourceUrls": [
+        "https://www.t-mobile.com/coverage/satellite-phone-service"
+      ]
+    },
+    {
+      "technologyId": 13,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Augury’s current machine-health/industrial-agent positioning and Siemens operational-data integration. These show product scope; no independently comparable interval maintenance-outcome metric was verified.",
+      "sourceUrls": [
+        "https://www.augury.com/",
+        "https://blogs.sw.siemens.com/process-preparation/2026/10/21/siemens-spotlights-process-preparation-x-digital-twin-composer-at-nvidia-gtc-berlin/"
+      ]
+    },
+    {
+      "technologyId": 14,
+      "checkedAt": "2026-10-28",
+      "result": "Siemens’ October 21 account describes Digital Twin Composer 2612 with operational IoT inputs and simulation. This is a vendor demonstration; factorywide adoption and reported savings were not independently established.",
+      "sourceUrls": [
+        "https://blogs.sw.siemens.com/process-preparation/2026/10/21/siemens-spotlights-process-preparation-x-digital-twin-composer-at-nvidia-gtc-berlin/"
+      ]
+    },
+    {
+      "technologyId": 15,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Varjo’s current enterprise blog and news. Latest clearly dated blog item was October 15, before cutoff; no interval shipment or deployment change validated. Training use cases remain stronger evidence than a general enterprise-XR adoption claim.",
+      "sourceUrls": [
+        "https://varjo.com/blog",
+        "https://varjo.com/news?page=1"
+      ]
+    },
+    {
+      "technologyId": 16,
+      "checkedAt": "2026-10-28",
+      "result": "Amazon robotics newsroom and operational descriptions checked. Retrieved million-robot figure repeats earlier deployment disclosure; no validated October 18–28 fleet increment found in this bounded check. Preserve baseline metrics.",
+      "sourceUrls": [
+        "https://www.aboutamazon.com/news/tag/robotics",
+        "https://supplychain.amazon.com/blog/tech-behind-amazons-fulfillment-network"
+      ]
+    },
+    {
+      "technologyId": 17,
+      "checkedAt": "2026-10-28",
+      "result": "New October 26 joint GXO/Agility announcement plans two additional sites in early 2027; existing Flowery Branch work is distinct from future expansion. Proposed public listing still described as pending, so do not classify Agility as listed.",
+      "sourceUrls": [
+        "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
+      ]
+    },
+    {
+      "technologyId": 18,
+      "checkedAt": "2026-10-28",
+      "result": "Waymo official updates include October 20 Madrid groundwork, October 21 LAS airport access and October 27 added service territory. Groundwork for a new country is not live rider availability; no new ride-count measurement inserted.",
+      "sourceUrls": [
+        "https://waymo.com/blog/",
+        "https://waymo.com/updates/"
+      ]
+    },
+    {
+      "technologyId": 19,
+      "checkedAt": "2026-10-28",
+      "result": "Wing newsroom checked. Latest retrieved metro announcement is October 5 and concerns Denver/Seattle in 2027, before this run’s cutoff; no validated interval delivery total or completed expansion found.",
+      "sourceUrls": [
+        "https://wing.com/news",
+        "https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network"
+      ]
+    },
+    {
+      "technologyId": 20,
+      "checkedAt": "2026-10-28",
+      "result": "October 20 QNX backlog disclosure and October 21 developer survey are new interval signals. Backlog is prospective royalties and survey integration burden is self-reported; neither updates the vehicle-installed-base series.",
+      "sourceUrls": [
+        "https://qnx.software/en/press-release/2026/blackberry-qnx-royalty-backlog-exceeds-1-2-billion",
+        "https://qnx.software/en/press-release/2026/qnx-research-finds-automotive-developers-spend-more-than-a-third-of-their-time-on-software-plumbing"
+      ]
+    },
+    {
+      "technologyId": 21,
+      "checkedAt": "2026-10-28",
+      "result": "Completed 10-source deep review. October 27 Abridge release expands orders/chart context and evaluation visibility. Earlier randomized and observational studies constrain claims about time saved, safety and generalizability.",
+      "sourceUrls": [
+        "https://www.abridge.com/blog/now-in-practice-october-2026",
+        "https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows",
+        "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices",
+        "https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+        "https://www.microsoft.com/en-us/microsoft-cloud/blog/healthcare/2026/03/05/unify-simplify-scale-microsoft-dragon-copilot-meets-the-moment-at-himss-2026/",
+        "https://www.oracle.com/news/announcement/oracle-health-expands-clinical-ai-agent-with-coding-dictation-chart-review-2026-08-19/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12768499/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/",
+        "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2833433",
+        "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2836694"
+      ]
+    },
+    {
+      "technologyId": 22,
+      "checkedAt": "2026-10-28",
+      "result": "Guardant targeted news check retrieved October 5 COSMOS melanoma recurrence study announcement, which predates cutoff; no validated October 18–28 operating-volume change in the sampled source.",
+      "sourceUrls": [
+        "https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Health-COSMOS-Study-Published-in-Cancer-Research-Communications-Validates-Utility-of-Guardant-Reveal-Liquid-Biopsy-Test-for-Predicting-Recurrence-in-Melanoma/default.aspx"
+      ]
+    },
+    {
+      "technologyId": 23,
+      "checkedAt": "2026-10-28",
+      "result": "Vertex latest retrieved substantive CASGEVY operating release is August 3 Q2 results, before cutoff. No new interval treated-patient count independently verified in this bounded check; retain annual historical series.",
+      "sourceUrls": [
+        "https://news.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2026-financial-results"
+      ]
+    },
+    {
+      "technologyId": 24,
+      "checkedAt": "2026-10-28",
+      "result": "October 23 Alnylam initial Phase 1b brezosiran biomarker data checked; clinical benefit and 2027 pivotal study remain unresolved. October 29 earnings are upcoming at this run cutoff and are not treated as observed.",
+      "sourceUrls": [
+        "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68",
+        "https://investors.alnylam.com/press-release?id=2677181f-428b-435c-b33c-cc47191b7c6f"
+      ]
+    },
+    {
+      "technologyId": 25,
+      "checkedAt": "2026-10-28",
+      "result": "October 28 Dexcom announcement plans Canadian G7 15 Day launch in November. Product availability and reimbursement claims are company-reported plans at this cutoff, not a new user/adoption total.",
+      "sourceUrls": [
+        "https://investors.dexcom.com/news/news-details/2026/Dexcom-G7-15-Day-Continuous-Glucose-Monitoring-System-to-Launch-in-Canada-in-November/default.aspx"
+      ]
+    },
+    {
+      "technologyId": 26,
+      "checkedAt": "2026-10-28",
+      "result": "October 25 Insilico Phase 1 oncology report checked. A 40% response headline is 2 of 5 evaluable participants at 130 mg; small, uncontrolled dose cohort and immature data do not establish efficacy or platform-wide success.",
+      "sourceUrls": [
+        "https://insilico.com/news/pr8951ba20602e4375b723-insilico-medicine-reports-40-orr-at-130-mg-for-pan-tead-inhibitor-ism6331-designed-using-generative"
+      ]
+    },
+    {
+      "technologyId": 27,
+      "checkedAt": "2026-10-28",
+      "result": "Twist investor newsroom returned 403. Checked official product site and indexed SEC landing page; DNA/protein-services offering is visible but no validated interval biomanufacturing-output change found. Coverage limited to accessible primary sources.",
+      "sourceUrls": [
+        "https://investors.twistbioscience.com/news-releases/",
+        "https://www.twistbioscience.com/",
+        "https://www.sec.gov/edgar/browse/?CIK=1581280&owner-exclude="
+      ]
+    },
+    {
+      "technologyId": 28,
+      "checkedAt": "2026-10-28",
+      "result": "GFI fermentation report page and current science index checked. 2025 financing/scale-up context is historical, not October news. No validated interval cost-per-kg or production-volume change found.",
+      "sourceUrls": [
+        "https://gfi.org/resource/fermentation-meat-seafood-eggs-dairy-and-ingredients-state-of-the-industry/",
+        "https://gfi.org/science/"
+      ]
+    },
+    {
+      "technologyId": 29,
+      "checkedAt": "2026-10-28",
+      "result": "Emulate event index confirms an October 27 livestock organ-chip webinar and a prior September 29 FDA-qualification webinar. These establish activity, not completed regulatory qualification. Press-path fetch failed; FDA development-modernization page provides policy context.",
+      "sourceUrls": [
+        "https://emulatebio.com/events/category/in-person/",
+        "https://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development"
+      ]
+    },
+    {
+      "technologyId": 30,
+      "checkedAt": "2026-10-28",
+      "result": "Deere older acreage URL redirects to a JavaScript-only content library. Official API news and Deere MachineFinder product coverage checked; no validated October 18–28 deployed-acreage revision found. Preserve historic acreage and disclose access gap.",
+      "sourceUrls": [
+        "https://www.deere.ca/en/news/all-news/see-spray-technology-across-5-million-acres/",
+        "https://developer.deere.com/whats-new",
+        "https://edge.machinefinderpro.deere.com/ww/en-US/articles/john-deere-enhances-see--spray-technology-13812"
+      ]
+    },
+    {
+      "technologyId": 31,
+      "checkedAt": "2026-10-28",
+      "result": "Checked LONGi global and European newsrooms. The recent entries concern conventional back-contact PV, bankability and storage; no new tandem-specific performance or shipment evidence was validated for 18–28 October. Keep the original research-cell metric unchanged.",
+      "sourceUrls": [
+        "https://www.longi.com/en/news/",
+        "https://wf-eu.longi.com/press"
+      ]
+    },
+    {
+      "technologyId": 32,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Form Energy’s newsroom and targeted October search. Its visible recent financing releases predate the cutoff; no new commissioning evidence was validated for 18–28 October. Financing and contracted battery orders are not operating storage capacity.",
+      "sourceUrls": [
+        "https://formenergy.com/newsroom/"
+      ]
+    },
+    {
+      "technologyId": 33,
+      "checkedAt": "2026-10-28",
+      "result": "Checked CATL’s newsroom and sodium storage disclosure. The retrieved newsroom latest dated item was 16 October; the June TENER release described year-end shipment and 2027 international-delivery targets, not verified October deliveries. No interval deployment change validated.",
+      "sourceUrls": [
+        "https://www.catl.com/en/news/",
+        "https://www.catl.com/en/news/6861.html"
+      ]
+    },
+    {
+      "technologyId": 34,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Fervo’s newsroom and Cape Station release. The first 33 MW GeoBlock commercial-operation disclosure is dated 1 October and predates this interval; the latest visible release was 16 October. No new interval operating-capacity change validated.",
+      "sourceUrls": [
+        "https://fervoenergy.com/newsroom-2-2-2-2-2/",
+        "https://fervoenergy.com/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule-leading-the-race-for-next-generation-geothermal-energy/"
+      ]
+    },
+    {
+      "technologyId": 35,
+      "checkedAt": "2026-10-28",
+      "result": "Reviewed NRC’s indexed 2026 news and advanced-reactor highlights, which surfaced pre-cutoff licensing milestones rather than a new October operating reactor. Direct news-index retrieval returned 403; October regulatory coverage remains limited. No maturity change made.",
+      "sourceUrls": [
+        "https://www.nrc.gov/about-nrc/news-releases/2026",
+        "https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/highlights/2026"
+      ]
+    },
+    {
+      "technologyId": 36,
+      "checkedAt": "2026-10-28",
+      "result": "New 22 October EHPA statement argues industrial heat-pump manufacturing requirements should reflect different supply chains. This is an association policy position, not enacted law or new deployment statistics. IEA HPT homepage timed out; accessible EHPA material supplied the scan.",
+      "sourceUrls": [
+        "https://ehpa.org/news-and-resources/news/industrial-accelerator-act-one-size-cant-fit-all/",
+        "https://ehpa.org/news-and-resources/"
+      ]
+    },
+    {
+      "technologyId": 37,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Sunrun’s 14 October account of California battery dispatches, which predates the cutoff. It reports a 745 MW dispatch on 6 October, not annual energy or national VPP capacity. DOE’s saved project URL returned 404; no new interval dispatch evidence validated.",
+      "sourceUrls": [
+        "https://investors.sunrun.com/news-events/press-releases/detail/384/sunrun-leads-record-grid-dispatch-delivering-enough-energy",
+        "https://www.energy.gov/edf/virtual-power-plants-projects"
+      ]
+    },
+    {
+      "technologyId": 38,
+      "checkedAt": "2026-10-28",
+      "result": "Checked CTC Global’s newsroom. Its latest displayed product announcement is dated 25 August; no dated 18–28 October conductor deployment or measured transmission-capacity gain was validated. Existing metrics retained.",
+      "sourceUrls": [
+        "https://ctcglobal.com/news/"
+      ]
+    },
+    {
+      "technologyId": 39,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Renault/EDF’s 8 October partnership announcement and The Mobility House’s ChargeLine BiDi page. Both concern rollout plans; the Renault/EDF package is expected by summer 2027. No interval delivery or active-user totals validated; the saved newsroom route returned 404.",
+      "sourceUrls": [
+        "https://media.renaultgroup.com/renault-group-and-edf-group-join-forces-to-make-electric-vehicles-more-accessible-and-affordable-for-french-consumers/?lang=fra",
+        "https://www.mobilityhouse.com/int_en/chargeline-bidi"
+      ]
+    },
+    {
+      "technologyId": 40,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Redwood’s resource index and IEA’s recycling baseline. Redwood’s latest displayed resource was dated 1 October, while the IEA report is from 2024. No new 18–28 October recovered-output data validated; announced capacity remains distinct from available feedstock.",
+      "sourceUrls": [
+        "https://www.redwoodmaterials.com/resources/",
+        "https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary"
+      ]
+    },
+    {
+      "technologyId": 41,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Nel’s press-release index and IEA’s 2026 hydrogen dashboard. Nel’s 13 October synthetic-fuel memorandum predates the cutoff. The IEA labels 2026 dashboard values as estimates. No interval operating-output change validated.",
+      "sourceUrls": [
+        "https://nelhydrogen.com/press-releases/",
+        "https://www.iea.org/reports/global-hydrogen-review-2026/progress-summary-dashboard"
+      ]
+    },
+    {
+      "technologyId": 42,
+      "checkedAt": "2026-10-28",
+      "result": "Checked Global CCS Institute’s fact sheet and related news. Retrieved September discussions and a June fact sheet provide context, not new October operating capture volumes. No interval performance change validated; member-only project webinar content was not accessed.",
+      "sourceUrls": [
+        "https://www.globalccsinstitute.com/carbonmanagementfactsheet/"
+      ]
+    },
+    {
+      "technologyId": 43,
+      "checkedAt": "2026-10-28",
+      "result": "Checked CarbonCure’s news archive. Its latest displayed item is a 7 October board appointment; it is not new output or avoided-emissions evidence and predates the cutoff. No new interval concrete-production metric validated.",
+      "sourceUrls": [
+        "https://www.carboncure.com/news/"
+      ]
+    },
+    {
+      "technologyId": 44,
+      "checkedAt": "2026-10-28",
+      "result": "Checked IATA’s pressroom, 14 October SAF demand study and economics index. An index lists a 23 October pricing commentary, but its article body did not render; it was not used as evidence. The verified production figures remain forecasts from before the cutoff.",
+      "sourceUrls": [
+        "https://www.iata.org/en/pressroom",
+        "https://www.iata.org/en/pressroom/2026-releases/10-14-corporate-demand-could-support-up-to-1-9-million-tonnes-of-saf-by-2030/",
+        "https://www.iata.org/en/publications/economics"
+      ]
+    },
+    {
+      "technologyId": 45,
+      "checkedAt": "2026-10-28",
+      "result": "Re-read the Wohlers/ASTM 2026 report release. It reports 2025 market revenue and services growth, not October 2026 production adoption. No new interval end-use production milestone validated; the full paid report was not purchased.",
+      "sourceUrls": [
+        "https://wohlersassociates.com/press-releases/new-wohlers-report-2026-values-additive-manufacturing-market-at-24-2b/"
+      ]
+    },
+    {
+      "technologyId": 46,
+      "checkedAt": "2026-10-28",
+      "result": "Checked the Italian government’s App IO index and Commission age-verification material. The Italian private-company testing announcement is from July; EU rollout language remains a target. No new 18–28 October activation or cross-border acceptance totals validated. Direct access to one saved Commission news URL returned 403.",
+      "sourceUrls": [
+        "https://innovazione.gov.it/argomenti/app-io/",
+        "https://digital-strategy.ec.europa.eu/en/policies/eu-age-verification"
+      ]
+    },
+    {
+      "technologyId": 47,
+      "checkedAt": "2026-10-28",
+      "result": "Checked DTCC’s tokenization hub and July production-trade disclosure. The current FAQ still describes a Q4 2026 launch expectation. July production trades are evidence of a bounded event; this scan did not verify that the full service had launched during 18–28 October.",
+      "sourceUrls": [
+        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub",
+        "https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality"
+      ]
+    },
+    {
+      "technologyId": 48,
+      "checkedAt": "2026-10-28",
+      "result": "New 22 October Circle disclosure says eligible Mint customers can use prefunded hourly auctions matching USDC mint and redemption flows. This is product availability reported by the issuer; no matched-volume or adoption result was disclosed. Existing circulation series is unchanged.",
+      "sourceUrls": [
+        "https://www.circle.com/blog/circle-match-get-a-rebate-to-mint-set-your-price-to-redeem",
+        "https://www.circle.com/blog"
+      ]
+    },
+    {
+      "technologyId": 49,
+      "checkedAt": "2026-10-28",
+      "result": "Checked ESA’s Earth-observation index and EVE release. October mission updates concern infrastructure; the 8 October EVE announcement is earlier context. EVE’s imagery search and multi-step analysis remain planned capabilities. Added an adjacent research candidate, not a new baseline technology.",
+      "sourceUrls": [
+        "https://www.esa.int/Applications/Observing_the_Earth?stream=top",
+        "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Introducing_ESA_s_Earth_Virtual_Expert",
+        "https://commercialisation.esa.int/event/agentic-ai-for-earth-observation-workshop/"
+      ]
+    },
+    {
+      "technologyId": 50,
+      "checkedAt": "2026-10-28",
+      "result": "Rechecked OCWD’s GWRS operating-system page and WateReuse event listings. OCWD still states 130 million gallons/day; the calendar supplies no new output measurement. No interval capacity revision validated. Keep regional potable-reuse evidence distinct from global desalination adoption.",
+      "sourceUrls": [
+        "https://www.ocwd.com/gwrs/",
+        "https://watereuse.org/news-events/conferences/"
+      ]
+    }
+  ],
+  "researchWindow": {
+    "from": "2026-10-18",
+    "through": "2026-10-28",
+    "previousCutoff": "2026-10-17"
+  },
+  "coverageGaps": [
+    "This is a bounded primary-source scan, not an exhaustive search of every tracker or company.",
+    "GSA member annexes were not accessed; only public summary evidence was reviewed.",
+    "CCC archive and Varjo blog yielded no validated interval observation; absence of a detected update is not evidence of no progress.",
+    "One Coherent corporate-index request returned403; the specific PhotonLink release was subsequently readable.",
+    "The OCP architecture white paper exceeded the web parser content limit; excluded from deep-dive source count.",
+    "Deep review has nine primary sources, mostly company releases plus an industry group and an operator research paper; independent customer field-reliability measurements remain missing.",
+    "The broad scan is a bounded primary-source screen, not an exhaustive audit of every company or tracker.",
+    "Twist investor newsroom returned 403; its official product site and indexed SEC page were checked instead.",
+    "Deere’s historic acreage URL now redirects to a JavaScript-only library; accessible official material did not establish a new acreage number.",
+    "Emulate press path was inaccessible; event listings establish research activity, not regulatory qualification.",
+    "Sources predating October 18 are background checks and are not represented as new interval news.",
+    "All 20 profiles received a bounded source scan, not an exhaustive review of every vendor or tracker. Most validated material predates 18 October; absence of a validated change is not proof that nothing changed.",
+    "Direct retrieval failed for the NRC 2026 news index (403), IEA Heat Pumping Technologies homepage (timeout), saved DOE virtual-power-plant page (404), The Mobility House newsroom landing route (404), and one Commission age-verification news URL (403). Accessible primary-source alternatives or indexed official text were used; the NRC scan is particularly limited.",
+    "IATA’s 23 October commentary title appeared in its index but the body did not render, so its conclusions were not adopted. The full Wohlers report and Global CCS Institute member content were not accessed.",
+    "No historical measurements, forecast curves, original identities or categories were changed. Only profiles36 and48 gain sourced review notes; date metadata for other scanned profiles can be updated by the publication pipeline."
+  ]
+}

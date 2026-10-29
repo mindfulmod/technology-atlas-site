@@ -1,0 +1,550 @@
+{
+  "id": 9,
+  "name": "Post-quantum cryptography",
+  "category": "Compute & trust",
+  "summary": "New cryptographic algorithms protect communications and signatures against attacks that future quantum computers could enable.",
+  "useCase": "A bank inventories its encryption dependencies, upgrades customer connections to hybrid post-quantum key exchange and plans certificate migration.",
+  "whyNow": "Standardized algorithms now allow deployment planning and interoperable products. NIST finalized its first three PQC standards in August 2024. Cloudflare reported that over half of human HTTPS traffic reaching its network used post-quantum protection by October 2025 and over 65% by April 2026. These are network-specific observations and primarily concern key exchange; signatures and older systems require additional work. NIST’s final IR8547, published October 27, makes the migration pathway more concrete. It does not measure completed deployment.",
+  "mainstream": {
+    "year": 2030,
+    "range": [
+      2028,
+      2035
+    ],
+    "confidence": "High",
+    "scope": "Post-quantum key exchange and planned authentication migration in new cloud, browser and regulated-enterprise systems.",
+    "basis": "Analyst estimate",
+    "rationale": "Standards and major-platform rollout make adoption likely before practical large quantum attacks are demonstrated. Cloudflare’s stated 2029 roadmap anchors an early infrastructure target. Complete replacement across long-lived embedded equipment, archives and legacy estates can extend beyond 2035, so the headline year describes new and priority deployments.",
+    "sourceIds": [
+      "a09_s1",
+      "a09_s2",
+      "a09_s3"
+    ]
+  },
+  "direction": "Standards-driven acceleration",
+  "metric": {
+    "name": "Cloudflare human HTTPS traffic with post-quantum protection",
+    "unit": "% of human HTTPS traffic",
+    "scope": "Traffic reaching Cloudflare; reported threshold snapshots.",
+    "comparable": false,
+    "limitations": "Lower-bound disclosures, not exact percentages or a global internet census. This denominator excludes automated traffic. Older TLS 1.3-specific statistics have a different denominator and are deliberately not combined. Hybrid key exchange is not the same as quantum-safe authentication everywhere.",
+    "points": [
+      {
+        "year": 2025,
+        "value": 50,
+        "status": "observed",
+        "sourceId": "a09_s2",
+        "qualifier": ">",
+        "asOf": "2025-10-28"
+      },
+      {
+        "year": 2026,
+        "value": 65,
+        "status": "observed",
+        "sourceId": "a09_s3",
+        "qualifier": ">",
+        "asOf": "2026-04-07"
+      }
+    ],
+    "growthLabel": "Reported threshold rose from >50% to >65%",
+    "future": [],
+    "futureNote": "Cloudflare targets completing its platform roadmap by 2029. That is a vendor target, not a forecast that all systems or internet traffic will be fully migrated."
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "note": "Analyst ordinal assessment, not an adoption percentage: 0 research, 1 proof of concept, 2 pilots, 3 commercial niche, 4 routine use in the stated market, 5 established/expanding. Future values are a scenario."
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "No comparable production-traffic statistic identified for the defined KPI.",
+      "sourceIds": []
+    },
+    {
+      "year": 2022,
+      "text": "NIST’s continuing selection process preceded final standards; no invented deployment share is supplied.",
+      "sourceIds": [
+        "a09_s4"
+      ]
+    },
+    {
+      "year": 2023,
+      "text": "No same-denominator human-HTTPS measurement supplied for this year.",
+      "sourceIds": []
+    },
+    {
+      "year": 2024,
+      "text": "NIST released the first three finalized PQC standards in August.",
+      "sourceIds": [
+        "a09_s1"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "Cloudflare reported post-quantum protection for more than half of human HTTPS traffic.",
+      "sourceIds": [
+        "a09_s2"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "The reported threshold exceeded 65%; Cloudflare published a 2029 completion roadmap.",
+      "sourceIds": [
+        "a09_s3"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "October 27: NIST published final IR8547 on transition from vulnerable cryptography to PQC standards.",
+      "sourceIds": [
+        "a09_oct_ir8547"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Standards give vendors a common implementation target.",
+    "Long confidentiality lifetimes justify migration before a cryptographically relevant quantum computer exists."
+  ],
+  "bottlenecks": [
+    "Cryptographic inventories, certificate chains and old firmware create long migration programs.",
+    "Performance, key sizes, hardware constraints and algorithm agility require careful interoperability testing."
+  ],
+  "watchMetrics": [
+    "Share of priority connections using standardized PQC, with key exchange and signatures measured separately.",
+    "Percentage of critical cryptographic dependencies inventoried, upgraded and independently tested."
+  ],
+  "companies": [
+    {
+      "name": "Cloudflare",
+      "status": "Public",
+      "ticker": "NYSE:NET",
+      "role": "Internet-scale hybrid PQC deployment and security services.",
+      "url": "https://blog.cloudflare.com/post-quantum-roadmap/",
+      "sourceIds": [
+        "a09_c1"
+      ]
+    },
+    {
+      "name": "IBM",
+      "status": "Public",
+      "ticker": "NYSE:IBM",
+      "role": "Cryptographic research, enterprise platforms and migration services.",
+      "url": "https://www.ibm.com/",
+      "sourceIds": [
+        "a09_c2"
+      ]
+    },
+    {
+      "name": "Alphabet",
+      "status": "Public",
+      "ticker": "NASDAQ:GOOGL",
+      "role": "Browser, Android and cloud distribution.",
+      "url": "https://abc.xyz/investor/",
+      "sourceIds": [
+        "a09_c3"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "status": "Public",
+      "ticker": "NASDAQ:MSFT",
+      "role": "Windows, Azure and enterprise security migration.",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "sourceIds": [
+        "a09_c4"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "status": "Public",
+      "ticker": "NASDAQ:AMZN",
+      "role": "AWS cryptographic services and cloud deployment.",
+      "url": "https://ir.aboutamazon.com/",
+      "sourceIds": [
+        "a09_c5"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "status": "Public",
+      "ticker": "NASDAQ:CSCO",
+      "role": "Network infrastructure and quantum-safe security products.",
+      "url": "https://investor.cisco.com/",
+      "sourceIds": [
+        "a09_c6"
+      ]
+    },
+    {
+      "name": "Thales",
+      "status": "Public",
+      "ticker": "EPA:HO",
+      "role": "Hardware security modules, encryption and migration tooling.",
+      "url": "https://www.thalesgroup.com/",
+      "sourceIds": [
+        "a09_c7"
+      ]
+    },
+    {
+      "name": "NXP",
+      "status": "Public",
+      "ticker": "NASDAQ:NXPI",
+      "role": "Secure embedded and automotive hardware.",
+      "url": "https://www.nxp.com/",
+      "sourceIds": [
+        "a09_c8"
+      ]
+    },
+    {
+      "name": "PQShield",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private PQC software and hardware IP.",
+      "url": "https://pqshield.com/",
+      "sourceIds": [
+        "a09_c9"
+      ]
+    },
+    {
+      "name": "QuSecure",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private crypto-agility and migration platform.",
+      "url": "https://www.qusecure.com/",
+      "sourceIds": [
+        "a09_c10"
+      ]
+    },
+    {
+      "name": "ISARA",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private cryptographic discovery and quantum-readiness tools.",
+      "url": "https://www.isara.com/",
+      "sourceIds": [
+        "a09_c11"
+      ]
+    }
+  ],
+  "trackers": [
+    {
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com/topics/post-quantum-cryptography/",
+      "kind": "Specialist news",
+      "coverage": "Cryptography migration and enterprise security.",
+      "domain": "securityweek.com",
+      "latestObserved": "2026-08-14",
+      "activityEvidenceUrl": "https://www.securityweek.com/topics/quantum-computing/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise data protection and post-quantum readiness.",
+      "domain": "darkreading.com",
+      "latestObserved": "2026-08-11",
+      "activityEvidenceUrl": "https://www.darkreading.com/cyber-risk/post-quantum-readiness-where-to-start-key-strategies-and-what-to-avoid",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/",
+      "kind": "Specialist news",
+      "coverage": "Cryptography, sensitive data and implementation guidance.",
+      "domain": "helpnetsecurity.com",
+      "latestObserved": "2026-08-12",
+      "activityEvidenceUrl": "https://www.helpnetsecurity.com/2026/08/12/christopher-smith-quantus-post-quantum-migration/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/tag/post-quantum-cryptography/",
+      "kind": "Specialist news",
+      "coverage": "Quantum-safe platform changes and practical security.",
+      "domain": "bleepingcomputer.com",
+      "latestObserved": "2026-06-30",
+      "activityEvidenceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/amp/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "CSO Online",
+      "url": "https://www.csoonline.com/encryption/",
+      "kind": "Specialist news",
+      "coverage": "Encryption, identity, sensitive data and CISO priorities.",
+      "domain": "csoonline.com",
+      "latestObserved": "2026-10-08",
+      "activityEvidenceUrl": "https://www.csoonline.com/news-analysis/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/digital-signatures-and-certificates/",
+      "kind": "Specialist news",
+      "coverage": "PQC products, certificates and enterprise security.",
+      "domain": "infosecurity-magazine.com",
+      "latestObserved": "2026-10-08",
+      "activityEvidenceUrl": "https://www.infosecurity-magazine.com/digital-signatures-and-certificates/",
+      "activityNote": "Dated CISA/PQC coverage verified in search index; direct site access restricted."
+    },
+    {
+      "name": "The Quantum Insider",
+      "url": "https://thequantuminsider.com/",
+      "kind": "Specialist news",
+      "coverage": "Quantum security vendors and migration programs.",
+      "domain": "thequantuminsider.com",
+      "latestObserved": "2026-01-06",
+      "activityEvidenceUrl": "https://thequantuminsider.com/2026/01/06/after-a-year-of-quantum-awareness-2026-becomes-the-year-of-quantum-security/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "PostQuantum",
+      "url": "https://postquantum.com/",
+      "kind": "Specialist news",
+      "coverage": "Specialist quantum-security deployments and industry news.",
+      "domain": "postquantum.com",
+      "latestObserved": "2025-10-29",
+      "activityEvidenceUrl": "https://postquantum.com/industry-news/cloudflare-pqc-majority-traffic/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "NIST PQC",
+      "url": "https://www.nist.gov/pqc",
+      "kind": "Standards and research updates",
+      "coverage": "Algorithm standards and implementation updates.",
+      "domain": "nist.gov",
+      "latestObserved": "2026-07-28",
+      "activityEvidenceUrl": "https://www.nist.gov/pqc",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/",
+      "kind": "Vendor engineering news",
+      "coverage": "Measured PQC rollout and cloud-security engineering.",
+      "domain": "blog.cloudflare.com",
+      "latestObserved": "2026-04-07",
+      "activityEvidenceUrl": "https://blog.cloudflare.com/post-quantum-roadmap/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The Register",
+      "url": "https://www.theregister.com/ai_ml/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI, infrastructure, local models and deployment risks.",
+      "domain": "theregister.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    }
+  ],
+  "sources": [
+    {
+      "id": "a09_s1",
+      "title": "NIST releases first three finalized post-quantum encryption standards",
+      "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+      "publisher": "NIST",
+      "date": "2024-08-13",
+      "accessed": "2026-10-17",
+      "claim": "Final standards provide a deployment foundation.",
+      "type": "Standards body",
+      "ref": "turn208view3"
+    },
+    {
+      "id": "a09_s2",
+      "title": "Post-quantum cryptography in 2025",
+      "url": "https://blog.cloudflare.com/pq-2025/",
+      "publisher": "Cloudflare",
+      "date": "2025-10-28",
+      "accessed": "2026-10-17",
+      "claim": "More than 50% of human HTTPS traffic protected by PQC.",
+      "type": "Vendor technical measurement",
+      "ref": "turn2search7"
+    },
+    {
+      "id": "a09_s3",
+      "title": "Cloudflare post-quantum roadmap",
+      "url": "https://blog.cloudflare.com/post-quantum-roadmap/",
+      "publisher": "Cloudflare",
+      "date": "2026-04-07",
+      "accessed": "2026-10-17",
+      "claim": "More than 65% human HTTPS traffic and a 2029 roadmap.",
+      "type": "Vendor technical measurement",
+      "ref": "turn2search15"
+    },
+    {
+      "id": "a09_s4",
+      "title": "Post-quantum cryptography project",
+      "url": "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography",
+      "publisher": "NIST",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Standardization history and ongoing work.",
+      "type": "Standards body",
+      "ref": "turn12search10"
+    },
+    {
+      "id": "a09_c1",
+      "title": "Cloudflare: product portfolio, company or investor information",
+      "url": "https://blog.cloudflare.com/post-quantum-roadmap/",
+      "publisher": "Cloudflare",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn2search15"
+    },
+    {
+      "id": "a09_c2",
+      "title": "IBM: product portfolio, company or investor information",
+      "url": "https://www.ibm.com/",
+      "publisher": "IBM",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a09_c3",
+      "title": "Alphabet: product portfolio, company or investor information",
+      "url": "https://abc.xyz/investor/",
+      "publisher": "Alphabet",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view1"
+    },
+    {
+      "id": "a09_c4",
+      "title": "Microsoft: product portfolio, company or investor information",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "publisher": "Microsoft",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view0"
+    },
+    {
+      "id": "a09_c5",
+      "title": "Amazon: product portfolio, company or investor information",
+      "url": "https://ir.aboutamazon.com/",
+      "publisher": "Amazon",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view2"
+    },
+    {
+      "id": "a09_c6",
+      "title": "Cisco: product portfolio, company or investor information",
+      "url": "https://investor.cisco.com/",
+      "publisher": "Cisco",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn211view4"
+    },
+    {
+      "id": "a09_c7",
+      "title": "Thales: product portfolio, company or investor information",
+      "url": "https://www.thalesgroup.com/",
+      "publisher": "Thales",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a09_c8",
+      "title": "NXP: product portfolio, company or investor information",
+      "url": "https://www.nxp.com/",
+      "publisher": "NXP",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a09_c9",
+      "title": "PQShield: product portfolio, company or investor information",
+      "url": "https://pqshield.com/",
+      "publisher": "PQShield",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a09_c10",
+      "title": "QuSecure: product portfolio, company or investor information",
+      "url": "https://www.qusecure.com/",
+      "publisher": "QuSecure",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn211view8"
+    },
+    {
+      "id": "a09_c11",
+      "title": "ISARA: product portfolio, company or investor information",
+      "url": "https://www.isara.com/",
+      "publisher": "ISARA",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn209view0"
+    },
+    {
+      "id": "a09_oct_ir8547",
+      "title": "Transition to Post-Quantum Cryptography Standards",
+      "url": "https://www.nist.gov/publications/transition-post-quantum-cryptography-standards",
+      "publisher": "NIST",
+      "date": "2026-10-27",
+      "accessed": "2026-10-28",
+      "claim": "Final IR8547 maps vulnerable algorithms to replacement standards and migration priorities.",
+      "checkedAt": "2026-10-28",
+      "type": "Government technical report",
+      "publishedAt": "2026-10-27"
+    }
+  ],
+  "companyMapNote": "Curated leading and enabling companies, not an exhaustive list or investment recommendation. Public parent exposure may be indirect; private status and pending transactions are assessed at the cutoff.",
+  "trackersNote": "Each site showed dated activity within the preceding 12 months. Dedicated specialists are combined with clearly described broader beats; activity evidence verifies the publication is active, not that every outlet posts on this exact subtopic daily.",
+  "coverage": {
+    "distinctTrackerDomains": 11,
+    "recentlyDatedTrackers": 11,
+    "numericHistoricalPoints": 2
+  },
+  "reviewNote": "October 28 early monthly run: NIST’s final IR8547, published October 27, makes the migration pathway more concrete. It does not measure completed deployment. Existing numerical observations and mainstream range retained."
+}

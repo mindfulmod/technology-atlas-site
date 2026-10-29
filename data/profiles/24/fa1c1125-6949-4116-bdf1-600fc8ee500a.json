@@ -1,0 +1,583 @@
+{
+  "id": 24,
+  "name": "RNA therapeutics and next-generation vaccines",
+  "category": "Healthcare",
+  "summary": "RNA-based medicines change protein production or teach the immune system to recognise a target without permanently rewriting DNA.",
+  "useCase": "A patient receives an RNA-silencing medicine for a defined disease, or a vaccine designed around a pathogen or tumour target.",
+  "whyNow": "Commercial RNA interference has expanded sharply while vaccines and RNA editing progress through distinct clinical paths. Pandemic vaccine revenue is an unsuitable standalone measure of the whole field’s direction.",
+  "mainstream": {
+    "year": 2030,
+    "range": [
+      2028,
+      2034
+    ],
+    "confidence": "Medium",
+    "scope": "Routine use of additional RNA medicines in selected liver, cardiovascular and rare-disease indications, with approved vaccine extensions.",
+    "basis": "Analyst estimate",
+    "rationale": "Already approved RNA products validate parts of the platform. Broader routine use depends on delivery beyond the liver, manufacturing and indication-specific clinical benefit. Cancer vaccines and RNA editing remain conditional on trial outcomes.",
+    "sourceIds": [
+      "b24s1",
+      "b24s2",
+      "b24s3"
+    ]
+  },
+  "direction": "Growing, with divergent submarkets",
+  "metric": {
+    "name": "Alnylam annual net product revenue",
+    "unit": "USD million",
+    "scope": "RNA interference medicines sold by one company; excludes collaboration revenue",
+    "comparable": true,
+    "limitations": "RNAi commercial proxy, not all RNA therapeutics or vaccines. Revenue reflects indication expansion, pricing and product mix; it is not a count of patients. Do not extend this series to imply mRNA vaccine sales followed the same path.",
+    "points": [
+      {
+        "year": 2021,
+        "value": 662.138,
+        "status": "observed",
+        "sourceId": "b24s1"
+      },
+      {
+        "year": 2023,
+        "value": 1241.474,
+        "status": "observed",
+        "sourceId": "b24s2"
+      },
+      {
+        "year": 2024,
+        "value": 1646.228,
+        "status": "observed",
+        "sourceId": "b24s2"
+      },
+      {
+        "year": 2025,
+        "value": 2986.549,
+        "status": "observed",
+        "sourceId": "b24s2"
+      }
+    ],
+    "future": [],
+    "futureNote": "A separate Alnylam 2030 total-revenue CAGR ambition is included. Its scope differs from historical net product revenue and from the overall RNA market."
+  },
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ]
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "Alnylam reported $662.1 million in net product revenue for 2021.",
+      "sourceIds": [
+        "b24s1"
+      ]
+    },
+    {
+      "year": 2022,
+      "text": "No comparable 2022 revenue point is included in this extract.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "The annual filing reports $1.241 billion in product revenue for 2023.",
+      "sourceIds": [
+        "b24s2"
+      ]
+    },
+    {
+      "year": 2024,
+      "text": "The same measure reached $1.646 billion in 2024.",
+      "sourceIds": [
+        "b24s2"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "Product revenue reached $2.987 billion as the commercial RNAi portfolio expanded.",
+      "sourceIds": [
+        "b24s2",
+        "b24s3"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "February 2026 results document the 2025 full year; this is not a 2026 annual revenue forecast.",
+      "sourceIds": [
+        "b24s3"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Sequence-based design can reuse development platforms",
+    "Established RNAi medicines provide commercial validation",
+    "Delivery and manufacturing suppliers benefit across multiple programmes"
+  ],
+  "bottlenecks": [
+    "Delivery to the intended tissue remains a central constraint",
+    "Durability, repeat dosing and tolerability differ by modality",
+    "Vaccine demand and policy can diverge from therapeutic growth"
+  ],
+  "watchMetrics": [
+    "Patients treated and reimbursed indication expansions",
+    "Clinical success by modality: siRNA, antisense, mRNA and RNA editing",
+    "Tissue delivery, dose burden and manufacturing yield"
+  ],
+  "companies": [
+    {
+      "name": "Alnylam",
+      "status": "Public",
+      "ticker": "NASDAQ:ALNY",
+      "role": "Commercial RNA interference medicines.",
+      "url": "https://www.alnylam.com/",
+      "sourceIds": [
+        "b24c1"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Moderna",
+      "status": "Public",
+      "ticker": "NASDAQ:MRNA",
+      "role": "mRNA vaccines and therapeutic development.",
+      "url": "https://www.modernatx.com/",
+      "sourceIds": [
+        "b24c2"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "BioNTech",
+      "status": "Public",
+      "ticker": "NASDAQ:BNTX",
+      "role": "mRNA vaccines and oncology immunotherapies.",
+      "url": "https://www.biontech.com/",
+      "sourceIds": [
+        "b24c3"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Pfizer",
+      "status": "Public",
+      "ticker": "NYSE:PFE",
+      "role": "Vaccine commercialisation and RNA-related research.",
+      "url": "https://www.pfizer.com/",
+      "sourceIds": [
+        "b24c4"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Ionis Pharmaceuticals",
+      "status": "Public",
+      "ticker": "NASDAQ:IONS",
+      "role": "Antisense and other RNA-targeted medicines.",
+      "url": "https://www.ionis.com/",
+      "sourceIds": [
+        "b24c5"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Novartis",
+      "status": "Public",
+      "ticker": "NYSE:NVS",
+      "role": "Commercial RNA-silencing and expanded RNA pipeline.",
+      "url": "https://www.novartis.com/",
+      "sourceIds": [
+        "b24c6"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Arcturus Therapeutics",
+      "status": "Public",
+      "ticker": "NASDAQ:ARCT",
+      "role": "Self-amplifying RNA and delivery platforms.",
+      "url": "https://arcturusrx.com/",
+      "sourceIds": [
+        "b24c7"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Roche",
+      "status": "Public",
+      "ticker": "SIX:ROG",
+      "role": "RNA partnerships and therapeutic development; diversified exposure.",
+      "url": "https://www.roche.com/",
+      "sourceIds": [
+        "b24c8"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Immorna",
+      "status": "Private",
+      "ticker": null,
+      "role": "mRNA and self-replicating RNA development.",
+      "url": "https://www.immorna.com/",
+      "sourceIds": [
+        "b24c9"
+      ],
+      "statusNote": "Listing/ownership reviewed as of 2026-10-17; economic exposure is a curated example, not a recommendation."
+    },
+    {
+      "name": "Sirnaomics / RNAimmune",
+      "status": "Public parent; non-wholly-owned subsidiary",
+      "ticker": "HKEX:2257",
+      "role": "Public parent exposure to an RNAimmune mRNA vaccine and therapeutic subsidiary.",
+      "url": "https://www.sirnaomics.com/en/",
+      "sourceIds": [
+        "b24s4"
+      ],
+      "statusNote": "RNAimmune is not an independent publicly listed company; the listed economic exposure is its non-wholly-owning parent."
+    }
+  ],
+  "trackers": [
+    {
+      "name": "GEN",
+      "url": "https://www.genengnews.com/subject/rna/",
+      "kind": "Research news and events",
+      "coverage": "RNA design, delivery, manufacturing and clinical research.",
+      "domain": "genengnews.com",
+      "latestObserved": "2026-06-24",
+      "activityEvidenceUrl": "https://www.genengnews.com/multimedia/summits/spotlight-on-rna-therapeutics/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn249search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/",
+      "kind": "Specialist news",
+      "coverage": "RNA therapeutic modalities, vaccines, partnerships and clinical progress.",
+      "domain": "fiercebiotech.com",
+      "latestObserved": "2026-08-27",
+      "activityEvidenceUrl": "https://www.fiercebiotech.com/research/trna-has-entered-ring-possible-therapeutic-avenue-while-mrna-rise",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn188search32",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/",
+      "kind": "Specialist news",
+      "coverage": "RNA medicine programmes and the commercial consequences of clinical results.",
+      "domain": "biopharmadive.com",
+      "latestObserved": "2026-02-02",
+      "activityEvidenceUrl": "https://www.biopharmadive.com/news/wave-gsk-reacquire-rna-editing-drug-aatd/811067/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn188search18",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "STAT",
+      "url": "https://www.statnews.com/",
+      "kind": "Specialist news",
+      "coverage": "Vaccine science, approval and policy coverage; this activity example is commentary.",
+      "domain": "statnews.com",
+      "latestObserved": "2026-08-06",
+      "activityEvidenceUrl": "https://www.statnews.com/2026/08/06/mflusiva-fda-mrna-flu-vaccine-rfk-jr/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn245search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "BioSpace",
+      "url": "https://www.biospace.com/",
+      "kind": "Specialist news and press releases",
+      "coverage": "RNA development companies, delivery platforms and financing announcements.",
+      "domain": "biospace.com",
+      "latestObserved": "2026-04-15",
+      "activityEvidenceUrl": "https://www.biospace.com/press-releases/aerska-strengthens-leadership-and-board-with-key-appointments-to-advance-systemically-delivered-rna-medicines-for-the-brain",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn245search14",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "Labiotech",
+      "url": "https://www.labiotech.eu/",
+      "kind": "Specialist news",
+      "coverage": "mRNA, RNA interference, delivery and biotechnology company tracking.",
+      "domain": "labiotech.eu",
+      "latestObserved": "2026-07-17",
+      "activityEvidenceUrl": "https://www.labiotech.eu/best-biotech/mrna-companies/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn188search33",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "Technology Networks",
+      "url": "https://www.technologynetworks.com/",
+      "kind": "Research news",
+      "coverage": "RNA mechanisms, therapeutic platforms and translational research.",
+      "domain": "technologynetworks.com",
+      "latestObserved": "2026-06-15",
+      "activityEvidenceUrl": "https://www.technologynetworks.com/tn/articles/persist-adapt-resist-has-cancer-met-its-match-in-small-rnas-413569",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn246search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "Nature Communications",
+      "url": "https://www.nature.com/subjects/gene-therapy/ncomms",
+      "kind": "Research feed",
+      "coverage": "Regular primary-research feed including RNA base editing and genetic-medicine delivery.",
+      "domain": "nature.com",
+      "latestObserved": "2025-11-03",
+      "activityEvidenceUrl": "https://www.nature.com/subjects/gene-therapy/ncomms",
+      "activityNote": "November 3, 2025 RNA-editing paper date observed in the topic feed; a research tracker rather than daily business news.",
+      "activitySourceRef": "turn194search9",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "Drug Discovery & Development",
+      "url": "https://www.drugdiscoverytrends.com/",
+      "kind": "Specialist news",
+      "coverage": "Drug discovery, AI tools, translational models and pharmaceutical R&D policy.",
+      "domain": "drugdiscoverytrends.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.drugdiscoverytrends.com/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn195view0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    },
+    {
+      "name": "Sirnaomics newsroom",
+      "url": "https://www.sirnaomics.com/en/news/",
+      "kind": "Vendor newsroom",
+      "coverage": "RNA platform and vaccine-programme updates from a developer; company perspective.",
+      "domain": "sirnaomics.com",
+      "latestObserved": "2026-08-26",
+      "activityEvidenceUrl": "https://www.sirnaomics.com/en/news/press-release/sirnaomics-investee-rnaimmunecompletes-rmb-30-million-strategic-financing-to-accelerate-mrna-cancer-vaccine-pipeline-development/",
+      "activityNote": "Publication date and topic coverage observed in the live page or search index; subscription access may be required for the full article.",
+      "activitySourceRef": "turn242search0",
+      "verifiedActive": true,
+      "verifiedAt": "2026-10-17",
+      "searchTerms": "RNA therapeutics and next-generation vaccines"
+    }
+  ],
+  "sources": [
+    {
+      "id": "b24s1",
+      "title": "2021 financial results",
+      "url": "https://investors.alnylam.com/press-release?id=26471",
+      "publisher": "Alnylam",
+      "date": null,
+      "claim": "2021 net product revenue of $662.138 million.",
+      "type": "Company disclosure",
+      "ref": "turn13search16"
+    },
+    {
+      "id": "b24s2",
+      "title": "2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1178670/000162828026007497/alny-20251231.htm",
+      "publisher": "Alnylam / SEC",
+      "date": null,
+      "claim": "Comparable product-revenue series for 2023–2025.",
+      "type": "Regulatory filing",
+      "ref": "turn13search10"
+    },
+    {
+      "id": "b24s3",
+      "title": "2025 financial results",
+      "url": "https://investors.alnylam.com/press-release?id=cda5bd48-ed15-4c48-ab80-1afb628fc6f9",
+      "publisher": "Alnylam",
+      "date": "2026-02-12",
+      "claim": "2025 product revenue and commercial programme context.",
+      "type": "Company disclosure",
+      "ref": "turn14view2"
+    },
+    {
+      "id": "b24c1",
+      "title": "Alnylam — official company information",
+      "url": "https://www.alnylam.com/",
+      "publisher": "Alnylam",
+      "date": null,
+      "claim": "Commercial RNA interference medicines.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c2",
+      "title": "Moderna — official company information",
+      "url": "https://www.modernatx.com/",
+      "publisher": "Moderna",
+      "date": null,
+      "claim": "mRNA vaccines and therapeutic development.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c3",
+      "title": "BioNTech — official company information",
+      "url": "https://www.biontech.com/",
+      "publisher": "BioNTech",
+      "date": null,
+      "claim": "mRNA vaccines and oncology immunotherapies.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c4",
+      "title": "Pfizer — official company information",
+      "url": "https://www.pfizer.com/",
+      "publisher": "Pfizer",
+      "date": null,
+      "claim": "Vaccine commercialisation and RNA-related research.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c5",
+      "title": "Ionis Pharmaceuticals — official company information",
+      "url": "https://www.ionis.com/",
+      "publisher": "Ionis Pharmaceuticals",
+      "date": null,
+      "claim": "Antisense and other RNA-targeted medicines.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c6",
+      "title": "Novartis — official company information",
+      "url": "https://www.novartis.com/",
+      "publisher": "Novartis",
+      "date": null,
+      "claim": "Commercial RNA-silencing and expanded RNA pipeline.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c7",
+      "title": "Arcturus Therapeutics — official company information",
+      "url": "https://arcturusrx.com/",
+      "publisher": "Arcturus Therapeutics",
+      "date": null,
+      "claim": "Self-amplifying RNA and delivery platforms.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c8",
+      "title": "Roche — official company information",
+      "url": "https://www.roche.com/",
+      "publisher": "Roche",
+      "date": null,
+      "claim": "RNA partnerships and therapeutic development; diversified exposure.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c9",
+      "title": "Immorna — official company information",
+      "url": "https://www.immorna.com/",
+      "publisher": "Immorna",
+      "date": null,
+      "claim": "mRNA and self-replicating RNA development.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24c10",
+      "title": "RNAimmune — official company information",
+      "url": "https://www.rnaimmune.com/",
+      "publisher": "RNAimmune",
+      "date": null,
+      "claim": "mRNA vaccine and therapeutic programmes.",
+      "type": "Company website",
+      "ref": null
+    },
+    {
+      "id": "b24s4",
+      "title": "Strategic financing for RNAimmune vaccine development",
+      "url": "https://www.sirnaomics.com/en/news/press-release/sirnaomics-investee-rnaimmunecompletes-rmb-30-million-strategic-financing-to-accelerate-mrna-cancer-vaccine-pipeline-development/",
+      "publisher": "Sirnaomics",
+      "date": "2026-08-26",
+      "claim": "RNAimmune is an indirect non-wholly-owned subsidiary within the Sirnaomics group.",
+      "type": "Company disclosure",
+      "ref": "turn242search0"
+    },
+    {
+      "id": "b24s5",
+      "title": "Alnylam 2030 strategy",
+      "url": "https://investors.alnylam.com/press-release?id=bed48a74-b01e-454e-bb79-756538936bb1",
+      "publisher": "Alnylam",
+      "date": "2026-01-11",
+      "claim": "Aspirational company target of 25%+ total-revenue CAGR through year-end 2030.",
+      "type": "Company disclosure",
+      "ref": "turn274view1"
+    },
+    {
+      "id": "b24r_aln_oct",
+      "title": "Initial Phase 1b data for brezosiran in Huntington’s disease",
+      "url": "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68",
+      "publisher": "Alnylam",
+      "date": "2026-10-23",
+      "accessed": "2026-10-28",
+      "claim": "Initial biomarker lowering; planned pivotal trial remains contingent on regulatory alignment.",
+      "type": "Company-reported early clinical data"
+    }
+  ],
+  "interpretation": "Company and technology proxies measure different things across trends. Compare direction within a row; do not add these measures together or rank sectors by their raw values.",
+  "researchStatus": "Monthly review checked 2026-10-28; source dates and limitations retained.",
+  "outlookMetrics": [
+    {
+      "name": "Alnylam total-revenue growth ambition",
+      "year": 2030,
+      "value": 25,
+      "qualifier": "≥",
+      "unit": "% annual CAGR",
+      "scope": "One company’s total revenue over its five-year 2030 strategy; broader than net product revenue",
+      "status": "Aspirational company target",
+      "sourceId": "b24s5",
+      "note": "Company target, not an analyst market forecast. Total revenue includes streams outside the historical net-product series, so it must not be used to mechanically extend that line."
+    }
+  ],
+  "forwardInterpretation": "The maturity path is an analyst scenario for the stated market scope. A score of 4 means routine use in that scope, not a measured adoption percentage. The window can shift if the listed cost, performance, evidence or policy bottlenecks fail to clear.",
+  "companyMapNote": "Curated leading developers, operators, suppliers and commercial partners. Inclusion shows a plausible business connection, not a guarantee of profit or an exhaustive list. Parent and subsidiary exposure is stated in the company role.",
+  "coverage": {
+    "distinctTrackerDomains": 10,
+    "recentlyDatedTrackers": 10,
+    "numericHistoricalPoints": 4
+  },
+  "reviewNote": "October 23 early biomarker results added as a clinical-development signal only. No treatment-effect, approval or revenue-series revision warranted."
+}

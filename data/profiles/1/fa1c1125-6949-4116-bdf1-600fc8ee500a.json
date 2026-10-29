@@ -1,0 +1,551 @@
+{
+  "id": 1,
+  "name": "AI agents and workflow automation",
+  "category": "Intelligence",
+  "summary": "Software agents carry out bounded sequences of work across applications, with people approving consequential actions.",
+  "useCase": "A procurement agent checks a purchase request against policy, retrieves approved suppliers, drafts an order and routes exceptions to a buyer.",
+  "whyNow": "Large-company deployment is expanding: McKinsey’s 2026 survey reports 40% scaling agents, versus 27% in 2025. However, the outcome depends on integration, permissions and reliable exception handling. Buying an agent license does not establish that autonomous work is useful or economical. The opportunity is strongest when the task has clear inputs, an observable result and a safe recovery path. Glean’s October 21 code-based agent builder adds a governed development path; effectiveness and error rates still need customer evidence.",
+  "mainstream": {
+    "year": 2029,
+    "range": [
+      2028,
+      2031
+    ],
+    "confidence": "Medium",
+    "scope": "Routine production use of agents for selected, repeatable enterprise workflows, with human approval and monitoring.",
+    "basis": "Analyst estimate",
+    "rationale": "The survey shows movement beyond experimentation, while Gartner’s 2028 application forecast supports broad distribution. Widespread dependable execution should lag product availability. The window assumes identity controls, evaluations and operational ownership improve. Complex cross-company decisions may remain supervised well after 2035.",
+    "sourceIds": [
+      "a01_s1",
+      "a01_s2",
+      "a01_s3"
+    ]
+  },
+  "direction": "Accelerating",
+  "metric": {
+    "name": "Large organizations scaling AI agents",
+    "unit": "% of surveyed organizations",
+    "scope": "McKinsey respondents at organizations with annual revenue above US$1 billion.",
+    "comparable": false,
+    "limitations": "Survey estimates, not a census or verified production transaction count; respondent mix may change. This is the large-company subgroup, not all businesses. No defensible annual series for 2021–2024 is supplied.",
+    "points": [
+      {
+        "year": 2025,
+        "value": 27,
+        "status": "observed",
+        "sourceId": "a01_s1"
+      },
+      {
+        "year": 2026,
+        "value": 40,
+        "status": "observed",
+        "sourceId": "a01_s1",
+        "asOf": "2026-08-25"
+      }
+    ],
+    "growthLabel": "+13 percentage points in reported scaling",
+    "future": [],
+    "futureNote": "The forward curve is an analyst maturity scenario. Gartner’s enterprise-application forecast uses a different denominator and is displayed separately."
+  },
+  "outlookMetrics": [
+    {
+      "name": "Enterprise software applications containing agentic AI",
+      "year": 2028,
+      "value": 33,
+      "unit": "%",
+      "scope": "Gartner forecast, enterprise software applications",
+      "status": "external forecast",
+      "sourceId": "a01_s3",
+      "note": "Published June 2025; baseline below 1% in 2024. This measures applications, not organizations scaling agents."
+    }
+  ],
+  "maturity": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2028,
+      2030,
+      2032,
+      2035
+    ],
+    "scores": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "note": "Analyst ordinal assessment, not an adoption percentage: 0 research, 1 proof of concept, 2 pilots, 3 commercial niche, 4 routine use in the stated market, 5 established/expanding. Future values are a scenario."
+  },
+  "milestones": [
+    {
+      "year": 2021,
+      "text": "No comparable agent-deployment measurement identified; earlier automation should not be relabeled as modern LLM agents.",
+      "sourceIds": []
+    },
+    {
+      "year": 2022,
+      "text": "No comparable measurement identified for enterprise agents; the maturity score is an analyst assessment.",
+      "sourceIds": []
+    },
+    {
+      "year": 2023,
+      "text": "No comparable global deployment count identified; evaluate bounded tool use separately from ordinary chatbots.",
+      "sourceIds": []
+    },
+    {
+      "year": 2024,
+      "text": "Gartner later estimated fewer than 1% of enterprise applications contained agentic AI.",
+      "sourceIds": [
+        "a01_s3"
+      ]
+    },
+    {
+      "year": 2025,
+      "text": "27% of surveyed large organizations were scaling agents; Microsoft reported over 230,000 organizations using Copilot Studio.",
+      "sourceIds": [
+        "a01_s1",
+        "a01_s4"
+      ]
+    },
+    {
+      "year": 2026,
+      "text": "Reported scaling reached 40% of large organizations; the survey still distinguishes scaling from enterprise-wide value.",
+      "sourceIds": [
+        "a01_s1"
+      ]
+    }
+  ],
+  "tailwinds": [
+    "Agents can be distributed through existing workflow and cloud software.",
+    "Better tool interfaces and evaluation systems make narrow tasks easier to automate."
+  ],
+  "bottlenecks": [
+    "Error recovery, prompt injection and excessive permissions can make unattended execution costly.",
+    "Gartner forecasts more than 40% of agentic projects may be canceled by the end of 2027; a forecast, not an observed cancellation rate."
+  ],
+  "watchMetrics": [
+    "Share of eligible transactions completed correctly without intervention; report exception and rollback rates.",
+    "Cost per verified completed task and renewal rates, rather than demonstrations or raw token consumption."
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "status": "Public",
+      "ticker": "NASDAQ:MSFT",
+      "role": "Copilot Studio, Microsoft 365 and Azure agent services.",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "sourceIds": [
+        "a01_c1"
+      ]
+    },
+    {
+      "name": "Alphabet",
+      "status": "Public",
+      "ticker": "NASDAQ:GOOGL",
+      "role": "Gemini, Google Cloud and Workspace agent distribution.",
+      "url": "https://abc.xyz/investor/",
+      "sourceIds": [
+        "a01_c2"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "status": "Public",
+      "ticker": "NASDAQ:AMZN",
+      "role": "AWS agent infrastructure and enterprise automation services.",
+      "url": "https://ir.aboutamazon.com/",
+      "sourceIds": [
+        "a01_c3"
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "status": "Public",
+      "ticker": "NYSE:CRM",
+      "role": "Agentforce and CRM workflow execution.",
+      "url": "https://www.salesforce.com/",
+      "sourceIds": [
+        "a01_c4"
+      ]
+    },
+    {
+      "name": "ServiceNow",
+      "status": "Public",
+      "ticker": "NYSE:NOW",
+      "role": "Agents embedded in IT and business service workflows.",
+      "url": "https://www.servicenow.com/",
+      "sourceIds": [
+        "a01_c5"
+      ]
+    },
+    {
+      "name": "UiPath",
+      "status": "Public",
+      "ticker": "NYSE:PATH",
+      "role": "Combines process automation with agent orchestration.",
+      "url": "https://www.uipath.com/",
+      "sourceIds": [
+        "a01_c6"
+      ]
+    },
+    {
+      "name": "IBM",
+      "status": "Public",
+      "ticker": "NYSE:IBM",
+      "role": "Enterprise AI orchestration, governance and consulting.",
+      "url": "https://www.ibm.com/",
+      "sourceIds": [
+        "a01_c7"
+      ]
+    },
+    {
+      "name": "SAP",
+      "status": "Public",
+      "ticker": "NYSE:SAP",
+      "role": "Business-system data and workflow distribution.",
+      "url": "https://www.sap.com/",
+      "sourceIds": [
+        "a01_c8"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private model and agent platform supplier.",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "sourceIds": [
+        "a01_c9"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private Claude and tool-use supplier; IPO preparation is not a completed listing.",
+      "url": "https://www.anthropic.com/news/series-h",
+      "sourceIds": [
+        "a01_c10"
+      ]
+    },
+    {
+      "name": "Glean",
+      "status": "Private",
+      "ticker": null,
+      "role": "Private enterprise context and agent platform.",
+      "url": "https://www.glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption",
+      "sourceIds": [
+        "a01_c11"
+      ]
+    }
+  ],
+  "trackers": [
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI: agents, models and operating economics.",
+      "domain": "venturebeat.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://venturebeat.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "kind": "Specialist news",
+      "coverage": "AI startups, product launches and business adoption.",
+      "domain": "techcrunch.com",
+      "latestObserved": "2026-05-28",
+      "activityEvidenceUrl": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/",
+      "kind": "Specialist news",
+      "coverage": "Models, multimodal capabilities and agent behavior.",
+      "domain": "the-decoder.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://the-decoder.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The Register",
+      "url": "https://www.theregister.com/ai_ml/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise AI, infrastructure, local models and deployment risks.",
+      "domain": "theregister.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "InfoQ",
+      "url": "https://www.infoq.com/ai-ml-data-eng/",
+      "kind": "Specialist news",
+      "coverage": "Production AI architecture, coding tools, retrieval and privacy.",
+      "domain": "infoq.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://www.infoq.com/ai-ml-data-eng/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "CIO",
+      "url": "https://www.cio.com/",
+      "kind": "Specialist news",
+      "coverage": "Broad enterprise beat: AI purchasing, workflow redesign and governance.",
+      "domain": "cio.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.cio.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "SiliconANGLE",
+      "url": "https://siliconangle.com/",
+      "kind": "Specialist news",
+      "coverage": "Cloud and enterprise AI vendors, economics and infrastructure.",
+      "domain": "siliconangle.com",
+      "latestObserved": "2026-09-11",
+      "activityEvidenceUrl": "https://siliconangle.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/ai/",
+      "kind": "Specialist news",
+      "coverage": "Broad technology beat: models, coding, AI hardware and limitations.",
+      "domain": "arstechnica.com",
+      "latestObserved": "2026-10-16",
+      "activityEvidenceUrl": "https://arstechnica.com/ai/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "Computerworld",
+      "url": "https://www.computerworld.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise applications, knowledge work and endpoint AI.",
+      "domain": "computerworld.com",
+      "latestObserved": "2026-10-15",
+      "activityEvidenceUrl": "https://www.computerworld.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    },
+    {
+      "name": "The New Stack",
+      "url": "https://thenewstack.io/",
+      "kind": "Specialist news",
+      "coverage": "Developer and cloud-native AI engineering and sensitive workloads.",
+      "domain": "thenewstack.io",
+      "latestObserved": "2026-09-28",
+      "activityEvidenceUrl": "https://thenewstack.io/confidential-ai-sensitive-enterprise-data/",
+      "activityNote": "Dated article verified in search index; direct retrieval access-restricted."
+    },
+    {
+      "name": "Network World",
+      "url": "https://www.networkworld.com/",
+      "kind": "Specialist news",
+      "coverage": "Enterprise networks, edge, data-center AI and knowledge infrastructure.",
+      "domain": "networkworld.com",
+      "latestObserved": "2026-10-07",
+      "activityEvidenceUrl": "https://www.networkworld.com/",
+      "activityNote": "Recent dated coverage verified on the linked page."
+    }
+  ],
+  "sources": [
+    {
+      "id": "a01_s1",
+      "title": "The state of AI in 2026",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "publisher": "McKinsey",
+      "date": "2026-08-25",
+      "accessed": "2026-10-17",
+      "claim": "40% versus 27% of large organizations scaling agents; survey scope and operational constraints.",
+      "type": "Primary research",
+      "ref": "turn53view0"
+    },
+    {
+      "id": "a01_s2",
+      "title": "The state of AI in 2025",
+      "url": "https://www.mckinsey.com/featured-insights/artificial-intelligence/the-state-of-ai-2025",
+      "publisher": "McKinsey",
+      "date": "2025-11-05",
+      "accessed": "2026-10-17",
+      "claim": "Overall experimentation and scaling context; distinct from the large-company subgroup.",
+      "type": "Primary research",
+      "ref": "turn0search0"
+    },
+    {
+      "id": "a01_s3",
+      "title": "Gartner predicts over 40 percent of agentic AI projects will be canceled by end of 2027",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027",
+      "publisher": "Gartner",
+      "date": "2025-06-25",
+      "accessed": "2026-10-17",
+      "claim": "Project-cancellation forecast and 33% of enterprise applications forecast for 2028.",
+      "type": "Primary research",
+      "ref": "turn3search1"
+    },
+    {
+      "id": "a01_s4",
+      "title": "Microsoft 2025 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "publisher": "Microsoft",
+      "date": "2025-07-30",
+      "accessed": "2026-10-17",
+      "claim": "Copilot Studio distribution and company product exposure.",
+      "type": "Company annual report",
+      "ref": "turn213view0"
+    },
+    {
+      "id": "a01_c1",
+      "title": "Microsoft: product portfolio, company or investor information",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "publisher": "Microsoft",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view0"
+    },
+    {
+      "id": "a01_c2",
+      "title": "Alphabet: product portfolio, company or investor information",
+      "url": "https://abc.xyz/investor/",
+      "publisher": "Alphabet",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view1"
+    },
+    {
+      "id": "a01_c3",
+      "title": "Amazon: product portfolio, company or investor information",
+      "url": "https://ir.aboutamazon.com/",
+      "publisher": "Amazon",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn213view2"
+    },
+    {
+      "id": "a01_c4",
+      "title": "Salesforce: product portfolio, company or investor information",
+      "url": "https://www.salesforce.com/",
+      "publisher": "Salesforce",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a01_c5",
+      "title": "ServiceNow: product portfolio, company or investor information",
+      "url": "https://www.servicenow.com/",
+      "publisher": "ServiceNow",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a01_c6",
+      "title": "UiPath: product portfolio, company or investor information",
+      "url": "https://www.uipath.com/",
+      "publisher": "UiPath",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a01_c7",
+      "title": "IBM: product portfolio, company or investor information",
+      "url": "https://www.ibm.com/",
+      "publisher": "IBM",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a01_c8",
+      "title": "SAP: product portfolio, company or investor information",
+      "url": "https://www.sap.com/",
+      "publisher": "SAP",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": null
+    },
+    {
+      "id": "a01_c9",
+      "title": "OpenAI: product portfolio, company or investor information",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "publisher": "OpenAI",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn161search3"
+    },
+    {
+      "id": "a01_c10",
+      "title": "Anthropic: product portfolio, company or investor information",
+      "url": "https://www.anthropic.com/news/series-h",
+      "publisher": "Anthropic",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn161search0"
+    },
+    {
+      "id": "a01_c11",
+      "title": "Glean: product portfolio, company or investor information",
+      "url": "https://www.glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption",
+      "publisher": "Glean",
+      "date": null,
+      "accessed": "2026-10-17",
+      "claim": "Company portfolio and status context. Its potential economic exposure to this trend is an analyst classification, not a forecast of investment returns.",
+      "type": "Company information",
+      "ref": "turn36search1"
+    },
+    {
+      "id": "a01_oct_glean",
+      "title": "Headless agent building in Glean",
+      "url": "https://www.glean.com/blog/glean-headless-agent-builder",
+      "publisher": "Glean",
+      "date": "2026-10-21",
+      "accessed": "2026-10-28",
+      "claim": "Code-authored agents can be tested and published into Glean’s governed runtime.",
+      "checkedAt": "2026-10-28",
+      "type": "Company announcement",
+      "publishedAt": "2026-10-21"
+    }
+  ],
+  "companyMapNote": "Curated leading and enabling companies, not an exhaustive list or investment recommendation. Public parent exposure may be indirect; private status and pending transactions are assessed at the cutoff.",
+  "trackersNote": "Each site showed dated activity within the preceding 12 months. Dedicated specialists are combined with clearly described broader beats; activity evidence verifies the publication is active, not that every outlet posts on this exact subtopic daily.",
+  "coverage": {
+    "distinctTrackerDomains": 11,
+    "recentlyDatedTrackers": 11,
+    "numericHistoricalPoints": 2
+  },
+  "reviewNote": "October 28 early monthly run: Glean’s October 21 code-based agent builder adds a governed development path; effectiveness and error rates still need customer evidence. Existing numerical observations and mainstream range retained."
+}
